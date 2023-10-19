@@ -21,6 +21,7 @@ xx American Crow
 https://upload.wikimedia.org/wikipedia/commons/f/fd/American_Crow_SanDiego_RWD.jpg
 
 -- Bald Eagle
+https://upload.wikimedia.org/wikipedia/commons/3/30/BaldEagle_%28Haliaeetus_leucocephalus%29.jpg
 
 
 xx Blue Jay
