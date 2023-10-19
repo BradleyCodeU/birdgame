@@ -12,7 +12,9 @@ YOU CAN HELP!
    - american crow site:wikimedia.org
 
 3. Find a GOOD IMAGE of the bird.
-   Good image = Not blurry. You can see the full body of the bird (not just the head).
+   - Not blurry
+   - You can see the full body of the bird (not just the head)
+   - Landscape or square image (not portrait orientation)
 
 4. Copy/paste the URL for a good image below the bird name. 
    The URL should begin with https://upload.wikimedia... etc.
