@@ -17,7 +17,7 @@ YOU CAN HELP!
    - Landscape or square image (not portrait orientation)
 
 4. Copy/paste the URL for a good image below the bird name. 
-   The URL should begin with https://upload.wikimedia... etc.
+   The URL should begin with https://upload.wikimedia.org ...etc.
 
 xx American Crow
 https://upload.wikimedia.org/wikipedia/commons/f/fd/American_Crow_SanDiego_RWD.jpg
