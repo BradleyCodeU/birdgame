@@ -90,7 +90,7 @@ xx Northern Cardinal
 
 
 -- Red-winged Blackbird
-https://commons.wikimedia.org/wiki/File:Male_Red-Winged_Blackbird.jpg
+https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Male_Red-Winged_Blackbird.jpg/800px-Male_Red-Winged_Blackbird.jpg
 
 -- Ring-billed Gull
 
