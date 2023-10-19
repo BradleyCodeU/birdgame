@@ -8,8 +8,8 @@ YOU CAN HELP!
 1. Pick a bird from the list below (birds marked -- are MOST NEEDED)
 
 2. Google the name of the bird and site:wikimedia.org
-   For example...
-   american crow site:wikimedia.org
+   - For example...
+   - american crow site:wikimedia.org
 
 3. Find a GOOD IMAGE of the bird.
    Good image = Not blurry. You can see the full body of the bird (not just the head).
