@@ -18,6 +18,7 @@ YOU CAN HELP!
 4. Copy/paste the URL for a good image below the bird name (OR add it to trivia.json). 
    The URL should begin with https://upload.wikimedia.org ...etc.
 
+## NEEDED BIRD PHOTOS
 
 -- American Goldfinch
 
