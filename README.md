@@ -33,7 +33,7 @@ xx Brown-headed Cowbird
 https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Brown-headed_cowbird_in_PP_%2802940%29.jpg/1200px-Brown-headed_cowbird_in_PP_%2802940%29.jpg?20210501024041
 
 -- Canada Goose
-
+https://en.wikipedia.org/wiki/File:Canada_goose_on_Seedskadee_NWR_(27826185489).jpg
 
 xx Carolina Chickadee
 
@@ -45,7 +45,7 @@ xx Common Grackle
 https://commons.wikimedia.org/wiki/File:Common_Grackle_Perched.jpg#/media/File:Common_Grackle_Perched.jpg
 
 -- Dark-eyed Junco
-
+https://en.wikipedia.org/wiki/File:Dark-eyed_Junco,_Washington_State_02.jpg
 
 xx Downy Woodpecker
 
@@ -55,22 +55,24 @@ xx Eastern Bluebird
 
 
 -- European Starling
-
+https://en.wikipedia.org/wiki/File:Toulouse_-_Sturnus_vulgaris_-_2012-02-26_-_3.jpg
 
 xx Great Blue Heron
 
 
 -- Gray Catbird
-
+https://en.wikipedia.org/wiki/File:Gray_Catbird_(Dumetella_carolinensis).jpg
 
 -- House Finch
+https://en.wikipedia.org/wiki/File:Carpodacus_mexicanus_-Madison,_Wisconsin,_USA-8.jpg
+https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/House_Finch%2C_Stratham%2C_NH.jpg/330px-House_Finch%2C_Stratham%2C_NH.jpg
 
 
 xx House Sparrow
 
 
 -- House Wren
-
+https://en.wikipedia.org/wiki/File:Troglodytes_aedon_NPS.jpg
 
 -- Killdeer
 
