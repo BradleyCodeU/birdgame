@@ -36,6 +36,7 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Brown-headed_cowbird_i
 -- Canada Goose
 https://upload.wikimedia.org/wikipedia/commons/a/a5/Canada_Goose_Standing.jpg
 
+https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Canada_goose_on_Seedskadee_NWR_%2827826185489%29.jpg/788px-Canada_goose_on_Seedskadee_NWR_%2827826185489%29.jpg
 
 xx Carolina Chickadee
 https://upload.wikimedia.org/wikipedia/commons/5/56/Carolina_Chickadee1_by_Dan_Pancamo.jpg
@@ -49,7 +50,11 @@ xx Common Grackle
 https://commons.wikimedia.org/wiki/File:Common_Grackle_Perched.jpg#/media/File:Common_Grackle_Perched.jpg
 
 -- Dark-eyed Junco
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dark-eyed_Junco_singing_-_Great_Smoky_Mountains_National_Park%2C_July_8%2C_2019.jpg/800px-Dark-eyed_Junco_singing_-_Great_Smoky_Mountains_National_Park%2C_July_8%2C_2019.jpg
+
 https://upload.wikimedia.org/wikipedia/commons/3/36/Dark-eyed_Junco%2C_Washington_State_02.jpg
+
 
 xx Downy Woodpecker
 
@@ -62,6 +67,8 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Eastern_Bluebird_%2884
 -- European Starling
 https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/European_starling_at_Bodega_Head-1209.jpg/2560px-European_starling_at_Bodega_Head-1209.jpg
 
+https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Sturnus_vulgaris_-_Common_Starling_02.jpg/800px-Sturnus_vulgaris_-_Common_Starling_02.jpg
+
 
 xx Great Blue Heron
 https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Great_Blue_Heron_with_Gopher.jpg/1280px-Great_Blue_Heron_with_Gopher.jpg
@@ -70,9 +77,15 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Great_Blue_Heron_with_
 -- Gray Catbird
 https://upload.wikimedia.org/wikipedia/commons/8/8f/Grey_Catbird....2_3256310254.jpg
 
+https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Gray_Catbird_%28Dumetella_carolinensis%29.jpg/776px-Gray_Catbird_%28Dumetella_carolinensis%29.jpg
+
 
 -- House Finch
 https://upload.wikimedia.org/wikipedia/commons/7/75/House_Finch_4268-002.jpg
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Carpodacus_mexicanus_-Madison%2C_Wisconsin%2C_USA-8.jpg/800px-Carpodacus_mexicanus_-Madison%2C_Wisconsin%2C_USA-8.jpg
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/House_Finch%2C_Stratham%2C_NH.jpg/330px-House_Finch%2C_Stratham%2C_NH.jpg
 
 
 xx House Sparrow
@@ -82,6 +95,7 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/House_Sparrow_Male_%28
 -- House Wren
 https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/House_Wren_%2840370381815%29.jpg/1280px-House_Wren_%2840370381815%29.jpg
 
+https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Troglodytes_aedon_NPS.jpg/687px-Troglodytes_aedon_NPS.jpg
 
 -- Killdeer
 https://upload.wikimedia.org/wikipedia/commons/7/77/Killdeer_%2839688256430%29.jpg
