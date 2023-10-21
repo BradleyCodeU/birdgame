@@ -33,7 +33,8 @@ xx Brown-headed Cowbird
 https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Brown-headed_cowbird_in_PP_%2802940%29.jpg/1200px-Brown-headed_cowbird_in_PP_%2802940%29.jpg?20210501024041
 
 -- Canada Goose
-https://en.wikipedia.org/wiki/File:Canada_goose_on_Seedskadee_NWR_(27826185489).jpg
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Canada_goose_on_Seedskadee_NWR_%2827826185489%29.jpg/788px-Canada_goose_on_Seedskadee_NWR_%2827826185489%29.jpg
 
 xx Carolina Chickadee
 
@@ -45,7 +46,8 @@ xx Common Grackle
 https://commons.wikimedia.org/wiki/File:Common_Grackle_Perched.jpg#/media/File:Common_Grackle_Perched.jpg
 
 -- Dark-eyed Junco
-https://en.wikipedia.org/wiki/File:Dark-eyed_Junco,_Washington_State_02.jpg
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dark-eyed_Junco_singing_-_Great_Smoky_Mountains_National_Park%2C_July_8%2C_2019.jpg/800px-Dark-eyed_Junco_singing_-_Great_Smoky_Mountains_National_Park%2C_July_8%2C_2019.jpg
 
 xx Downy Woodpecker
 
@@ -55,16 +57,22 @@ xx Eastern Bluebird
 
 
 -- European Starling
-https://en.wikipedia.org/wiki/File:Toulouse_-_Sturnus_vulgaris_-_2012-02-26_-_3.jpg
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Sturnus_vulgaris_-_Common_Starling_02.jpg/800px-Sturnus_vulgaris_-_Common_Starling_02.jpg
+
 
 xx Great Blue Heron
 
 
 -- Gray Catbird
-https://en.wikipedia.org/wiki/File:Gray_Catbird_(Dumetella_carolinensis).jpg
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Gray_Catbird_%28Dumetella_carolinensis%29.jpg/776px-Gray_Catbird_%28Dumetella_carolinensis%29.jpg
+
 
 -- House Finch
-https://en.wikipedia.org/wiki/File:Carpodacus_mexicanus_-Madison,_Wisconsin,_USA-8.jpg
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Carpodacus_mexicanus_-Madison%2C_Wisconsin%2C_USA-8.jpg/800px-Carpodacus_mexicanus_-Madison%2C_Wisconsin%2C_USA-8.jpg
+
 https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/House_Finch%2C_Stratham%2C_NH.jpg/330px-House_Finch%2C_Stratham%2C_NH.jpg
 
 
@@ -72,7 +80,8 @@ xx House Sparrow
 
 
 -- House Wren
-https://en.wikipedia.org/wiki/File:Troglodytes_aedon_NPS.jpg
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Troglodytes_aedon_NPS.jpg/687px-Troglodytes_aedon_NPS.jpg
 
 -- Killdeer
 
