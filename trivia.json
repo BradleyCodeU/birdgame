@@ -295,6 +295,12 @@
       "https://upload.wikimedia.org/wikipedia/commons/6/67/White-Throated_Sparrow_%289597198645%29.jpg"
     ],
     "tags": ["common"]
+  },
+  {
+    "answer": "Sharp-shinned Hawk",
+    "question": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c9/Accipiter_striatus%2C_Canet_Road%2C_San_Luis_Obispo_1.jpg"
+    ],
+    "tags": ["rare"]
   }
-  
 ]
