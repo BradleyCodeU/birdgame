@@ -247,6 +247,17 @@
     ],
     "tags": ["common"]
   },
+  {
+    "answer": "Sharp-shinned Hawk",
+    "question": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Sharp-shinned_Hawk_%28Accipiter_striatus%29.jpg/800px-Sharp-shinned_Hawk_%28Accipiter_striatus%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Sharp-shinned_Hawk%2C_young_adult.jpg/800px-Sharp-shinned_Hawk%2C_young_adult.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sharp-shinned_hawk_on_wing_ventral_%2822554205223%29.jpg/800px-Sharp-shinned_hawk_on_wing_ventral_%2822554205223%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Accipiter_striatus%2C_Schaumburg%2C_Illinois_1.jpg/800px-Accipiter_striatus%2C_Schaumburg%2C_Illinois_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Accipiter_striatus_Randolphville.jpg/600px-Accipiter_striatus_Randolphville.jpg"
+    ],
+    "tags": ["rare"]
+  },
     {
     "answer": "Song Sparrow",
     "question": [
@@ -295,12 +306,5 @@
       "https://upload.wikimedia.org/wikipedia/commons/6/67/White-Throated_Sparrow_%289597198645%29.jpg"
     ],
     "tags": ["common"]
-  },
-  {
-    "answer": "Sharp-shinned Hawk",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/c/c9/Accipiter_striatus%2C_Canet_Road%2C_San_Luis_Obispo_1.jpg"
-    ],
-    "tags": ["rare"]
   }
 ]
