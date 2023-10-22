@@ -68,8 +68,6 @@ YOU CAN HELP!
 
 -- Ruby-throated Hummingbird
 
--- Sharp-shinned Hawk
-
 -- Wild Turkey
 
 -- Yellow-bellied Sapsucker
