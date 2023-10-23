@@ -215,11 +215,11 @@
     "tags": ["common","waterfowl"]
   },
         {
-    "answer": "Mallard",
+    "answer": "Merlin",
     "question": [
       "https://upload.wikimedia.org/wikipedia/commons/a/af/Merlin_%28Falco_columbarius_richardsonii%29_%282276417896%29.jpg"
     ],
-    "tags": ["common","?"]
+    "tags": ["raptor"]
   },
    {
     "answer": "Mourning Dove",
@@ -252,7 +252,7 @@
       "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Osprey_at_Dyke_Marsh_69.jpg/800px-Osprey_at_Dyke_Marsh_69.jpg"
   {
     ],
-    "tags": ["common","?"]
+    "tags": ["common","raptor"]
   },
   {
     "answer": "Red-bellied Woodpecker",
