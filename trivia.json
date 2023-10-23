@@ -1,360 +1,458 @@
 [
-  {
-    "answer": "American Crow",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/American_Crow_SanDiego_RWD.jpg/799px-American_Crow_SanDiego_RWD.jpg"
-    ],
-    "tags": ["common"]
-  },
-
-  
-  {
-    "answer": "American Kestrel",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/American_kestrel_%2844273%29.jpg/800px-American_kestrel_%2844273%29.jpg?20210210061814"
-    ],
-    "tags": ["common"]
-  },
-  
-  {
-    "answer": "American Goldfinch",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/American_Goldfinch-27527.jpg/800px-American_Goldfinch-27527.jpg"
-    ],
-    "tags": ["common"]
-  },
-
-  {
-    "answer": "American Robin",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/American_Robin_20140512.jpg/800px-American_Robin_20140512.jpg"
-    ],
-    "tags": ["common"]
-  },
-
-  
-  {
-    "answer": "Bald Eagle",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Bald_Eagle_flying_over_ice_%28Southern_Ontario%2C_Canada%29.jpg/800px-Bald_Eagle_flying_over_ice_%28Southern_Ontario%2C_Canada%29.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "Barn Swallow",
-    "question": [
-      "images/DSC_1199 (1).JPG",
-      "https://upload.wikimedia.org/wikipedia/commons/7/76/Hirundo-rustica-001.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/c/c1/Barn_swallow_%28Hirundo_rustica_rustica%29.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/0/03/Barn_Swallow.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/1/12/Barn_Swallow_%2895504589%29.jpeg",
-      "https://upload.wikimedia.org/wikipedia/commons/f/f7/Barn_swallow_7283.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "Blue Jay",
-    "question": [
-      "images/IMGP6485 (1).JPG",
-      "https://upload.wikimedia.org/wikipedia/commons/f/f0/Blue_jay_in_Illinois.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/4/46/Blue_Jay_%28185317371%29.jpeg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "Brown-headed Cowbird",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Brown-headed_cowbird_in_PP_%2802940%29.jpg/1200px-Brown-headed_cowbird_in_PP_%2802940%29.jpg?20210501024041",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Molothrus_ater_2.jpg/800px-Molothrus_ater_2.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Brown_headed_cowbird_female_in_JBWR_%2825487%29.jpg/784px-Brown_headed_cowbird_female_in_JBWR_%2825487%29.jpg"
-    ],
-    "tags": ["common"]
-  },
-   {
-    "answer": "Canada Goose",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/a/a5/Canada_Goose_Standing.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Canada_goose_on_Seedskadee_NWR_%2827826185489%29.jpg/788px-Canada_goose_on_Seedskadee_NWR_%2827826185489%29.jpg"
-    ],
-    "tags": ["common","waterfowl"]
-  },
-  {
-    "answer": "Carolina Chickadee",
-    "question": [
-      "images/IMG_7605.JPG",
-      "https://upload.wikimedia.org/wikipedia/commons/5/56/Carolina_Chickadee1_by_Dan_Pancamo.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "Carolina Wren",
-    "question": [
-      "images/IMG_7604.JPG",
-      "https://upload.wikimedia.org/wikipedia/commons/2/2e/Carolina_Wren_%2812796730734%29.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "Common Grackle",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Common_Grackle_Perched.jpg/800px-Common_Grackle_Perched.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "Common Merganser",
-    "question": [
-      "images/DSC_2214b.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Mergus_merganser_fem.jpg/800px-Mergus_merganser_fem.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Common_Merganser_male_RWD.jpg/799px-Common_Merganser_male_RWD.jpg"
-    ],
-    "tags": ["waterfowl"]
-  },
     {
-    "answer": "Dark-eyed Junco",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dark-eyed_Junco_singing_-_Great_Smoky_Mountains_National_Park%2C_July_8%2C_2019.jpg/800px-Dark-eyed_Junco_singing_-_Great_Smoky_Mountains_National_Park%2C_July_8%2C_2019.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/3/36/Dark-eyed_Junco%2C_Washington_State_02.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "Downy Woodpecker",
-    "question": [
-      "images/IMGP5021.JPG",
-      "https://upload.wikimedia.org/wikipedia/commons/e/eb/Downy_woodpecker_James_Gardens.JPG",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Downy_Woodpecker_PERT.jpg/800px-Downy_Woodpecker_PERT.jpg"
-    ],
-    "tags": ["common","woodpecker"]
-  },
-  {
-    "answer": "Eastern Bluebird",
-    "question": [
-      "images/IMGP8029 Copy.JPG",
-      "https://upload.wikimedia.org/wikipedia/commons/9/9b/Eastern_Bluebird-27527-2.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/b/bc/Eastern_Bluebird_%2825775417223%29.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Eastern_Bluebird_%288434323792%29.jpg/1200px-Eastern_Bluebird_%288434323792%29.jpg"
-    ],
-    "tags": ["common"]
-  },
+        "answer": "American Crow",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/American_Crow_SanDiego_RWD.jpg/799px-American_Crow_SanDiego_RWD.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
     {
-    "answer": "European Starling",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/European_starling_at_Bodega_Head-1209.jpg/2560px-European_starling_at_Bodega_Head-1209.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Sturnus_vulgaris_-_Common_Starling_02.jpg/800px-Sturnus_vulgaris_-_Common_Starling_02.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "Great Blue Heron",
-    "question": [
-      "images/DSC_5495_Original.JPG",
-      "https://upload.wikimedia.org/wikipedia/commons/a/a9/Great_Blue_Heron-27527-1.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Great_Blue_Heron_with_Gopher.jpg/1280px-Great_Blue_Heron_with_Gopher.jpg"
-    ],
-    "tags": ["common","wading"]
-  },
-  {
-    "answer": "Gray Catbird",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/8/8f/Grey_Catbird....2_3256310254.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Gray_Catbird_%28Dumetella_carolinensis%29.jpg/776px-Gray_Catbird_%28Dumetella_carolinensis%29.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "Great Egret",
-    "question": [
-      "images/DSC_1332.JPG",
-      "https://upload.wikimedia.org/wikipedia/commons/9/92/Great_Egret_%28Ardea_alba%29_%2825562005404%29.jpg"
-    ],
-    "tags": ["common","wading"]
-  },
-  {
-    "answer": "Green Heron",
-    "question": [
-      "images/DSC_2389b.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Butorides_virescens_Sam_Smith_Park_Toronto.jpg/800px-Butorides_virescens_Sam_Smith_Park_Toronto.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Butorides_virescens_juv_Grafton.jpg/800px-Butorides_virescens_juv_Grafton.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Butorides_virescens_070506_GWADA.jpg/800px-Butorides_virescens_070506_GWADA.jpg"
-    ],
-    "tags": ["common","wading"]
-  },
-  {
-    "answer": "House Finch",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/3/30/Carpodacus_mexicanus_-Madison%2C_Wisconsin%2C_USA-8.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/8/81/House_Finch_-_Carpodacus_mexicanus%2C_Occoquan_Bay_National_Wildlife_Refuge%2C_Woodbridge%2C_Virginia.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/7/75/House_Finch_4268-002.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Carpodacus_mexicanus_-Madison%2C_Wisconsin%2C_USA-8.jpg/800px-Carpodacus_mexicanus_-Madison%2C_Wisconsin%2C_USA-8.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/House_Finch%2C_Stratham%2C_NH.jpg/330px-House_Finch%2C_Stratham%2C_NH.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "House Sparrow",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/House_Sparrow_Male_%28Passer_Domesticus%29.jpg/1200px-House_Sparrow_Male_%28Passer_Domesticus%29.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/d/dc/House_Sparrow%28Passer_domesticus%29.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/9/9b/House_sparrow_male_in_Prospect_Park_%2853532%29.jpg"
-    ],
-    "tags": ["common"]
-  },
+        "answer": "American Kestrel",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/American_kestrel_%2844273%29.jpg/800px-American_kestrel_%2844273%29.jpg?20210210061814"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
     {
-    "answer": "Killdeer",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/7/77/Killdeer_%2839688256430%29.jpg"
-    ],
-    "tags": ["common","wading"]
-  },
-      {
-    "answer": "Mallard",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Male_and_Female_mallard_ducks.jpg/1280px-Male_and_Female_mallard_ducks.jpg"
-    ],
-    "tags": ["common","waterfowl"]
-  },
-        {
-    "answer": "Merlin",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/a/af/Merlin_%28Falco_columbarius_richardsonii%29_%282276417896%29.jpg"
-    ],
-    "tags": ["raptor"]
-  },
-   {
-    "answer": "Mourning Dove",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/6/67/Mourning_Dove_%28105421617%29.jpeg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "Northern Cardinal",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cardinalis_cardinalis_%28northern_cardinal%29_17.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/a/a6/Northern_Cardinal_%28Cardinalis_cardinalis%29_male.jpg",
-      "images/IMGP7988 Copy.JPG",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Cardinalis_cardinalis_%28Northern_Cardinal%29_63.jpg/640px-Cardinalis_cardinalis_%28Northern_Cardinal%29_63.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "Northern Flicker",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Northern_Flicker_%28Red-shafted%29.jpg/1280px-Northern_Flicker_%28Red-shafted%29.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Northern_Flicker_male_Yellow-shafted_RWD.jpg/799px-Northern_Flicker_male_Yellow-shafted_RWD.jpg"
-    ],
-    "tags": ["common","woodpecker"]
-  },
+        "answer": "American Goldfinch",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/American_Goldfinch-27527.jpg/800px-American_Goldfinch-27527.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
     {
-    "answer": "Osprey",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Osprey_at_Dyke_Marsh_69.jpg/800px-Osprey_at_Dyke_Marsh_69.jpg"
-  {
-    ],
-    "tags": ["common","raptor"]
-  },
-  {
-    "answer": "Red-bellied Woodpecker",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/1/1a/Red_Bellied_Woodpecker_In_Snow_%28192878751%29.jpeg"
-    ],
-    "tags": ["common","woodpecker"]
-  },
-  {
-    "answer": "Red-tailed Hawk",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/c/c1/Juvenile_Red-tailed_Hawk_%286214635529%29.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Red-tailed_Hawk_%28Buteo_jamaicensis%29_in_flight.jpg/800px-Red-tailed_Hawk_%28Buteo_jamaicensis%29_in_flight.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Buteo_jamaicensis_borealis_60339473.jpg/800px-Buteo_jamaicensis_borealis_60339473.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Red-tailed_hawk_%2816381245001%29.jpg/800px-Red-tailed_hawk_%2816381245001%29.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Red_Tailed_Hawk_in_Flight_%285837094392%29.jpg/800px-Red_Tailed_Hawk_in_Flight_%285837094392%29.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Red-tailed_hawk_in_flight_over_Narrows_Botanical_Garden_%2885107%29.jpg/800px-Red-tailed_hawk_in_flight_over_Narrows_Botanical_Garden_%2885107%29.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Red-tailed_Hawk_%28Buteo_jamaicensis%29_%2812059507526%29.jpg/800px-Red-tailed_Hawk_%28Buteo_jamaicensis%29_%2812059507526%29.jpg"
-    ],
-    "tags": ["common","raptor"]
-  },
-  {
-    "answer": "Red-winged Blackbird",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Male_Red-Winged_Blackbird.jpg/800px-Male_Red-Winged_Blackbird.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/1/12/Red_winged_blackbird_-_natures_pics.jpg"
-    ],
-    "tags": ["common"]
-  },
+        "answer": "American Robin",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/American_Robin_20140512.jpg/800px-American_Robin_20140512.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
     {
-    "answer": "Ring-billed Gull",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Ring-billed_Gull_%28Larus_delawarensis%29.jpg/500px-Ring-billed_Gull_%28Larus_delawarensis%29.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "Sharp-shinned Hawk",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Sharp-shinned_Hawk_%28Accipiter_striatus%29.jpg/800px-Sharp-shinned_Hawk_%28Accipiter_striatus%29.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Sharp-shinned_Hawk%2C_young_adult.jpg/800px-Sharp-shinned_Hawk%2C_young_adult.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sharp-shinned_hawk_on_wing_ventral_%2822554205223%29.jpg/800px-Sharp-shinned_hawk_on_wing_ventral_%2822554205223%29.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Accipiter_striatus%2C_Schaumburg%2C_Illinois_1.jpg/800px-Accipiter_striatus%2C_Schaumburg%2C_Illinois_1.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Accipiter_striatus_Randolphville.jpg/600px-Accipiter_striatus_Randolphville.jpg"
-    ],
-    "tags": ["rare"]
-  },
+        "answer": "Bald Eagle",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Bald_Eagle_flying_over_ice_%28Southern_Ontario%2C_Canada%29.jpg/800px-Bald_Eagle_flying_over_ice_%28Southern_Ontario%2C_Canada%29.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
     {
-    "answer": "Song Sparrow",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Song_Sparrow_%2838532686316%29.jpg/800px-Song_Sparrow_%2838532686316%29.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "Tree Swallow",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Tree_Swallow_%287235501832%29.jpg/2560px-Tree_Swallow_%287235501832%29.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "Tufted Titmouse",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/9/97/Tufted_Titmouse_%28187854953%29.jpeg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "Turkey Vulture",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/1/1a/Turkey_vultures_%2801731%29.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "White-breasted Nuthatch",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/White-breasted_nuthatch_%2826397%29.jpg/2560px-White-breasted_nuthatch_%2826397%29.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "White-eyed Vireo",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Vireo_griseus_-_White-eyed_Vireo.jpg/1280px-Vireo_griseus_-_White-eyed_Vireo.jpg"
-    ],
-    "tags": ["common"]
-  },
-  {
-    "answer": "White-throated Sparrow",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/6/67/White-Throated_Sparrow_%289597198645%29.jpg"
-    ],
-    "tags": ["common"]
-  },
-
- {
-    "answer": "Wild Turkey,
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Wild_Turkeys.jpg/800px-Wild_Turkeys.jpg"
-    ],
-    "tags": ["common"]
-  }
+        "answer": "Barn Swallow",
+        "question": [
+            "images/DSC_1199 (1).JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/7/76/Hirundo-rustica-001.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/c/c1/Barn_swallow_%28Hirundo_rustica_rustica%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/0/03/Barn_Swallow.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/1/12/Barn_Swallow_%2895504589%29.jpeg",
+            "https://upload.wikimedia.org/wikipedia/commons/f/f7/Barn_swallow_7283.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Barn Owl",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/8/8a/Barn_Owl_RWD1.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Blue Jay",
+        "question": [
+            "images/IMGP6485 (1).JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/f/f0/Blue_jay_in_Illinois.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/4/46/Blue_Jay_%28185317371%29.jpeg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Brown-headed Cowbird",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Brown-headed_cowbird_in_PP_%2802940%29.jpg/1200px-Brown-headed_cowbird_in_PP_%2802940%29.jpg?20210501024041",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Molothrus_ater_2.jpg/800px-Molothrus_ater_2.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Brown_headed_cowbird_female_in_JBWR_%2825487%29.jpg/784px-Brown_headed_cowbird_female_in_JBWR_%2825487%29.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Canada Goose",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a5/Canada_Goose_Standing.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Canada_goose_on_Seedskadee_NWR_%2827826185489%29.jpg/788px-Canada_goose_on_Seedskadee_NWR_%2827826185489%29.jpg"
+        ],
+        "tags": [
+            "common",
+            "waterfowl"
+        ]
+    },
+    {
+        "answer": "Carolina Chickadee",
+        "question": [
+            "images/IMG_7605.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/5/56/Carolina_Chickadee1_by_Dan_Pancamo.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Carolina Wren",
+        "question": [
+            "images/IMG_7604.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/2/2e/Carolina_Wren_%2812796730734%29.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Common Grackle",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Common_Grackle_Perched.jpg/800px-Common_Grackle_Perched.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Common Merganser",
+        "question": [
+            "images/DSC_2214b.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Mergus_merganser_fem.jpg/800px-Mergus_merganser_fem.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Common_Merganser_male_RWD.jpg/799px-Common_Merganser_male_RWD.jpg"
+        ],
+        "tags": [
+            "waterfowl"
+        ]
+    },
+    {
+        "answer": "Dark-eyed Junco",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dark-eyed_Junco_singing_-_Great_Smoky_Mountains_National_Park%2C_July_8%2C_2019.jpg/800px-Dark-eyed_Junco_singing_-_Great_Smoky_Mountains_National_Park%2C_July_8%2C_2019.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/3/36/Dark-eyed_Junco%2C_Washington_State_02.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Downy Woodpecker",
+        "question": [
+            "images/IMGP5021.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/e/eb/Downy_woodpecker_James_Gardens.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Downy_Woodpecker_PERT.jpg/800px-Downy_Woodpecker_PERT.jpg"
+        ],
+        "tags": [
+            "common",
+            "woodpecker"
+        ]
+    },
+    {
+        "answer": "Eastern Bluebird",
+        "question": [
+            "images/IMGP8029 Copy.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/9/9b/Eastern_Bluebird-27527-2.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/b/bc/Eastern_Bluebird_%2825775417223%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Eastern_Bluebird_%288434323792%29.jpg/1200px-Eastern_Bluebird_%288434323792%29.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "European Starling",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/European_starling_at_Bodega_Head-1209.jpg/2560px-European_starling_at_Bodega_Head-1209.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Sturnus_vulgaris_-_Common_Starling_02.jpg/800px-Sturnus_vulgaris_-_Common_Starling_02.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Great Blue Heron",
+        "question": [
+            "images/DSC_5495_Original.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/a/a9/Great_Blue_Heron-27527-1.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Great_Blue_Heron_with_Gopher.jpg/1280px-Great_Blue_Heron_with_Gopher.jpg"
+        ],
+        "tags": [
+            "common",
+            "wading"
+        ]
+    },
+    {
+        "answer": "Gray Catbird",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/8/8f/Grey_Catbird....2_3256310254.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Gray_Catbird_%28Dumetella_carolinensis%29.jpg/776px-Gray_Catbird_%28Dumetella_carolinensis%29.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Great Egret",
+        "question": [
+            "images/DSC_1332.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/9/92/Great_Egret_%28Ardea_alba%29_%2825562005404%29.jpg"
+        ],
+        "tags": [
+            "common",
+            "wading"
+        ]
+    },
+    {
+        "answer": "Green Heron",
+        "question": [
+            "images/DSC_2389b.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Butorides_virescens_Sam_Smith_Park_Toronto.jpg/800px-Butorides_virescens_Sam_Smith_Park_Toronto.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Butorides_virescens_juv_Grafton.jpg/800px-Butorides_virescens_juv_Grafton.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Butorides_virescens_070506_GWADA.jpg/800px-Butorides_virescens_070506_GWADA.jpg"
+        ],
+        "tags": [
+            "common",
+            "wading"
+        ]
+    },
+    {
+        "answer": "House Finch",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/3/30/Carpodacus_mexicanus_-Madison%2C_Wisconsin%2C_USA-8.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/8/81/House_Finch_-_Carpodacus_mexicanus%2C_Occoquan_Bay_National_Wildlife_Refuge%2C_Woodbridge%2C_Virginia.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/7/75/House_Finch_4268-002.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Carpodacus_mexicanus_-Madison%2C_Wisconsin%2C_USA-8.jpg/800px-Carpodacus_mexicanus_-Madison%2C_Wisconsin%2C_USA-8.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/House_Finch%2C_Stratham%2C_NH.jpg/330px-House_Finch%2C_Stratham%2C_NH.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "House Sparrow",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/House_Sparrow_Male_%28Passer_Domesticus%29.jpg/1200px-House_Sparrow_Male_%28Passer_Domesticus%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/d/dc/House_Sparrow%28Passer_domesticus%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/9/9b/House_sparrow_male_in_Prospect_Park_%2853532%29.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Killdeer",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/7/77/Killdeer_%2839688256430%29.jpg"
+        ],
+        "tags": [
+            "common",
+            "wading"
+        ]
+    },
+    {
+        "answer": "Mallard",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Male_and_Female_mallard_ducks.jpg/1280px-Male_and_Female_mallard_ducks.jpg"
+        ],
+        "tags": [
+            "common",
+            "waterfowl"
+        ]
+    },
+    {
+        "answer": "Merlin",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/af/Merlin_%28Falco_columbarius_richardsonii%29_%282276417896%29.jpg"
+        ],
+        "tags": [
+            "raptor"
+        ]
+    },
+    {
+        "answer": "Mourning Dove",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/6/67/Mourning_Dove_%28105421617%29.jpeg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Northern Cardinal",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cardinalis_cardinalis_%28northern_cardinal%29_17.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/a/a6/Northern_Cardinal_%28Cardinalis_cardinalis%29_male.jpg",
+            "images/IMGP7988 Copy.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Cardinalis_cardinalis_%28Northern_Cardinal%29_63.jpg/640px-Cardinalis_cardinalis_%28Northern_Cardinal%29_63.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Northern Flicker",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Northern_Flicker_%28Red-shafted%29.jpg/1280px-Northern_Flicker_%28Red-shafted%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Northern_Flicker_male_Yellow-shafted_RWD.jpg/799px-Northern_Flicker_male_Yellow-shafted_RWD.jpg"
+        ],
+        "tags": [
+            "common",
+            "woodpecker"
+        ]
+    },
+    {
+        "answer": "Osprey",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Osprey_at_Dyke_Marsh_69.jpg/800px-Osprey_at_Dyke_Marsh_69.jpg"
+        ],
+        "tags": [
+            "common",
+            "raptor"
+        ]
+    },
+    {
+        "answer": "Red-bellied Woodpecker",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/1/1a/Red_Bellied_Woodpecker_In_Snow_%28192878751%29.jpeg"
+        ],
+        "tags": [
+            "common",
+            "woodpecker"
+        ]
+    },
+    {
+        "answer": "Red-tailed Hawk",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/c/c1/Juvenile_Red-tailed_Hawk_%286214635529%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Red-tailed_Hawk_%28Buteo_jamaicensis%29_in_flight.jpg/800px-Red-tailed_Hawk_%28Buteo_jamaicensis%29_in_flight.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Buteo_jamaicensis_borealis_60339473.jpg/800px-Buteo_jamaicensis_borealis_60339473.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Red-tailed_hawk_%2816381245001%29.jpg/800px-Red-tailed_hawk_%2816381245001%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Red_Tailed_Hawk_in_Flight_%285837094392%29.jpg/800px-Red_Tailed_Hawk_in_Flight_%285837094392%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Red-tailed_hawk_in_flight_over_Narrows_Botanical_Garden_%2885107%29.jpg/800px-Red-tailed_hawk_in_flight_over_Narrows_Botanical_Garden_%2885107%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Red-tailed_Hawk_%28Buteo_jamaicensis%29_%2812059507526%29.jpg/800px-Red-tailed_Hawk_%28Buteo_jamaicensis%29_%2812059507526%29.jpg"
+        ],
+        "tags": [
+            "common",
+            "raptor"
+        ]
+    },
+    {
+        "answer": "Red-winged Blackbird",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Male_Red-Winged_Blackbird.jpg/800px-Male_Red-Winged_Blackbird.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/1/12/Red_winged_blackbird_-_natures_pics.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Ring-billed Gull",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Ring-billed_Gull_%28Larus_delawarensis%29.jpg/500px-Ring-billed_Gull_%28Larus_delawarensis%29.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Sharp-shinned Hawk",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Sharp-shinned_Hawk_%28Accipiter_striatus%29.jpg/800px-Sharp-shinned_Hawk_%28Accipiter_striatus%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Sharp-shinned_Hawk%2C_young_adult.jpg/800px-Sharp-shinned_Hawk%2C_young_adult.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sharp-shinned_hawk_on_wing_ventral_%2822554205223%29.jpg/800px-Sharp-shinned_hawk_on_wing_ventral_%2822554205223%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Accipiter_striatus%2C_Schaumburg%2C_Illinois_1.jpg/800px-Accipiter_striatus%2C_Schaumburg%2C_Illinois_1.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Accipiter_striatus_Randolphville.jpg/600px-Accipiter_striatus_Randolphville.jpg"
+        ],
+        "tags": [
+            "rare"
+        ]
+    },
+    {
+        "answer": "Song Sparrow",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Song_Sparrow_%2838532686316%29.jpg/800px-Song_Sparrow_%2838532686316%29.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Tree Swallow",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Tree_Swallow_%287235501832%29.jpg/2560px-Tree_Swallow_%287235501832%29.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Tufted Titmouse",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/9/97/Tufted_Titmouse_%28187854953%29.jpeg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Turkey Vulture",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/1/1a/Turkey_vultures_%2801731%29.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "White-breasted Nuthatch",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/White-breasted_nuthatch_%2826397%29.jpg/2560px-White-breasted_nuthatch_%2826397%29.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "White-eyed Vireo",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Vireo_griseus_-_White-eyed_Vireo.jpg/1280px-Vireo_griseus_-_White-eyed_Vireo.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "White-throated Sparrow",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/6/67/White-Throated_Sparrow_%289597198645%29.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Wild Turkey",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Wild_Turkeys.jpg/800px-Wild_Turkeys.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    }
 ]
