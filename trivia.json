@@ -69,6 +69,19 @@
         ]
     },
     {
+        "answer": "Black-capped Chickadee",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black_Capped_Chickadee_%28194768869%29.jpeg/686px-Black_Capped_Chickadee_%28194768869%29.jpeg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/M%C3%A9sange_%C3%A0_t%C3%AAte_noire_Black-capped_Chickadee.jpg/800px-M%C3%A9sange_%C3%A0_t%C3%AAte_noire_Black-capped_Chickadee.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Black-capped_Chickadee_%2825764578771%29.jpg/673px-Black-capped_Chickadee_%2825764578771%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Black-capped_Chickadee%2C_Minnesota.jpg/800px-Black-capped_Chickadee%2C_Minnesota.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Poecile_atricapillus_CT.jpg/800px-Poecile_atricapillus_CT.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
         "answer": "Blue Jay",
         "question": [
             "images/IMGP6485 (1).JPG",
@@ -105,7 +118,10 @@
         "answer": "Carolina Chickadee",
         "question": [
             "images/IMG_7605.JPG",
-            "https://upload.wikimedia.org/wikipedia/commons/5/56/Carolina_Chickadee1_by_Dan_Pancamo.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/5/56/Carolina_Chickadee1_by_Dan_Pancamo.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Carolina_Chickadee_%2821108156134%29.jpg/800px-Carolina_Chickadee_%2821108156134%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Carolina_chickadee_blandair_12.4.21_DSC_1533.jpg/600px-Carolina_chickadee_blandair_12.4.21_DSC_1533.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Chickadee_-_natures_pics.jpg/800px-Chickadee_-_natures_pics.jpg"
         ],
         "tags": [
             "common"
@@ -116,6 +132,16 @@
         "question": [
             "images/IMG_7604.JPG",
             "https://upload.wikimedia.org/wikipedia/commons/2/2e/Carolina_Wren_%2812796730734%29.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
+        "answer": "Chipping Sparrow",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Chipping_sparrow_%2826490%29.jpg/800px-Chipping_sparrow_%2826490%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/3425_Chipping_Sparrow.jpg/800px-3425_Chipping_Sparrow.jpg"
         ],
         "tags": [
             "common"
