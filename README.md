@@ -50,8 +50,6 @@ YOU CAN HELP!
 
 -- Indigo Bunting
 
--- Merlin
-
 -- Northern Mockingbird
 
 -- Pileated Woodpecker
