@@ -54,8 +54,6 @@ YOU CAN HELP!
 
 -- Northern Mockingbird
 
--- Osprey
-
 -- Pileated Woodpecker
 
 -- Purple Martin
@@ -67,8 +65,6 @@ YOU CAN HELP!
 -- Red-shouldered Hawk
 
 -- Ruby-throated Hummingbird
-
--- Wild Turkey
 
 -- Yellow-bellied Sapsucker
 
