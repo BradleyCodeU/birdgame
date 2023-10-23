@@ -9,15 +9,6 @@
         ]
     },
     {
-        "answer": "American Kestrel",
-        "question": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/American_kestrel_%2844273%29.jpg/800px-American_kestrel_%2844273%29.jpg?20210210061814"
-        ],
-        "tags": [
-            "common"
-        ]
-    },
-    {
         "answer": "American Goldfinch",
         "question": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/American_Goldfinch-27527.jpg/800px-American_Goldfinch-27527.jpg"
@@ -26,6 +17,16 @@
             "common"
         ]
     },
+    {
+        "answer": "American Kestrel",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/American_kestrel_%2844273%29.jpg/800px-American_kestrel_%2844273%29.jpg?20210210061814"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+
     {
         "answer": "American Robin",
         "question": [
@@ -45,6 +46,15 @@
         ]
     },
     {
+        "answer": "Barn Owl",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/8/8a/Barn_Owl_RWD1.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
         "answer": "Barn Swallow",
         "question": [
             "images/DSC_1199 (1).JPG",
@@ -53,15 +63,6 @@
             "https://upload.wikimedia.org/wikipedia/commons/0/03/Barn_Swallow.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/1/12/Barn_Swallow_%2895504589%29.jpeg",
             "https://upload.wikimedia.org/wikipedia/commons/f/f7/Barn_swallow_7283.jpg"
-        ],
-        "tags": [
-            "common"
-        ]
-    },
-    {
-        "answer": "Barn Owl",
-        "question": [
-            "https://upload.wikimedia.org/wikipedia/commons/8/8a/Barn_Owl_RWD1.jpg"
         ],
         "tags": [
             "common"
@@ -185,6 +186,16 @@
         ]
     },
     {
+        "answer": "Gray Catbird",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/8/8f/Grey_Catbird....2_3256310254.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Gray_Catbird_%28Dumetella_carolinensis%29.jpg/776px-Gray_Catbird_%28Dumetella_carolinensis%29.jpg"
+        ],
+        "tags": [
+            "common"
+        ]
+    },
+    {
         "answer": "Great Blue Heron",
         "question": [
             "images/DSC_5495_Original.JPG",
@@ -196,16 +207,7 @@
             "wading"
         ]
     },
-    {
-        "answer": "Gray Catbird",
-        "question": [
-            "https://upload.wikimedia.org/wikipedia/commons/8/8f/Grey_Catbird....2_3256310254.jpg",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Gray_Catbird_%28Dumetella_carolinensis%29.jpg/776px-Gray_Catbird_%28Dumetella_carolinensis%29.jpg"
-        ],
-        "tags": [
-            "common"
-        ]
-    },
+
     {
         "answer": "Great Egret",
         "question": [
