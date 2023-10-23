@@ -24,17 +24,14 @@ YOU CAN HELP!
 
 ## NEEDED BIRD PHOTOS
 
--- American Goldfinch
 
--- American Kestral
 
--- American Robin
 
 -- Baltimore Oriole
 
--- Barn Owl
-
 -- Barred Owl
+
+-- Blue-gray Gnatcatcher
 
 -- Cedar Waxwing
 
@@ -42,11 +39,25 @@ YOU CAN HELP!
 
 -- Common Nighthawk
 
+-- Common Yellowthroat
+
 -- Cooper's Hawk
+
+-- Double-crested Cormorant
 
 -- Eastern Meadowlark
 
+-- Eastern Phoebe
+
+-- Eastern Towhee
+
+-- Field Sparrow
+
 -- Hairy Woodpecker
+
+-- Herring Gull
+
+-- House Wren
 
 -- Indigo Bunting
 
@@ -64,5 +75,11 @@ YOU CAN HELP!
 
 -- Ruby-throated Hummingbird
 
+-- Wood Duck
+
 -- Yellow-bellied Sapsucker
+
+-- Yellow-rumped Warbler
+
+-- Yellow Warbler
 
