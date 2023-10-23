@@ -53,13 +53,6 @@
     "tags": ["common"]
   },
   {
-    "answer": "Barn Owl",
-    "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/8/8a/Barn_Owl_RWD1.jpg",
-    ],
-    "tags": ["common"]
-  },
-  {
     "answer": "Blue Jay",
     "question": [
       "images/IMGP6485 (1).JPG",
@@ -221,6 +214,13 @@
     ],
     "tags": ["common","waterfowl"]
   },
+        {
+    "answer": "Merlin",
+    "question": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/Merlin_%28Falco_columbarius_richardsonii%29_%282276417896%29.jpg"
+    ],
+    "tags": ["raptor"]
+  },
    {
     "answer": "Mourning Dove",
     "question": [
@@ -246,12 +246,13 @@
     ],
     "tags": ["common","woodpecker"]
   },
-  {
-    "answer": Osprey",
+    {
+    "answer": "Osprey",
     "question": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Osprey._%28Pandion_haliaetus%29.jpg/800px-Osprey._%28Pandion_haliaetus%29.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Osprey_at_Dyke_Marsh_69.jpg/800px-Osprey_at_Dyke_Marsh_69.jpg"
+  {
     ],
-    "tags": ["common","?"]
+    "tags": ["common","raptor"]
   },
   {
     "answer": "Red-bellied Woodpecker",
@@ -345,6 +346,14 @@
     "answer": "White-throated Sparrow",
     "question": [
       "https://upload.wikimedia.org/wikipedia/commons/6/67/White-Throated_Sparrow_%289597198645%29.jpg"
+    ],
+    "tags": ["common"]
+  },
+
+ {
+    "answer": "Wild Turkey,
+    "question": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Wild_Turkeys.jpg/800px-Wild_Turkeys.jpg"
     ],
     "tags": ["common"]
   }
