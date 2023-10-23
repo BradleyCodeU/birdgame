@@ -33,12 +33,13 @@ YOU CAN HELP!
 -- Baltimore Oriole
 
 -- Barn Owl
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.com%2Fanimals%2Fbirds%2Ffacts%2Fbarn-owl&psig=AOvVaw1u7TK3c9pTPpyOghLKEgp8&ust=1698150710918000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDl6sCWjIIDFQAAAAAdAAAAABAE 
+
 -- Barred Owl
 
 -- Cedar Waxwing
 
 -- Chimney Swift
+
 -- Common Nighthawk
 
 -- Cooper's Hawk
@@ -70,4 +71,4 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.com%2Fa
 -- Wild Turkey
 
 -- Yellow-bellied Sapsucker
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fseabrookislandbirders.org%2F2016%2F11%2F13%2Fsib-bird-of-the-week-yellow-bellied-sapsucker%2F&psig=AOvVaw1PbkVg33-k8kvtIy4GaIIP&ust=1698152849146000&source=images&cd=vfe&ved=0CBEQjhxqFwoTCMjn_ryejIIDFQAAAAAdAAAAABAE 
+
