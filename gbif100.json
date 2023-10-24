@@ -103,8 +103,11 @@
     "Family": "Passerellidae",
     "Genus": "Melospiza",
     "Species": "melodia",
-    "Images": [],
-    "Tags": []
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Song_Sparrow_%2838532686316%29.jpg/800px-Song_Sparrow_%2838532686316%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Song_Sparrow_%2844627299782%29.jpg/800px-Song_Sparrow_%2844627299782%29.jpg"
+        ],
+    "Tags": ["backyard"]
   },
   {
     "CommonName": "American Goldfinch",
@@ -245,7 +248,10 @@
     "Family": "Sittidae",
     "Genus": "Sitta",
     "Species": "carolinensis",
-    "Images": [],
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/White-breasted_nuthatch_%2826397%29.jpg/2560px-White-breasted_nuthatch_%2826397%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Photo_of_the_Week_-_White-breasted_Nuthatch_%28MA%29_%286869438631%29.jpg/800px-Photo_of_the_Week_-_White-breasted_Nuthatch_%28MA%29_%286869438631%29.jpg"
+        ],
     "Tags": []
   },
   {
@@ -260,7 +266,10 @@
     "Family": "Paridae",
     "Genus": "Baeolophus",
     "Species": "bicolor",
-    "Images": [],
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/9/97/Tufted_Titmouse_%28187854953%29.jpeg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Tufted_Titmouse_%2823984564123%29.jpg/800px-Tufted_Titmouse_%2823984564123%29.jpg"
+        ],
     "Tags": []
   },
   {
@@ -294,7 +303,10 @@
     "Family": "Cathartidae",
     "Genus": "Cathartes",
     "Species": "aura",
-    "Images": [],
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/1/1a/Turkey_vultures_%2801731%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Turkey_Vulture_%287172188840%29.jpg/800px-Turkey_Vulture_%287172188840%29.jpg"
+        ],
     "Tags": []
   },
   {
@@ -477,7 +489,10 @@
     "Family": "Hirundinidae",
     "Genus": "Tachycineta",
     "Species": "bicolor",
-    "Images": [],
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Tree_Swallow_%287235501832%29.jpg/2560px-Tree_Swallow_%287235501832%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tachycineta_bicolor_-Central_New_York%2C_USA_-flying-8.jpg/766px-Tachycineta_bicolor_-Central_New_York%2C_USA_-flying-8.jpg"
+        ],
     "Tags": []
   },
   {
@@ -555,7 +570,10 @@
     "Family": "Passerellidae",
     "Genus": "Zonotrichia",
     "Species": "albicollis",
-    "Images": [],
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/6/67/White-Throated_Sparrow_%289597198645%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/White-throated_sparrow_%2894058%292.jpg/735px-White-throated_sparrow_%2894058%292.jpg"
+        ],
     "Tags": []
   },
   {
@@ -645,8 +663,11 @@
     "Family": "Parulidae",
     "Genus": "Setophaga",
     "Species": "petechia",
-    "Images": [],
-    "Tags": []
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Yellow_Warbler_%2831610452853%29.jpg/800px-Yellow_Warbler_%2831610452853%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Yellow_warbler_male_on_Sandy_Hook_%2870050%29.jpg/800px-Yellow_warbler_male_on_Sandy_Hook_%2870050%29.jpg"
+        ],
+    "Tags": ["warbler","songbird"]
   },
   {
     "CommonName": "Chipping Sparrow",
@@ -774,6 +795,11 @@
     "Family": "Parulidae",
     "Genus": "Setophaga",
     "Species": "coronata"
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Yellow-rumped_Warbler_%28Audubon%27s%29_%2830170234922%29.jpg/800px-Yellow-rumped_Warbler_%28Audubon%27s%29_%2830170234922%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Setophaga_coronata_at_Las_Gallinas_Wildlife_Ponds.jpg/800px-Setophaga_coronata_at_Las_Gallinas_Wildlife_Ponds.jpg"
+        ],
+    "Tags": []
   },
   {
     "CommonName": "Chimney Swift",
