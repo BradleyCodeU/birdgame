@@ -57,8 +57,6 @@ YOU CAN HELP!
 
 -- Purple Martin
 
--- Red-breasted Nuthatch
-
 -- Ruby-throated Hummingbird
 
 -- Wood Duck
