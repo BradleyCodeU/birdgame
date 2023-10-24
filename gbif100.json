@@ -26,8 +26,11 @@
     "Family": "Turdidae",
     "Genus": "Turdus",
     "Species": "migratorius",
-    "Images": [],
-    "Tags": []
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/American_Robin_20140512.jpg/800px-American_Robin_20140512.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/American_robin_squeaking_%2830126%29.jpg/784px-American_robin_squeaking_%2830126%29.jpg"
+        ],
+    "Tags": ["backyard","songbird"]
   },
   {
     "CommonName": "Blue Jay",
@@ -101,8 +104,11 @@
     "Family": "Fringillidae",
     "Genus": "Spinus",
     "Species": "tristis",
-    "Images": [],
-    "Tags": []
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/American_Goldfinch-27527.jpg/800px-American_Goldfinch-27527.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/American_Goldfinch%2C_Washington_State_01.jpg/800px-American_Goldfinch%2C_Washington_State_01.jpg"
+        ],
+    "Tags": ["backyard","songbird","feeder"]
   },
   {
     "CommonName": "Red-winged Blackbird",
@@ -176,8 +182,11 @@
     "Family": "Corvidae",
     "Genus": "Corvus",
     "Species": "brachyrhynchos",
-    "Images": [],
-    "Tags": []
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/American_Crow_SanDiego_RWD.jpg/799px-American_Crow_SanDiego_RWD.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/American_Crow_%2824244528299%29.jpg/800px-American_Crow_%2824244528299%29.jpg"
+        ],
+    "Tags": ["backyard"]
   },
   {
     "CommonName": "Mallard",
@@ -566,8 +575,11 @@
     "Family": "Accipitridae",
     "Genus": "Haliaeetus",
     "Species": "leucocephalus",
-    "Images": [],
-    "Tags": []
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Bald_Eagle_flying_over_ice_%28Southern_Ontario%2C_Canada%29.jpg/800px-Bald_Eagle_flying_over_ice_%28Southern_Ontario%2C_Canada%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Bald_Eagle_%28Haliaeetus_leucocephalus%29_%285298191912%29.jpg/760px-Bald_Eagle_%28Haliaeetus_leucocephalus%29_%285298191912%29.jpg"
+        ],
+    "Tags": ["raptor"]
   },
   {
     "CommonName": "Double-crested Cormorant",
@@ -626,8 +638,11 @@
     "Family": "Icteridae",
     "Genus": "Icterus",
     "Species": "galbula",
-    "Images": [],
-    "Tags": []
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Baltimore_Oriole-_dorsum.jpg/676px-Baltimore_Oriole-_dorsum.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Baltimore_oriole_bird_May_2021.jpg/800px-Baltimore_oriole_bird_May_2021.jpg"
+        ],
+    "Tags": ["songbird"]
   },
   {
     "CommonName": "Wood Duck",
@@ -1299,8 +1314,11 @@
     "Family": "Falconidae",
     "Genus": "Falco",
     "Species": "sparverius",
-    "Images": [],
-    "Tags": []
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/American_kestrel_%2844273%29.jpg/800px-American_kestrel_%2844273%29.jpg?20210210061814",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/American_Kestrel_at_Indiana_Dunes.jpg/800px-American_Kestrel_at_Indiana_Dunes.jpg"
+        ],
+    "Tags": ["raptor"]
   },
   {
     "CommonName": "Hooded Merganser",
