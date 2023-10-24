@@ -25,10 +25,6 @@ YOU CAN HELP!
 ## NEEDED BIRD PHOTOS
 
 
-
-
--- Baltimore Oriole
-
 -- Barred Owl
 
 -- Blue-gray Gnatcatcher
@@ -41,8 +37,6 @@ YOU CAN HELP!
 
 -- Common Yellowthroat
 
--- Cooper's Hawk
-
 -- Double-crested Cormorant
 
 -- Eastern Meadowlark
@@ -53,8 +47,6 @@ YOU CAN HELP!
 
 -- Field Sparrow
 
--- Hairy Woodpecker
-
 -- Herring Gull
 
 -- House Wren
@@ -63,23 +55,12 @@ YOU CAN HELP!
 
 -- Northern Mockingbird
 
--- Pileated Woodpecker
-
 -- Purple Martin
 
 -- Red-breasted Nuthatch
-
--- Red-headed Woodpecker
-
--- Red-shouldered Hawk
 
 -- Ruby-throated Hummingbird
 
 -- Wood Duck
 
--- Yellow-bellied Sapsucker
-
--- Yellow-rumped Warbler
-
--- Yellow Warbler
 
