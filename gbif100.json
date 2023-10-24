@@ -44,8 +44,11 @@
     "Family": "Corvidae",
     "Genus": "Cyanocitta",
     "Species": "cristata",
-    "Images": [],
-    "Tags": []
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f0/Blue_jay_in_Illinois.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/4/46/Blue_Jay_%28185317371%29.jpeg"
+        ],
+    "Tags": ["backyard"]
   },
   {
     "CommonName": "Canada Goose",
@@ -59,8 +62,11 @@
     "Family": "Anatidae",
     "Genus": "Branta",
     "Species": "canadensis",
-    "Images": [],
-    "Tags": []
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a5/Canada_Goose_Standing.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Canada_goose_on_Seedskadee_NWR_%2827826185489%29.jpg/788px-Canada_goose_on_Seedskadee_NWR_%2827826185489%29.jpg"
+        ],
+    "Tags": ["waterfowl"]
   },
   {
     "CommonName": "Mourning Dove",
@@ -365,8 +371,13 @@
     "Family": "Paridae",
     "Genus": "Poecile",
     "Species": "carolinensis",
-    "Images": [],
-    "Tags": []
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/5/56/Carolina_Chickadee1_by_Dan_Pancamo.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Carolina_Chickadee_%2821108156134%29.jpg/800px-Carolina_Chickadee_%2821108156134%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Carolina_chickadee_blandair_12.4.21_DSC_1533.jpg/600px-Carolina_chickadee_blandair_12.4.21_DSC_1533.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Chickadee_-_natures_pics.jpg/800px-Chickadee_-_natures_pics.jpg"
+        ],
+    "Tags": ["feeder","backyard"]
   },
   {
     "CommonName": "Ring-billed Gull",
@@ -425,8 +436,14 @@
     "Family": "Paridae",
     "Genus": "Poecile",
     "Species": "atricapillus",
-    "Images": [],
-    "Tags": []
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black_Capped_Chickadee_%28194768869%29.jpeg/686px-Black_Capped_Chickadee_%28194768869%29.jpeg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/M%C3%A9sange_%C3%A0_t%C3%AAte_noire_Black-capped_Chickadee.jpg/800px-M%C3%A9sange_%C3%A0_t%C3%AAte_noire_Black-capped_Chickadee.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Black-capped_Chickadee_%2825764578771%29.jpg/673px-Black-capped_Chickadee_%2825764578771%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Black-capped_Chickadee%2C_Minnesota.jpg/800px-Black-capped_Chickadee%2C_Minnesota.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Poecile_atricapillus_CT.jpg/800px-Poecile_atricapillus_CT.jpg"
+        ],
+    "Tags": ["feeder"]
   },
   {
     "CommonName": "Brown-headed Cowbird",
@@ -440,7 +457,11 @@
     "Family": "Icteridae",
     "Genus": "Molothrus",
     "Species": "ater",
-    "Images": [],
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Brown-headed_cowbird_in_PP_%2802940%29.jpg/1200px-Brown-headed_cowbird_in_PP_%2802940%29.jpg?20210501024041",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Molothrus_ater_2.jpg/800px-Molothrus_ater_2.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Brown_headed_cowbird_female_in_JBWR_%2825487%29.jpg/784px-Brown_headed_cowbird_female_in_JBWR_%2825487%29.jpg"
+        ],
     "Tags": []
   },
   {
@@ -500,7 +521,14 @@
     "Family": "Hirundinidae",
     "Genus": "Hirundo",
     "Species": "rustica",
-    "Images": [],
+    "Images": [
+            "images/DSC_1199 (1).JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/7/76/Hirundo-rustica-001.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/c/c1/Barn_swallow_%28Hirundo_rustica_rustica%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/0/03/Barn_Swallow.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/1/12/Barn_Swallow_%2895504589%29.jpeg",
+            "https://upload.wikimedia.org/wikipedia/commons/f/f7/Barn_swallow_7283.jpg"
+        ],
     "Tags": []
   },
   {
