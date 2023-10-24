@@ -179,6 +179,19 @@
         ]
     },
     {
+        "answer": "Cooper's Hawk",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Cooper%27s_Hawk_on_Seedskadee_National_Wildlife_Refuge_%2826108620533%29.jpg/800px-Cooper%27s_Hawk_on_Seedskadee_National_Wildlife_Refuge_%2826108620533%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Cooper%27s_Hawk_-_28245424259.jpg/766px-Cooper%27s_Hawk_-_28245424259.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Coopers_Hawk_%28Accipiter_cooperii%29_%283399095649%29.jpg/800px-Coopers_Hawk_%28Accipiter_cooperii%29_%283399095649%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Accipiter_cooperii.jpg/718px-Accipiter_cooperii.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Accipiter_cooperii_m_f_Sam_Smith_Toronto1.jpg/733px-Accipiter_cooperii_m_f_Sam_Smith_Toronto1.jpg"
+        ],
+        "tags": [
+            "common", "raptor"
+        ]
+    },
+    {
         "answer": "Dark-eyed Junco",
         "question": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dark-eyed_Junco_singing_-_Great_Smoky_Mountains_National_Park%2C_July_8%2C_2019.jpg/800px-Dark-eyed_Junco_singing_-_Great_Smoky_Mountains_National_Park%2C_July_8%2C_2019.jpg",
@@ -267,6 +280,16 @@
         "tags": [
             "common",
             "wading"
+        ]
+    },
+    {
+        "answer": "Hairy Woodpecker",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Picoides_villosus_CT.jpg/800px-Picoides_villosus_CT.jpg"
+        ],
+        "tags": [
+            "common",
+            "woodpecker"
         ]
     },
     {
@@ -365,6 +388,16 @@
         ]
     },
     {
+        "answer": "Pileated Woodpecker",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Pileated_Woodpecker_Ash_RWD2.jpg/800px-Pileated_Woodpecker_Ash_RWD2.jpg"
+        ],
+        "tags": [
+            "common",
+            "woodpecker"
+        ]
+    },
+    {
         "answer": "Red-bellied Woodpecker",
         "question": [
             "https://upload.wikimedia.org/wikipedia/commons/1/1a/Red_Bellied_Woodpecker_In_Snow_%28192878751%29.jpeg"
@@ -372,6 +405,30 @@
         "tags": [
             "common",
             "woodpecker"
+        ]
+    },
+    {
+        "answer": "Red-headed Woodpecker",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Red_headed_woodpecker.jpg/800px-Red_headed_woodpecker.jpg"
+        ],
+        "tags": [
+            "common",
+            "woodpecker"
+        ]
+    },
+    {
+        "answer": "Red-shoulderer Hawk",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Red-shouldered_Hawk_male.jpg/800px-Red-shouldered_Hawk_male.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Red-shouldered_Hawk_on_fairway.JPG/800px-Red-shouldered_Hawk_on_fairway.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Red-Shouldered_Flight.jpg/800px-Red-Shouldered_Flight.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Red-shouldered-hawk_1.jpg/800px-Red-shouldered-hawk_1.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Hawk_%2829843112061%29.jpg/800px-Hawk_%2829843112061%29.jpg"
+        ],
+        "tags": [
+            "common",
+            "raptor"
         ]
     },
     {
@@ -493,5 +550,34 @@
         "tags": [
             "common"
         ]
+    },
+    {
+        "answer": "Yellow Warbler",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Yellow_Warbler_%2831610452853%29.jpg/800px-Yellow_Warbler_%2831610452853%29.jpg"
+        ],
+        "tags": [
+            "common", "warbler", "songbird"
+        ]
+    },
+    {
+        "answer": "Yellow-bellied Sapsucker",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Yellow-bellied_sapsucker_in_CP_%2840484%29.jpg/734px-Yellow-bellied_sapsucker_in_CP_%2840484%29.jpg"
+        ],
+        "tags": [
+            "common", "woodpecker"
+        ]
+    },
+    {
+        "answer": "Yellow-rumped Warbler",
+        "question": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Yellow-rumped_Warbler_%28Audubon%27s%29_%2830170234922%29.jpg/800px-Yellow-rumped_Warbler_%28Audubon%27s%29_%2830170234922%29.jpg"
+        ],
+        "tags": [
+            "common", "warbler", "songbird"
+        ]
     }
+
+   
 ]
