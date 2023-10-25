@@ -20,7 +20,8 @@
         "Tags": [
             "backyard",
             "feeder"
-        ]
+        ],
+        "WingspanCentimeters": 23
     },
     {
         "CommonName": "American Robin",
@@ -41,7 +42,8 @@
         "Tags": [
             "backyard",
             "songbird"
-        ]
+        ],
+        "WingspanCentimeters": 34
     },
     {
         "CommonName": "Blue Jay",
@@ -61,7 +63,8 @@
         ],
         "Tags": [
             "backyard"
-        ]
+        ],
+        "WingspanCentimeters": 33
     },
     {
         "CommonName": "Canada Goose",
@@ -81,7 +84,8 @@
         ],
         "Tags": [
             "waterfowl"
-        ]
+        ],
+        "WingspanCentimeters": 127
     },
     {
         "CommonName": "Mourning Dove",
@@ -101,7 +105,8 @@
         ],
         "Tags": [
             "backyard"
-        ]
+        ],
+        "WingspanCentimeters": 45
     },
     {
         "CommonName": "Song Sparrow",
@@ -121,7 +126,8 @@
         ],
         "Tags": [
             "backyard"
-        ]
+        ],
+        "WingspanCentimeters": 22
     },
     {
         "CommonName": "American Goldfinch",
@@ -143,7 +149,8 @@
             "backyard",
             "songbird",
             "feeder"
-        ]
+        ],
+        "WingspanCentimeters": 20
     },
     {
         "CommonName": "Red-winged Blackbird",
@@ -163,7 +170,8 @@
         ],
         "Tags": [
             "backyard"
-        ]
+        ],
+        "WingspanCentimeters": 29
     },
     {
         "CommonName": "Downy Woodpecker",
@@ -185,7 +193,8 @@
         "Tags": [
             "backyard",
             "woodpecker"
-        ]
+        ],
+        "WingspanCentimeters": 23
     },
     {
         "CommonName": "Red-bellied Woodpecker",
@@ -205,7 +214,8 @@
         ],
         "Tags": [
             "woodpecker"
-        ]
+        ],
+        "WingspanCentimeters": 34
     },
     {
         "CommonName": "European Starling",
