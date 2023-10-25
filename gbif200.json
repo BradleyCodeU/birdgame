@@ -26,7 +26,10 @@
     "Family": "Sittidae",
     "Genus": "Sitta",
     "Species": "canadensis",
-    "Images": [],
+    "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Male_red_breasted_nuthatch.jpg/800px-Male_red_breasted_nuthatch.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Red-breasted_Nuthatch_%2831333055948%29.jpg/733px-Red-breasted_Nuthatch_%2831333055948%29.jpg"
+        ],
     "Tags": []
   },
   {
@@ -492,8 +495,12 @@
     "Family": "Anatidae",
     "Genus": "Mergus",
     "Species": "merganser",
-    "Images": [],
-    "Tags": []
+    "Images": [
+            "images/DSC_2214b.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Mergus_merganser_fem.jpg/800px-Mergus_merganser_fem.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Common_Merganser_male_RWD.jpg/799px-Common_Merganser_male_RWD.jpg"
+        ],
+    "Tags": ["waterfowl"]
   },
   {
     "CommonName": "Cape May Warbler",
@@ -659,8 +666,11 @@
       "Family": "Picidae",
       "Genus": "Sphyrapicus",
       "Species": "varius",
-      "Images": [],
-      "Tags": []
+      "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Yellow-bellied_sapsucker_in_CP_%2840484%29.jpg/734px-Yellow-bellied_sapsucker_in_CP_%2840484%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Yellow-bellied_sapsucker_%28Sphyrapicus_varius%29_juvenile.JPG/600px-Yellow-bellied_sapsucker_%28Sphyrapicus_varius%29_juvenile.JPG"
+        ],
+      "Tags": ["raptor"]
     },
     {
       "CommonName": "Black Vulture",
@@ -1125,8 +1135,14 @@
       "Family": "Accipitridae",
       "Genus": "Accipiter",
       "Species": "striatus",
-      "Images": [],
-      "Tags": []
+      "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Sharp-shinned_Hawk_%28Accipiter_striatus%29.jpg/800px-Sharp-shinned_Hawk_%28Accipiter_striatus%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Sharp-shinned_Hawk%2C_young_adult.jpg/800px-Sharp-shinned_Hawk%2C_young_adult.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sharp-shinned_hawk_on_wing_ventral_%2822554205223%29.jpg/800px-Sharp-shinned_hawk_on_wing_ventral_%2822554205223%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Accipiter_striatus%2C_Schaumburg%2C_Illinois_1.jpg/800px-Accipiter_striatus%2C_Schaumburg%2C_Illinois_1.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Accipiter_striatus_Randolphville.jpg/600px-Accipiter_striatus_Randolphville.jpg"
+        ],
+      "Tags": ["raptor"]
     },
     {
       "CommonName": "Common Nighthawk",
@@ -1441,8 +1457,11 @@
       "Family": "Falconidae",
       "Genus": "Falco",
       "Species": "columbarius",
-      "Images": [],
-      "Tags": []
+      "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/af/Merlin_%28Falco_columbarius_richardsonii%29_%282276417896%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Female_Merlin.jpg/800px-Female_Merlin.jpg"
+        ],
+      "Tags": ["raptor"]
     },
     {
       "CommonName": "Prairie Warbler",
