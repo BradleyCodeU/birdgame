@@ -54,7 +54,7 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Eastern_meadowlark_%28
 -- House Wren
 
 -- Indigo Bunting
-https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Indigo_Bunting_by_Dan_Pancamo_4.jpg/799px-Indigo_Bunting_by_Dan_Pancamo_4.jpg?20110501234652
+https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Indigo_Bunting_by_Dan_Pancamo_4.jpg/799px-Indigo_Bunting_by_Dan_Pancamo_4.jpg
 
 -- Northern Mockingbird
 
