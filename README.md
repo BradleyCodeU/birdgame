@@ -48,13 +48,14 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Eastern_meadowlark_%28
 -- Eastern Towhee
 
 -- Field Sparrow
+https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Field_sparrow%2C_December_2020_--_Warren_Bielenberg_%2850771019951%29.jpg/800px-Field_sparrow%2C_December_2020_--_Warren_Bielenberg_%2850771019951%29.jpg
 
 -- Herring Gull
 
 -- House Wren
 
 -- Indigo Bunting
-https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Indigo_Bunting_by_Dan_Pancamo_4.jpg/799px-Indigo_Bunting_by_Dan_Pancamo_4.jpg
+https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Indigo_Bunting_by_Dan_Pancamo_4.jpg/799px-Indigo_Bunting_by_Dan_Pancamo_4.jpg?20110501234652
 
 -- Northern Mockingbird
 
