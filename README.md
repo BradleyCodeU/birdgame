@@ -28,7 +28,7 @@ YOU CAN HELP!
 -- Barred Owl
 
 -- Blue-gray Gnatcatcher
-https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Blue-gray_gnatcatcher_in_PP_%2872317%29.jpg/800px-Blue-gray_gnatcatcher_in_PP_%2872317%29.jpg?20210428122125
+
 
 -- Cedar Waxwing
 
@@ -54,14 +54,14 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Eastern_meadowlark_%28
 -- House Wren
 
 -- Indigo Bunting
-https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Indigo_Bunting_by_Dan_Pancamo_4.jpg/799px-Indigo_Bunting_by_Dan_Pancamo_4.jpg?20110501234652
+https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Indigo_Bunting_by_Dan_Pancamo_4.jpg/799px-Indigo_Bunting_by_Dan_Pancamo_4.jpg
 
 -- Northern Mockingbird
 
 -- Purple Martin
 
 -- Ruby-throated Hummingbird
-https://upload.wikimedia.org/wikipedia/commons/c/ca/Ruby-throated_Hummingbird_%28Archilochus_colubris%29_RWD4.jpg
+
 
 -- Wood Duck
 
