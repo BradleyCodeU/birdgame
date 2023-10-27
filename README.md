@@ -1,4 +1,4 @@
-# BirdPhotoURLs
+# BirdGame
 
 We are collecting bird photo URLs from WikiMedia for an educational game
 
