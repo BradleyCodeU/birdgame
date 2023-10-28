@@ -147,7 +147,7 @@
         "Tags": [
             "backyard"
         ],
-        "WingspanCentimeters": 29
+        "WingspanCentimeters": 33
     },
     {
         "CommonName": "Downy Woodpecker",
@@ -167,7 +167,7 @@
             "backyard",
             "woodpecker"
         ],
-        "WingspanCentimeters": 23
+        "WingspanCentimeters": 30
     },
     {
         "CommonName": "Red-bellied Woodpecker",
@@ -1460,151 +1460,135 @@
         "Tags": [],
         "WingspanCentimeters": 23
     },
-    {
-        "CommonName": "Downy Woodpecker",
+   {
+        "CommonName": "Swainson's Thrush",
         "OccurrenceRank": 91,
-        "OhioOccurrences": 78893,
-        "ScientificName": "Picoides pubescens (Linnaeus, 1766)",
-        "Order": "Piciformes",
-        "Family": "Picidae",
-        "Genus": "Picoides",
-        "Species": "pubescens",
+        "OhioOccurrences": 79181,
+        "ScientificName": "Catharus ustulatus (Nuttall 1840)",
+        "Order": "Passeriformes",
+        "Family": "Turdidae",
+        "Genus": "Catharus",
+        "Species": "ustulatus",
         "Images": [],
-        "Tags": [
-            "woodpecker"
-        ],
+        "Tags": [],
         "WingspanCentimeters": 30
     },
     {
-        "CommonName": "Cedar Waxwing",
+        "CommonName": "Northern Parula",
         "OccurrenceRank": 92,
-        "OhioOccurrences": 78721,
-        "ScientificName": "Bombycilla cedrorum (Vieillot, 1808)",
+        "OhioOccurrences": 78866,
+        "ScientificName": "Setophaga americana (Linnaeus 1758)",
         "Order": "Passeriformes",
-        "Family": "Bombycillidae",
-        "Genus": "Bombycilla",
-        "Species": "cedrorum",
+        "Family": "Parulidae",
+        "Genus": "Setophaga",
+        "Species": "americana",
         "Images": [],
-        "Tags": [],
-        "WingspanCentimeters": 25
+        "Tags": ["songbird","warbler"],
+        "WingspanCentimeters": 17
     },
     {
-        "CommonName": "Horned Lark",
+        "CommonName": "Red-breasted Merganser",
         "OccurrenceRank": 93,
-        "OhioOccurrences": 77994,
-        "ScientificName": "Eremophila alpestris (Linnaeus, 1758)",
-        "Order": "Passeriformes",
-        "Family": "Alaudidae",
-        "Genus": "Eremophila",
-        "Species": "alpestris",
+        "OhioOccurrences": 76947,
+        "ScientificName": "Mergus serrator Linnaeus 1758",
+        "Order": "Anseriformes",
+        "Family": "Anatidae",
+        "Genus": "Mergus",
+        "Species": "serrator",
         "Images": [],
-        "Tags": [],
-        "WingspanCentimeters": 30
+        "Tags": ["waterfowl"],
+        "WingspanCentimeters": 78
     },
     {
-        "CommonName": "Red-shouldered Hawk",
+        "CommonName": "Trumpeter Swan",
         "OccurrenceRank": 94,
-        "OhioOccurrences": 77483,
-        "ScientificName": "Buteo lineatus (Gmelin, 1788)",
-        "Order": "Accipitriformes",
-        "Family": "Accipitridae",
-        "Genus": "Buteo",
-        "Species": "lineatus",
+        "OhioOccurrences": 76554,
+        "ScientificName": "Cygnus buccinator Richardson 1831",
+        "Order": "Anseriformes",
+        "Family": "Anatidae",
+        "Genus": "Cygnus",
+        "Species": "buccinator",
         "Images": [],
-        "Tags": [
-            "raptor"
-        ],
-        "WingspanCentimeters": 102
+        "Tags": [],
+        "WingspanCentimeters": 203
     },
     {
-        "CommonName": "Red-winged Blackbird",
+        "CommonName": "Osprey",
         "OccurrenceRank": 95,
-        "OhioOccurrences": 76731,
-        "ScientificName": "Agelaius phoeniceus (Linnaeus, 1766)",
-        "Order": "Passeriformes",
-        "Family": "Icteridae",
-        "Genus": "Agelaius",
-        "Species": "phoeniceus",
-        "Images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Male_Red-Winged_Blackbird.jpg/800px-Male_Red-Winged_Blackbird.jpg",
-            "https://upload.wikimedia.org/wikipedia/commons/1/12/Red_winged_blackbird_-_natures_pics.jpg"
-        ],
-        "Tags": [],
-        "WingspanCentimeters": 33
-    },
-    {
-        "CommonName": "White-breasted Nuthatch",
-        "OccurrenceRank": 96,
-        "OhioOccurrences": 75554,
-        "ScientificName": "Sitta carolinensis (Latham, 1790)",
-        "Order": "Passeriformes",
-        "Family": "Sittidae",
-        "Genus": "Sitta",
-        "Species": "carolinensis",
-        "Images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/White-breasted_nuthatch_%2826397%29.jpg/2560px-White-breasted_nuthatch_%2826397%29.jpg",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Photo_of_the_Week_-_White-breasted_Nuthatch_%28MA%29_%286869438631%29.jpg/800px-Photo_of_the_Week_-_White-breasted_Nuthatch_%28MA%29_%286869438631%29.jpg"
-        ],
-        "Tags": [
-            "nuthatch"
-        ],
-        "WingspanCentimeters": 28
-    },
-    {
-        "CommonName": "Swainson's Hawk",
-        "OccurrenceRank": 97,
-        "OhioOccurrences": 73756,
-        "ScientificName": "Buteo swainsoni (Bonaparte, 1838)",
+        "OhioOccurrences": 76241,
+        "ScientificName": "Pandion haliaetus (Linnaeus 1758)",
         "Order": "Accipitriformes",
-        "Family": "Accipitridae",
-        "Genus": "Buteo",
-        "Species": "swainsoni",
+        "Family": "Pandionidae",
+        "Genus": "Pandion",
+        "Species": "haliaetus",
         "Images": [],
-        "Tags": [
-            "raptor"
-        ],
-        "WingspanCentimeters": 130
+        "Tags": [],
+        "WingspanCentimeters": 180
     },
     {
-        "CommonName": "Great Horned Owl",
+        "CommonName": "Lesser Scaup",
+        "OccurrenceRank": 96,
+        "OhioOccurrences": 75462,
+        "ScientificName": "Aythya affinis (Eyton 1838)",
+        "Order": "Anseriformes",
+        "Family": "Anatidae",
+        "Genus": "Aythya",
+        "Species": "affinis",
+        "Images": [],
+        "Tags": [],
+        "WingspanCentimeters": 73
+    },
+    {
+        "CommonName": "Gadwall",
+        "OccurrenceRank": 97,
+        "OhioOccurrences": 75193,
+        "ScientificName": "Mareca strepera (Linnaeus 1758)",
+        "Order": "Anseriformes",
+        "Family": "Anatidae",
+        "Genus": "Mareca",
+        "Species": "strepera",
+        "Images": [],
+        "Tags": [],
+        "WingspanCentimeters": 84
+    },
+    {
+        "CommonName": "Bonaparte's Gull",
         "OccurrenceRank": 98,
-        "OhioOccurrences": 73582,
-        "ScientificName": "Bubo virginianus (Gmelin, 1788)",
-        "Order": "Strigiformes",
-        "Family": "Strigidae",
-        "Genus": "Bubo",
-        "Species": "virginianus",
+        "OhioOccurrences": 74859,
+        "ScientificName": "Chroicocephalus philadelphia (Ord 1815)",
+        "Order": "Charadriiformes",
+        "Family": "Laridae",
+        "Genus": "Chroicocephalus",
+        "Species": "philadelphia",
         "Images": [],
-        "Tags": [
-            "owl"
-        ],
-        "WingspanCentimeters": 112
+        "Tags": [],
+        "WingspanCentimeters": 100
     },
     {
-        "CommonName": "House Sparrow",
+        "CommonName": "Ring-necked Duck",
         "OccurrenceRank": 99,
-        "OhioOccurrences": 72948,
-        "ScientificName": "Passer domesticus (Linnaeus, 1758)",
-        "Order": "Passeriformes",
-        "Family": "Passeridae",
-        "Genus": "Passer",
-        "Species": "domesticus",
+        "OhioOccurrences": 74241,
+        "ScientificName": "Aythya collaris (Donovan 1809)",
+        "Order": "Anseriformes",
+        "Family": "Anatidae",
+        "Genus": "Aythya",
+        "Species": "collaris",
         "Images": [],
-        "Tags": [],
-        "WingspanCentimeters": 22
+        "Tags": ["waterfowl"],
+        "WingspanCentimeters": 63
     },
     {
-        "CommonName": "House Wren",
+        "CommonName": "Nashville Warbler",
         "OccurrenceRank": 100,
-        "OhioOccurrences": 72698,
-        "ScientificName": "Troglodytes aedon (Vieillot, 1809)",
+        "OhioOccurrences": 73738,
+        "ScientificName": "Leiothlypis ruficapilla (A.Wilson 1811)",
         "Order": "Passeriformes",
-        "Family": "Troglodytidae",
-        "Genus": "Troglodytes",
-        "Species": "aedon",
+        "Family": "Parulidae",
+        "Genus": "Leiothlypis",
+        "Species": "ruficapilla",
         "Images": [],
-        "Tags": [],
-        "WingspanCentimeters": 15
+        "Tags": ["songbird","warbler"],
+        "WingspanCentimeters": 20
     },
     {
         "CommonName": "Hooded Warbler",
@@ -1616,7 +1600,7 @@
         "Genus": "Mniotilta",
         "Species": "varia",
         "Images": [],
-        "Tags": [],
+        "Tags": ["songbird","warbler"],
         "WingspanCentimeters": 20
     },
     {
