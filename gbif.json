@@ -1320,7 +1320,7 @@
     },
     {
         "CommonName": "White-crowned Sparrow",
-        "OccurrenceRank": 81,
+        "OhioRank": 81,
         "OhioOccurrences": 88241,
         "ScientificName": "Zonotrichia leucophrys (J.R.Forster, 1772)",
         "Order": "Passeriformes",
@@ -1333,7 +1333,7 @@
     },
     {
         "CommonName": "Magnolia Warbler",
-        "OccurrenceRank": 82,
+        "OhioRank": 82,
         "OhioOccurrences": 86914,
         "ScientificName": "Setophaga magnolia (A.Wilson, 1811)",
         "Order": "Passeriformes",
@@ -1346,7 +1346,7 @@
     },
     {
         "CommonName": "Black-throated Green Warbler",
-        "OccurrenceRank": 83,
+        "OhioRank": 83,
         "OhioOccurrences": 86262,
         "ScientificName": "Setophaga virens (J.F.Gmelin, 1789)",
         "Order": "Passeriformes",
@@ -1359,7 +1359,7 @@
     },
     {
         "CommonName": "Green Heron",
-        "OccurrenceRank": 84,
+        "OhioRank": 84,
         "OhioOccurrences": 86146,
         "ScientificName": "Butorides virescens (Linnaeus, 1758)",
         "Order": "Pelecaniformes",
@@ -1379,7 +1379,7 @@
     },
     {
         "CommonName": "Eastern Meadowlark",
-        "OccurrenceRank": 85,
+        "OhioRank": 85,
         "OhioOccurrences": 85326,
         "ScientificName": "Sturnella magna (Linnaeus, 1758)",
         "Order": "Passeriformes",
@@ -1392,7 +1392,7 @@
     },
     {
         "CommonName": "Purple Martin",
-        "OccurrenceRank": 86,
+        "OhioRank": 86,
         "OhioOccurrences": 85093,
         "ScientificName": "Progne subis (Linnaeus, 1758)",
         "Order": "Passeriformes",
@@ -1405,7 +1405,7 @@
     },
     {
         "CommonName": "American Kestrel",
-        "OccurrenceRank": 87,
+        "OhioRank": 87,
         "OhioOccurrences": 84417,
         "ScientificName": "Falco sparverius (Linnaeus, 1758)",
         "Order": "Falconiformes",
@@ -1423,7 +1423,7 @@
     },
     {
         "CommonName": "Hooded Merganser",
-        "OccurrenceRank": 88,
+        "OhioRank": 88,
         "OhioOccurrences": 83909,
         "ScientificName": "Lophodytes cucullatus (Linnaeus, 1758)",
         "Order": "Anseriformes",
@@ -1436,7 +1436,7 @@
     },
     {
         "CommonName": "Spotted Sandpiper",
-        "OccurrenceRank": 89,
+        "OhioRank": 89,
         "OhioOccurrences": 79635,
         "ScientificName": "Actitis macularius (Linnaeus, 1766)",
         "Order": "Charadriiformes",
@@ -1449,7 +1449,7 @@
     },
     {
         "CommonName": "Scarlet Tanager",
-        "OccurrenceRank": 90,
+        "OhioRank": 90,
         "OhioOccurrences": 79422,
         "ScientificName": "Piranga olivacea (Gmelin, 1789)",
         "Order": "Passeriformes",
@@ -1462,7 +1462,7 @@
     },
    {
         "CommonName": "Swainson's Thrush",
-        "OccurrenceRank": 91,
+        "OhioRank": 91,
         "OhioOccurrences": 79181,
         "ScientificName": "Catharus ustulatus (Nuttall 1840)",
         "Order": "Passeriformes",
@@ -1475,7 +1475,7 @@
     },
     {
         "CommonName": "Northern Parula",
-        "OccurrenceRank": 92,
+        "OhioRank": 92,
         "OhioOccurrences": 78866,
         "ScientificName": "Setophaga americana (Linnaeus 1758)",
         "Order": "Passeriformes",
@@ -1488,7 +1488,7 @@
     },
     {
         "CommonName": "Red-breasted Merganser",
-        "OccurrenceRank": 93,
+        "OhioRank": 93,
         "OhioOccurrences": 76947,
         "ScientificName": "Mergus serrator Linnaeus 1758",
         "Order": "Anseriformes",
@@ -1501,7 +1501,7 @@
     },
     {
         "CommonName": "Trumpeter Swan",
-        "OccurrenceRank": 94,
+        "OhioRank": 94,
         "OhioOccurrences": 76554,
         "ScientificName": "Cygnus buccinator Richardson 1831",
         "Order": "Anseriformes",
@@ -1514,7 +1514,7 @@
     },
     {
         "CommonName": "Osprey",
-        "OccurrenceRank": 95,
+        "OhioRank": 95,
         "OhioOccurrences": 76241,
         "ScientificName": "Pandion haliaetus (Linnaeus 1758)",
         "Order": "Accipitriformes",
@@ -1527,7 +1527,7 @@
     },
     {
         "CommonName": "Lesser Scaup",
-        "OccurrenceRank": 96,
+        "OhioRank": 96,
         "OhioOccurrences": 75462,
         "ScientificName": "Aythya affinis (Eyton 1838)",
         "Order": "Anseriformes",
@@ -1540,7 +1540,7 @@
     },
     {
         "CommonName": "Gadwall",
-        "OccurrenceRank": 97,
+        "OhioRank": 97,
         "OhioOccurrences": 75193,
         "ScientificName": "Mareca strepera (Linnaeus 1758)",
         "Order": "Anseriformes",
@@ -1553,7 +1553,7 @@
     },
     {
         "CommonName": "Bonaparte's Gull",
-        "OccurrenceRank": 98,
+        "OhioRank": 98,
         "OhioOccurrences": 74859,
         "ScientificName": "Chroicocephalus philadelphia (Ord 1815)",
         "Order": "Charadriiformes",
@@ -1566,7 +1566,7 @@
     },
     {
         "CommonName": "Ring-necked Duck",
-        "OccurrenceRank": 99,
+        "OhioRank": 99,
         "OhioOccurrences": 74241,
         "ScientificName": "Aythya collaris (Donovan 1809)",
         "Order": "Anseriformes",
@@ -1579,7 +1579,7 @@
     },
     {
         "CommonName": "Nashville Warbler",
-        "OccurrenceRank": 100,
+        "OhioRank": 100,
         "OhioOccurrences": 73738,
         "ScientificName": "Leiothlypis ruficapilla (A.Wilson 1811)",
         "Order": "Passeriformes",
