@@ -736,7 +736,7 @@
         "Family": "Phalacrocoracidae",
         "Genus": "Phalacrocorax",
         "Species": "auritus",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Double-crested_Cormorant_juvenile_RWD.jpg/799px-Double-crested_Cormorant_juvenile_RWD.jpg"],
         "Tags": [],
         "WingspanCentimeters": 132
     },
@@ -749,7 +749,7 @@
         "Family": "Passerellidae",
         "Genus": "Pipilo",
         "Species": "erythrophthalmus",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Eastern_Towhee_%28male%29_%2837474990770%29.jpg/800px-Eastern_Towhee_%28male%29_%2837474990770%29.jpg"],
         "Tags": [],
         "WingspanCentimeters": 25
     },
@@ -762,7 +762,7 @@
         "Family": "Parulidae",
         "Genus": "Geothlypis",
         "Species": "trichas",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Common_Yellowthroat_by_Dan_Pancamo.jpg/799px-Common_Yellowthroat_by_Dan_Pancamo.jpg"],
         "Tags": [],
         "WingspanCentimeters": 12
     },
@@ -793,8 +793,8 @@
         "Family": "Anatidae",
         "Genus": "Aix",
         "Species": "sponsa",
-        "Images": [],
-        "Tags": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Walking_wood_duck.jpg/800px-Walking_wood_duck.jpg"],
+        "Tags": ["waterfowl"],
         "WingspanCentimeters": 76
     },
     {
@@ -822,7 +822,7 @@
         "Family": "Apodidae",
         "Genus": "Chaetura",
         "Species": "pelagica",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Chimney_Swift%2C_Reed%27s_Lake%2C_MI%2C_13_May_2013_%288741663182%29.jpg/732px-Chimney_Swift%2C_Reed%27s_Lake%2C_MI%2C_13_May_2013_%288741663182%29.jpg"],
         "Tags": [],
         "WingspanCentimeters": 34
     },
@@ -848,8 +848,8 @@
         "Family": "Tyrannidae",
         "Genus": "Sayornis",
         "Species": "phoebe",
-        "Images": [],
-        "Tags": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Eastern_phoebe_on_branch.jpg/800px-Eastern_phoebe_on_branch.jpg"],
+        "Tags": ["flycatcher"],
         "WingspanCentimeters": 28
     },
     {
@@ -861,7 +861,7 @@
         "Family": "Laridae",
         "Genus": "Larus",
         "Species": "argentatus",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/American_Herring_Gull_2001_%28Larus_smithsonianus%29.jpg/775px-American_Herring_Gull_2001_%28Larus_smithsonianus%29.jpg"],
         "Tags": [],
         "WingspanCentimeters": 130
     },
@@ -924,7 +924,7 @@
         "Family": "Alcedinidae",
         "Genus": "Megaceryle",
         "Species": "alcyon",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Belted_kingfisher%2C_shell_creek_%2831924578986%29.jpg/800px-Belted_kingfisher%2C_shell_creek_%2831924578986%29.jpg"],
         "Tags": [],
         "WingspanCentimeters": 48
     },
@@ -950,7 +950,7 @@
         "Family": "Bombycillidae",
         "Genus": "Bombycilla",
         "Species": "cedrorum",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Cedar_Waxwing_August_14_2012_Newfoundland_PA.jpg/598px-Cedar_Waxwing_August_14_2012_Newfoundland_PA.jpg"],
         "Tags": [],
         "WingspanCentimeters": 25
     },
@@ -963,8 +963,8 @@
         "Family": "Tyrannidae",
         "Genus": "Contopus",
         "Species": "virens",
-        "Images": [],
-        "Tags": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Eastern_Wood-Pewee_-_26660390543.jpg/800px-Eastern_Wood-Pewee_-_26660390543.jpg"],
+        "Tags": ["flycatcher"],
         "WingspanCentimeters": 27
     },
     {
@@ -976,7 +976,7 @@
         "Family": "Vireonidae",
         "Genus": "Vireo",
         "Species": "olivaceus",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Red-eyed_vireo_in_PP_%2812531%29.jpg/800px-Red-eyed_vireo_in_PP_%2812531%29.jpg"],
         "Tags": [],
         "WingspanCentimeters": 21
     },
@@ -989,7 +989,7 @@
         "Family": "Vireonidae",
         "Genus": "Vireo",
         "Species": "gilvus",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Warbling_Vireo_8919vv.jpg/776px-Warbling_Vireo_8919vv.jpg"],
         "Tags": [],
         "WingspanCentimeters": 21
     },
@@ -1020,8 +1020,8 @@
         "Family": "Tyrannidae",
         "Genus": "Tyrannus",
         "Species": "tyrannus",
-        "Images": [],
-        "Tags": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Eastern_Kingbird_%2834169907650%29.jpg/800px-Eastern_Kingbird_%2834169907650%29.jpg"],
+        "Tags": ["flycatcher"],
         "WingspanCentimeters": 41
     },
     {
@@ -1046,8 +1046,8 @@
         "Family": "Podicipedidae",
         "Genus": "Podilymbus",
         "Species": "podiceps",
-        "Images": [],
-        "Tags": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Pied-billed_Grebe_in_breeding_plumage.jpg/800px-Pied-billed_Grebe_in_breeding_plumage.jpg"],
+        "Tags": ["waterfowl"],
         "WingspanCentimeters": 45
     },
     {
@@ -1059,7 +1059,7 @@
         "Family": "Regulidae",
         "Genus": "Regulus",
         "Species": "calendula",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Ruby-crowned_kinglet_in_BBG_%2881517%29.jpg/774px-Ruby-crowned_kinglet_in_BBG_%2881517%29.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ruby-crowned_Kinglet_%2829929239654%29.jpg/800px-Ruby-crowned_Kinglet_%2829929239654%29.jpg"],
         "Tags": [],
         "WingspanCentimeters": 18
     },
@@ -1072,7 +1072,7 @@
         "Family": "Rallidae",
         "Genus": "Fulica",
         "Species": "americana",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/American_Coot_%2837712325421%29.jpg/800px-American_Coot_%2837712325421%29.jpg"],
         "Tags": [],
         "WingspanCentimeters": 63
     },
@@ -1085,7 +1085,7 @@
         "Family": "Hirundinidae",
         "Genus": "Stelgidopteryx",
         "Species": "serripennis",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Welcome_Swallow_Wings.jpg/800px-Welcome_Swallow_Wings.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Northern_rough-winged_swallow_%2834613013411%29.jpg/800px-Northern_rough-winged_swallow_%2834613013411%29.jpg"],
         "Tags": [],
         "WingspanCentimeters": 24
     },
@@ -1098,7 +1098,7 @@
         "Family": "Columbidae",
         "Genus": "Columba",
         "Species": "livia",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Feral_pigeon_2022_03_18_02.jpg/800px-Feral_pigeon_2022_03_18_02.jpg"],
         "Tags": [],
         "WingspanCentimeters": 68
     },
@@ -1111,7 +1111,7 @@
         "Family": "Turdidae",
         "Genus": "Hylocichla",
         "Species": "mustelina",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/995_Wood_Thrush_-_Flickr_-_Wildreturn.jpg/800px-995_Wood_Thrush_-_Flickr_-_Wildreturn.jpg"],
         "Tags": [],
         "WingspanCentimeters": 33
     },
@@ -1124,8 +1124,8 @@
         "Family": "Parulidae",
         "Genus": "Setophaga",
         "Species": "ruticilla",
-        "Images": [],
-        "Tags": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/American_Redstart_%2840886088663%29.jpg/800px-American_Redstart_%2840886088663%29.jpg"],
+        "Tags": ["warbler"],
         "WingspanCentimeters": 20
     },
     {
@@ -1158,7 +1158,7 @@
         "Family": "Passerellidae",
         "Genus": "Spizelloides",
         "Species": "arborea",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/American_Tree_Sparrow_-_Flickr_-_Fyn_Kynd.jpg/800px-American_Tree_Sparrow_-_Flickr_-_Fyn_Kynd.jpg"],
         "Tags": [],
         "WingspanCentimeters": 23
     },
@@ -1171,7 +1171,7 @@
         "Family": "Cardinalidae",
         "Genus": "Pheucticus",
         "Species": "ludovicianus",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Rose-Breasted_Grosbeak_%289052880945%29.jpg/800px-Rose-Breasted_Grosbeak_%289052880945%29.jpg"],
         "Tags": [],
         "WingspanCentimeters": 25
     },
@@ -1184,7 +1184,7 @@
         "Family": "Mimidae",
         "Genus": "Mimus",
         "Species": "polyglottos",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Northern_Mockingbird_%2839505827385%29.jpg/750px-Northern_Mockingbird_%2839505827385%29.jpg"],
         "Tags": [],
         "WingspanCentimeters": 33
     },
@@ -1236,8 +1236,8 @@
         "Family": "Tyrannidae",
         "Genus": "Myiarchus",
         "Species": "crinitus",
-        "Images": [],
-        "Tags": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Myiarchus_crinitus_%28adult%29.jpg/799px-Myiarchus_crinitus_%28adult%29.jpg"],
+        "Tags": ["flycatcher"],
         "WingspanCentimeters": 35
     },
     {
@@ -1249,7 +1249,7 @@
         "Family": "Passerellidae",
         "Genus": "Melospiza",
         "Species": "georgiana",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Swamp_Sparrow_%288133654454%29.jpg/800px-Swamp_Sparrow_%288133654454%29.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Swamp_sparrow_in_Prospect_Park_%2815322%29.jpg/800px-Swamp_sparrow_in_Prospect_Park_%2815322%29.jpg"],
         "Tags": [],
         "WingspanCentimeters": 24
     },
@@ -1262,7 +1262,7 @@
         "Family": "Mimidae",
         "Genus": "Toxostoma",
         "Species": "rufum",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Brown_thrasher_patuxent_research_refuge_nroth_trace_11.13.21_DSC_9832.jpg/768px-Brown_thrasher_patuxent_research_refuge_nroth_trace_11.13.21_DSC_9832.jpg"],
         "Tags": [],
         "WingspanCentimeters": 33
     },
@@ -1275,8 +1275,8 @@
         "Family": "Anatidae",
         "Genus": "Bucephala",
         "Species": "albeola",
-        "Images": [],
-        "Tags": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bufflehead_in_CP_%2841046%292.jpg/776px-Bufflehead_in_CP_%2841046%292.jpg"],
+        "Tags": ["waterfowl"],
         "WingspanCentimeters": 53
     },
     {
@@ -1288,7 +1288,7 @@
         "Family": "Regulidae",
         "Genus": "Regulus",
         "Species": "satrapa",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Golden-crowned_Kinglet_%2833525086602%29.jpg/800px-Golden-crowned_Kinglet_%2833525086602%29.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Regulus_satrapa_-Magnolia%2C_Seattle%2C_Washington%2C_USA-8a.jpg/800px-Regulus_satrapa_-Magnolia%2C_Seattle%2C_Washington%2C_USA-8a.jpg"],
         "Tags": [],
         "WingspanCentimeters": 18
     },
@@ -1301,8 +1301,8 @@
         "Family": "Parulidae",
         "Genus": "Setophaga",
         "Species": "palmarum",
-        "Images": [],
-        "Tags": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Palm_warbler_in_PP_%2830865%29.jpg/752px-Palm_warbler_in_PP_%2830865%29.jpg"],
+        "Tags": ["warbler"],
         "WingspanCentimeters": 22
     },
     {
@@ -1314,8 +1314,8 @@
         "Family": "Anatidae",
         "Genus": "Spatula",
         "Species": "discors",
-        "Images": [],
-        "Tags": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Blue-winged_teal_%2894829%29.jpg/800px-Blue-winged_teal_%2894829%29.jpg"],
+        "Tags": ["waterfowl"],
         "WingspanCentimeters": 53
     },
     {
@@ -1327,7 +1327,7 @@
         "Family": "Passerellidae",
         "Genus": "Zonotrichia",
         "Species": "leucophrys",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/White-crowned_Sparrow_57.jpg/800px-White-crowned_Sparrow_57.jpg"],
         "Tags": [],
         "WingspanCentimeters": 25
     },
@@ -1340,8 +1340,8 @@
         "Family": "Parulidae",
         "Genus": "Setophaga",
         "Species": "magnolia",
-        "Images": [],
-        "Tags": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Magnolia_Warbler_%2831015571558%29.jpg/800px-Magnolia_Warbler_%2831015571558%29.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Dendroica_magnolia_MN.jpg/800px-Dendroica_magnolia_MN.jpg"],
+        "Tags": ["warbler"],
         "WingspanCentimeters": 20
     },
     {
@@ -1353,8 +1353,8 @@
         "Family": "Parulidae",
         "Genus": "Setophaga",
         "Species": "virens",
-        "Images": [],
-        "Tags": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Black-throated_Green_Warbler_-_Point_Pelee_-_Ontario_11052017-FJ0A4839_%2838916667615%29.jpg/800px-Black-throated_Green_Warbler_-_Point_Pelee_-_Ontario_11052017-FJ0A4839_%2838916667615%29.jpg"],
+        "Tags": ["warbler"],
         "WingspanCentimeters": 20
     },
     {
@@ -1399,7 +1399,7 @@
         "Family": "Hirundinidae",
         "Genus": "Progne",
         "Species": "subis",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Purple_martin_lilypons_6.17.21_DSC_5788.jpg/768px-Purple_martin_lilypons_6.17.21_DSC_5788.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Purple_martin_prime_hook_4.2.22_DSC_2526.jpg/750px-Purple_martin_prime_hook_4.2.22_DSC_2526.jpg"],
         "Tags": [],
         "WingspanCentimeters": 46
     },
@@ -1430,8 +1430,8 @@
         "Family": "Anatidae",
         "Genus": "Lophodytes",
         "Species": "cucullatus",
-        "Images": [],
-        "Tags": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Hooded_merganser_male_in_CP_%2840615%29.jpg/800px-Hooded_merganser_male_in_CP_%2840615%29.jpg"],
+        "Tags": ["waterfowl"],
         "WingspanCentimeters": 61
     },
     {
@@ -1456,7 +1456,7 @@
         "Family": "Cardinalidae",
         "Genus": "Piranga",
         "Species": "olivacea",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Scarlet_Tanager_%287467759484%29.jpg/800px-Scarlet_Tanager_%287467759484%29.jpg"],
         "Tags": [],
         "WingspanCentimeters": 23
     },
@@ -1469,7 +1469,7 @@
         "Family": "Turdidae",
         "Genus": "Catharus",
         "Species": "ustulatus",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Swainson%27s_thrush_in_Verizon_Plaza_%2806370%29.jpg/800px-Swainson%27s_thrush_in_Verizon_Plaza_%2806370%29.jpg"],
         "Tags": [],
         "WingspanCentimeters": 30
     },
@@ -1482,7 +1482,7 @@
         "Family": "Parulidae",
         "Genus": "Setophaga",
         "Species": "americana",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Northern_Parula_%285270344077%29.jpg/767px-Northern_Parula_%285270344077%29.jpg"],
         "Tags": ["songbird","warbler"],
         "WingspanCentimeters": 17
     },
@@ -1495,7 +1495,7 @@
         "Family": "Anatidae",
         "Genus": "Mergus",
         "Species": "serrator",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Mergus_serrator_-New_Jersey_-USA_-winter-8.jpg/800px-Mergus_serrator_-New_Jersey_-USA_-winter-8.jpg"],
         "Tags": ["waterfowl"],
         "WingspanCentimeters": 78
     },
@@ -1508,7 +1508,7 @@
         "Family": "Anatidae",
         "Genus": "Cygnus",
         "Species": "buccinator",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Trumpeter_Swan_Sasata.jpg/737px-Trumpeter_Swan_Sasata.jpg"],
         "Tags": [],
         "WingspanCentimeters": 203
     },
@@ -1534,8 +1534,8 @@
         "Family": "Anatidae",
         "Genus": "Aythya",
         "Species": "affinis",
-        "Images": [],
-        "Tags": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Lesser_Scaup_%2811636209866%29.jpg/800px-Lesser_Scaup_%2811636209866%29.jpg"],
+        "Tags": ["waterfowl"],
         "WingspanCentimeters": 73
     },
     {
@@ -1547,8 +1547,8 @@
         "Family": "Anatidae",
         "Genus": "Mareca",
         "Species": "strepera",
-        "Images": [],
-        "Tags": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Gadwall_%28Anas_strepera%29_RWD.jpg/799px-Gadwall_%28Anas_strepera%29_RWD.jpg"],
+        "Tags": ["waterfowl"],
         "WingspanCentimeters": 84
     },
     {
@@ -1560,7 +1560,7 @@
         "Family": "Laridae",
         "Genus": "Chroicocephalus",
         "Species": "philadelphia",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Bonaparte%27s_Gull_in_breeding_plumage_-_52016973462.jpg/800px-Bonaparte%27s_Gull_in_breeding_plumage_-_52016973462.jpg"],
         "Tags": [],
         "WingspanCentimeters": 100
     },
@@ -1573,7 +1573,7 @@
         "Family": "Anatidae",
         "Genus": "Aythya",
         "Species": "collaris",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Ring-necked_Duck_%28m%29_%2826265137481%29.jpg/800px-Ring-necked_Duck_%28m%29_%2826265137481%29.jpg"],
         "Tags": ["waterfowl"],
         "WingspanCentimeters": 63
     },
@@ -1586,7 +1586,7 @@
         "Family": "Parulidae",
         "Genus": "Leiothlypis",
         "Species": "ruficapilla",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Nashville_Warbler_Ohio_%282598272869%29.jpg/800px-Nashville_Warbler_Ohio_%282598272869%29.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Nashville-warbler-107.jpg/800px-Nashville-warbler-107.jpg"],
         "Tags": ["songbird","warbler"],
         "WingspanCentimeters": 20
     },
@@ -1599,7 +1599,7 @@
         "Family": "Parulidae",
         "Genus": "Mniotilta",
         "Species": "varia",
-        "Images": [],
+        "Images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Hooded_Warbler.jpg/798px-Hooded_Warbler.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Hooded_warbler_in_CP_%2886093%29.jpg/800px-Hooded_warbler_in_CP_%2886093%29.jpg"],
         "Tags": ["songbird","warbler"],
         "WingspanCentimeters": 20
     },
