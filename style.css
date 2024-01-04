@@ -93,6 +93,9 @@ button#playButton:hover {
   /* font-size: 30px; */
   text-align: center;
 }
+.tiny{
+  font-size: 0.75rem;
+}
 
 /* img{
   max-width:50%;
