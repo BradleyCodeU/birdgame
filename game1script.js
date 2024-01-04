@@ -196,7 +196,7 @@ function filterTop(num){
 function filterSpecies(species){
   $('#mymodal').modal('hide');
   questions = unfilteredQuestions.filter(function(each){
-          return each["Tags"].includes("woodpecker");
+          return each["Tags"].includes(species);
   });
   filterImages()
   loadQuestion(randomSeed+currentQuestion);
