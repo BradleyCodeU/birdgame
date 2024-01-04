@@ -1,0 +1,103 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-weight: 100;
+  margin: 0;
+  padding:0;
+  transition: background-color 0.2s;
+  background-color: #343a40;
+}
+
+h1 {
+  color: #555;
+  font-size:0.75rem !important;
+  text-align:center;
+  text-shadow: 1px 1px #000055;
+  margin:0;
+  padding:0;
+}
+div#questionText, select, option{
+  font-size:2.2rem !important;
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+div#questionText{
+  height:80vh;
+}
+img{
+  width:100%;
+  height:100%;
+  object-fit: contain;
+}
+
+#selectDropNum, #selectDropSpe {
+  margin-bottom: 10px;
+  background-color: #17a2b8;
+  color: #FFFFFF;
+  display: block;
+}
+
+#displayNumber, #displayNumber2 {
+  text-align: center;
+}
+
+td {
+  width: 20%;
+}
+
+button#playButton {
+  font-size: 50vmin;
+  text-shadow: 0px 0px 3px #000;
+  /*background-color: rgb(52, 58, 64);*/
+  /* background-color: rgb(50, 56, 62); */
+  /* border:1px solid red; */
+}
+button#playButton:hover {
+  text-shadow: 0px 0px 3px #fff;
+  filter: brightness(90%);
+  /* background-color: rgb(54, 58, 66); */
+}
+
+.animation-pulse {
+  animation: pulse 0.5s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(.97);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* img{
+  max-width:50%;
+  margin:0px auto;
+} */
+
+/* ipads */
+/* @media screen and (max-width: 992px) {
+  img{
+    max-width:70%;
+  }
+} */
+
+/* phones */
+/* @media only screen and (max-width: 600px) {
+  img{
+    max-width:90%;
+  }
+} */
+
+/* https://www.abstractapi.com/guides/how-to-resize-an-image-using-an-api */

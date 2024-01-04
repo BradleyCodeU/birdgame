@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bird Review</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="./seedrandom.js" defer></script>
+
+    <script scr="birds.js" defer></script>
+    
+  </head>
+  <body class="">
+    
+
+    
+    <body class="">
+    <div class="container text-white">
+      <h1 id="windowLocation" class="display3">Study Game</h1>
+      <button id="nextButton" class="btn btn-xs bg-dark" onclick="document.location='index.html'">Menu</button>
+      <div class="form-group text-white">
+        <div id="questionText" class="font-weight-light">
+          Question Text
+        </div>
+        <select id="dropdown" class="form-control fixed-bottom" onchange="checkAnswer(this.value)">
+          <option id="pick">pick one:</option>
+          <option class="opt"></option>
+          <option class="opt"></option>
+          <option class="opt"></option>
+          <option class="opt"></option>
+          <option class="opt"></option>
+          <option class="opt"></option>
+        </select>
+      </div>
+    </div>
+
+    
+      <div class="modal fade" id="mymodal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Filter</h4>
+              <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+            <!-- Modal Body -->
+            <div class="modal-body">
+              <select id="selectDropNum" class="form-control" onchange="filterTop(this.value)">
+                <option id="pick">Top #:</option>
+                <option value=25 data-dismiss="modal">25</option>
+                <option value=50 data-dismiss="modal">50</option>
+                <option value=100 data-dismiss="modal">100</option>
+                <option value=200 data-dismiss="modal">200</option>
+              </select>
+              <select id="selectDropSpe" class="form-control" onchange="filterSpecies(this.value)">
+                <option id="pick">Group:</option>
+                <option value="woodpecker" data-dismiss="modal">Woodpeckers</option>
+                <option value="raptor" data-dismiss="modal">Raptors</option>
+              </select>
+              <button type="button" class="btn btn-info btn-block btn-lg" data-dismiss="modal"
+                onclick="filterWingspan(0,25)">small wings</button>
+              <button type="button" class="btn btn-info btn-block btn-lg" data-dismiss="modal"
+                onclick="filterWingspan(50,99999)">big wings</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  </body>
+   <script src="./game3script.js" defer></script>
+</html>
