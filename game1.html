@@ -63,12 +63,13 @@
         <div class="modal-body">
           <select id="selectDropNum" class="form-control" onchange="filterTop(this.value)">
             <option id="pick">Top #:</option>
+            <option value=25 data-dismiss="modal">25</option>
             <option value=50 data-dismiss="modal">50</option>
             <option value=100 data-dismiss="modal">100</option>
             <option value=200 data-dismiss="modal">200</option>
           </select>
           <select id="selectDropSpe" class="form-control" onchange="filterSpecies(this.value)">
-            <option id="pick">Type:</option>
+            <option id="pick">Group:</option>
             <option value="woodpecker" data-dismiss="modal">Woodpeckers</option>
             <option value="raptor" data-dismiss="modal">Raptors</option>
           </select>
