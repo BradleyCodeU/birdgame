@@ -11,7 +11,8 @@
     "WingspanCentimeters": 23,
     "Audio": [
       "audio/86 Northern Cardinal.mp3",
-      "audio/92a Northern Cardinal.mp3"
+      "audio/92a Northern Cardinal.mp3",
+      "audio/Northern Cardinal.mp3"
     ],
     "Images": [
       "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cardinalis_cardinalis_%28northern_cardinal%29_17.jpg",
@@ -36,7 +37,8 @@
     "WingspanCentimeters": 34,
     "Audio": [
       "audio/50 American Robin.mp3",
-      "audio/64 American robin.mp3"
+      "audio/64 American robin.mp3",
+      "audio/American Robin.mp3"
     ],
     "Images": [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/American_Robin_20140512.jpg/800px-American_Robin_20140512.jpg",
@@ -59,7 +61,8 @@
     "WingspanCentimeters": 33,
     "Audio": [
       "audio/48 Blue jay.mp3",
-      "audio/33 Blue Jay.mp3"
+      "audio/33 Blue Jay.mp3",
+      "audio/Blue Jay.mp3"
     ],
     "Images": [
       "https://upload.wikimedia.org/wikipedia/commons/f/f0/Blue_jay_in_Illinois.jpg",
@@ -80,7 +83,8 @@
     "Species": "canadensis",
     "WingspanCentimeters": 127,
     "Audio": [
-      "audio/05b Canada goose.mp3"
+      "audio/05b Canada goose.mp3",
+      "audio/Canada Goose.mp3"
     ],
     "Images": [
       "https://upload.wikimedia.org/wikipedia/commons/a/a5/Canada_Goose_Standing.jpg",
@@ -102,7 +106,8 @@
     "WingspanCentimeters": 45,
     "Audio": [
       "audio/09 Mourning Dove.mp3",
-      "audio/27b Mourning dove.mp3"
+      "audio/27b Mourning dove.mp3",
+      "audio/Mourning Dove.mp3"
     ],
     "Images": [
       "https://upload.wikimedia.org/wikipedia/commons/6/67/Mourning_Dove_%28105421617%29.jpeg",
@@ -124,7 +129,8 @@
     "WingspanCentimeters": 22,
     "Audio": [
       "audio/83 Song Sparrow.mp3",
-      "audio/86b Song sparrow.mp3"
+      "audio/86b Song sparrow.mp3",
+      "audio/Song Sparrow.mp3"
     ],
     "Images": [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Song_Sparrow_%2838532686316%29.jpg/800px-Song_Sparrow_%2838532686316%29.jpg",
@@ -146,7 +152,8 @@
     "WingspanCentimeters": 20,
     "Audio": [
       "audio/99 American Goldfinch.mp3",
-      "audio/98b American goldfinch.mp3"
+      "audio/98b American goldfinch.mp3",
+      "audio/American Goldfinch.mp3"
     ],
     "Images": [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/American_Goldfinch-27527.jpg/800px-American_Goldfinch-27527.jpg",
@@ -170,7 +177,8 @@
     "WingspanCentimeters": 33,
     "Audio": [
       "audio/92 Red-Winged Blackbird.mp3",
-      "audio/94b Red-winged blackbird.mp3"
+      "audio/94b Red-winged blackbird.mp3",
+      "audio/Red-winged Blackbird.mp3"
     ],
     "Images": [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Male_Red-Winged_Blackbird.jpg/800px-Male_Red-Winged_Blackbird.jpg",
@@ -192,7 +200,8 @@
     "WingspanCentimeters": 30,
     "Audio": [
       "audio/38a Downy woodpecker.mp3",
-      "audio/20a Downy woodpecker.mp3"
+      "audio/20a Downy woodpecker.mp3",
+      "audio/Downy Woodpecker.mp3"
     ],
     "Images": [
       "images/IMGP5021.JPG",
@@ -216,7 +225,8 @@
     "WingspanCentimeters": 34,
     "Audio": [
       "audio/19 Red-Bellied Woodpecker.mp3",
-      "audio/36 Red-bellied woodpecker.mp3"
+      "audio/36 Red-bellied woodpecker.mp3",
+      "audio/Red-bellied Woodpecker.mp3"
     ],
     "Images": [
       "https://upload.wikimedia.org/wikipedia/commons/1/1a/Red_Bellied_Woodpecker_In_Snow_%28192878751%29.jpeg",
@@ -237,7 +247,8 @@
     "Species": "vulgaris",
     "WingspanCentimeters": 37,
     "Audio": [
-      "audio/66 European starling.mp3"
+      "audio/66 European starling.mp3",
+      "audio/European Starling.mp3"
     ],
     "Images": [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/European_starling_at_Bodega_Head-1209.jpg/2560px-European_starling_at_Bodega_Head-1209.jpg",
@@ -259,7 +270,8 @@
     "WingspanCentimeters": 85,
     "Audio": [
       "audio/49 American crow.mp3",
-      "audio/34 American Crow.mp3"
+      "audio/34 American Crow.mp3",
+      "audio/American Crow.mp3"
     ],
     "Images": [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/American_Crow_SanDiego_RWD.jpg/799px-American_Crow_SanDiego_RWD.jpg",
@@ -280,7 +292,8 @@
     "Species": "platyrhynchos",
     "WingspanCentimeters": 81,
     "Audio": [
-      "audio/07b Mallard.mp3"
+      "audio/07b Mallard.mp3",
+      "audio/Mallard.mp3"
     ],
     "Images": [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Male_and_Female_mallard_ducks.jpg/1280px-Male_and_Female_mallard_ducks.jpg",
@@ -303,7 +316,8 @@
     "WingspanCentimeters": 21,
     "Audio": [
       "audio/40 White-Breasted Nuthatch.mp3",
-      "audio/56a White-breasted nuthatch.mp3"
+      "audio/56a White-breasted nuthatch.mp3",
+      "audio/White-breasted Nuthatch.mp3"
     ],
     "Images": [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/White-breasted_nuthatch_%2826397%29.jpg/2560px-White-breasted_nuthatch_%2826397%29.jpg",
@@ -323,7 +337,8 @@
     "WingspanCentimeters": 20,
     "Audio": [
       "audio/39 Tufted Titmouse.mp3",
-      "audio/55c Tufted titmouse.mp3"
+      "audio/55c Tufted titmouse.mp3",
+      "audio/Tufted Titmouse.mp3"
     ],
     "Images": [
       "https://upload.wikimedia.org/wikipedia/commons/9/97/Tufted_Titmouse_%28187854953%29.jpeg",
@@ -342,7 +357,8 @@
     "Species": "domesticus",
     "WingspanCentimeters": 22,
     "Audio": [
-      "audio/99 House sparrow.mp3"
+      "audio/99 House sparrow.mp3",
+      "audio/House Sparrow.mp3"
     ],
     "Images": [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/House_Sparrow_Male_%28Passer_Domesticus%29.jpg/1200px-House_Sparrow_Male_%28Passer_Domesticus%29.jpg",
@@ -382,7 +398,8 @@
     "Species": "herodias",
     "WingspanCentimeters": 190,
     "Audio": [
-      "audio/03a Great blue heron.mp3"
+      "audio/03a Great blue heron.mp3",
+      "audio/Great Blue Heron.mp3"
     ],
     "Images": [
       "images/DSC_5495_Original.JPG",
