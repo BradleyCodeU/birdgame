@@ -84,6 +84,10 @@ button#playButton:hover {
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
+.gameButton{
+  font-size:2vw;
+  margin:0.25vw;
+}
 input#datepicker{
   /* border: 1px solid #212529; */
   border:0px;
@@ -97,7 +101,7 @@ input#datepicker{
   border: 1px solid rgba(0, 0, 0, 0.8); */
   /* padding: 20px;*/
   margin:20px 0px; 
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 .tiny{
@@ -117,10 +121,14 @@ input#datepicker{
 } */
 
 /* phones */
-/* @media only screen and (max-width: 600px) {
-  img{
+@media only screen and (max-width: 600px) {
+  /* img{
     max-width:90%;
+  } */
+  .gameButton{
+    font-size:3vw;
+    margin:0.25vw;
   }
-} */
+}
 
 /* https://www.abstractapi.com/guides/how-to-resize-an-image-using-an-api */

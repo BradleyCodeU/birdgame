@@ -81,8 +81,8 @@ function loadGame(){
     btn.value = sixteenQuestions[i].CommonName;
     btn.classList.add("btn");
     btn.classList.add("btn-primary");
-    btn.classList.add("btn-lg");
-    btn.classList.add("m-2");
+    btn.classList.add("btn-sm");
+    //btn.classList.add("m-2");
     btn.classList.add("gameButton");
     fourByContainer.appendChild(btn);
     btn.addEventListener("click", toggleButton);
@@ -90,6 +90,10 @@ function loadGame(){
 }
 
 function toggleButton() {
+  let selectedButtons = document.getElementsByClassName("btn-danger");
+  if(selectedButtons.length == 4){
+    return;
+  }
   if(this.classList.contains("btn-primary")){
     this.classList.remove("btn-primary");
     this.classList.add("btn-danger");
@@ -98,7 +102,7 @@ function toggleButton() {
     this.classList.add("btn-primary");
   }
   // check if there are 4 selected buttons
-  let selectedButtons = document.getElementsByClassName("btn-danger");
+  
   if(selectedButtons.length == 4){
     // check if the selected buttons matches the keys
     setTimeout(function(){
