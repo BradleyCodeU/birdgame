@@ -13,9 +13,9 @@ let fourByContainer = document.getElementById("four-by-four-grid-container");
 document.getElementById('datepicker').max = new Date(new Date().getTime() - new Date().getTimezoneOffset() * 60000).toISOString().split("T")[0];
 
 Date.prototype.toDateInputValue = (function() {
-    var local = new Date(this);
-    local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
-    return local.toJSON().slice(0,10);
+  var local = new Date(this);
+  local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
+  return local.toJSON().slice(0, 10);
 });
 
 document.getElementById('datepicker').value = new Date().toDateInputValue();
@@ -39,25 +39,27 @@ if (localStorage.getItem("randomseed") === null) {
 
 // jquery load the json into questions array
 $.getJSON("gbif.json", function(json) {
-  questions = shuffle(json, daysSinceEpoch);;
-  unfilteredQuestions = copyArray(questions);
-  //filterSounds();
-  loadGame();
-  //if (document.location.href == "https://birdgame1--justinriley1.repl.co/") {
+    questions = shuffle(json, daysSinceEpoch);;
+    unfilteredQuestions = copyArray(questions);
+    //filterSounds();
+    loadGame();
+    //if (document.location.href == "https://birdgame1--justinriley1.repl.co/") {
     //loadQuestion(randomSeed+currentQuestion);
     //console.log(document.location);
-  // }
-  // else {
+    // }
+    // else {
     // this code is now in game2script.js
-  //   loadQuestion2(randomSeed+currentQuestion);
-  // }  
-  
-})
-.fail(function() { console.log("json error"); })
+    //   loadQuestion2(randomSeed+currentQuestion);
+    // }
+
+  })
+  .fail(function() {
+    console.log("json error");
+  })
 
 
-function setPuzzleDate(){
-  if(Math.floor((new Date() - new Date().getTimezoneOffset() ) / (60*60*24*1000)) <= Math.ceil((datepicker.valueAsDate) / (60*60*24*1000)) ){
+function setPuzzleDate() {
+  if (Math.floor((new Date() - new Date().getTimezoneOffset()) / (60 * 60 * 24 * 1000)) <= Math.ceil((datepicker.valueAsDate) / (60 * 60 * 24 * 1000))) {
     document.getElementById('datepicker').value = new Date().toDateInputValue();
     return;
   }
@@ -65,17 +67,17 @@ function setPuzzleDate(){
   loadGame();
 }
 
-function loadGame(){
+function loadGame() {
   let datepicker = document.getElementById("datepicker");
-  daysSinceEpoch = Math.floor((datepicker.valueAsDate - new Date().getTimezoneOffset() ) / (60*60*24*1000));
+  daysSinceEpoch = Math.floor((datepicker.valueAsDate - new Date().getTimezoneOffset()) / (60 * 60 * 24 * 1000));
   sixteenQuestions = [];
   sixteenQuestions.length = 0;
   fourKeys = [];
   fourKeys = generateKeys(sixteenQuestions);
   sixteenQuestions = shuffle(sixteenQuestions, daysSinceEpoch);
-  
+
   fourByContainer.innerHTML = '';
-  for(let i=0; i<sixteenQuestions.length;i++){
+  for (let i = 0; i < sixteenQuestions.length; i++) {
     const btn = document.createElement("button");
     btn.innerHTML = sixteenQuestions[i].CommonName;
     btn.value = sixteenQuestions[i].CommonName;
@@ -91,31 +93,31 @@ function loadGame(){
 
 function toggleButton() {
   let selectedButtons = document.getElementsByClassName("btn-danger");
-  if(selectedButtons.length == 4){
+  if (selectedButtons.length == 4) {
     return;
   }
-  if(this.classList.contains("btn-primary")){
+  if (this.classList.contains("btn-primary")) {
     this.classList.remove("btn-primary");
     this.classList.add("btn-danger");
-  }else if(this.classList.contains("btn-danger")){
+  } else if (this.classList.contains("btn-danger")) {
     this.classList.remove("btn-danger");
     this.classList.add("btn-primary");
   }
   // check if there are 4 selected buttons
-  
-  if(selectedButtons.length == 4){
+
+  if (selectedButtons.length == 4) {
     // check if the selected buttons matches the keys
-    setTimeout(function(){
+    setTimeout(function() {
       let myKey = doesSelectedMatchAKey(selectedButtons)
-      if(myKey){
+      if (myKey) {
         //correct
         alert(toTitleCase(myKey.name));
         disableSelectedButtons(myKey.color);
-      }else{
+      } else {
         //incorrect
         deselectAllButtons();
       }
-    },1000)
+    }, 1000)
 
   }
 }
@@ -129,10 +131,10 @@ function toTitleCase(str) {
   );
 }
 
-function disableSelectedButtons(color){
+function disableSelectedButtons(color) {
   let mylist = document.getElementsByClassName("gameButton");
-  for(let i=0;i<mylist.length;i++){
-    if(mylist[i].classList.contains("btn-danger")){
+  for (let i = 0; i < mylist.length; i++) {
+    if (mylist[i].classList.contains("btn-danger")) {
       mylist[i].classList.remove("btn-danger");
       //mylist[i].classList.add("btn-success");
       mylist[i].style.background = color;
@@ -141,25 +143,25 @@ function disableSelectedButtons(color){
   }
 }
 
-function deselectAllButtons(){
+function deselectAllButtons() {
   let mylist = document.getElementsByClassName("gameButton");
-  for(let i=0;i<mylist.length;i++){
-    if(mylist[i].classList.contains("btn-danger")){
+  for (let i = 0; i < mylist.length; i++) {
+    if (mylist[i].classList.contains("btn-danger")) {
       mylist[i].classList.remove("btn-danger");
       mylist[i].classList.add("btn-primary");
     }
   }
 }
 
-function doesSelectedMatchAKey(selectedButtons){
-  for(let i=0; i<fourKeys.length; i++){
+function doesSelectedMatchAKey(selectedButtons) {
+  for (let i = 0; i < fourKeys.length; i++) {
     let count = 0;
     let currentKey = fourKeys[i];
-    for(let j=0; j<currentKey.questions.length; j++){
-      for(let k=0; k<selectedButtons.length; k++){
-        if(currentKey.questions[j].CommonName == selectedButtons[k].value){
+    for (let j = 0; j < currentKey.questions.length; j++) {
+      for (let k = 0; k < selectedButtons.length; k++) {
+        if (currentKey.questions[j].CommonName == selectedButtons[k].value) {
           count++;
-          if(count == 4){
+          if (count == 4) {
             return currentKey;
           }
         }
@@ -172,23 +174,23 @@ function doesSelectedMatchAKey(selectedButtons){
 // display 1 question on screen
 function loadQuestion(myseed) {
   questionAudio.pause();
-  questionAudio = new Audio(choice(questions[currentQuestion % questions.length]["Audio"],myseed));
+  questionAudio = new Audio(choice(questions[currentQuestion % questions.length]["Audio"], myseed));
   document.getElementById("questionText").innerHTML = "<button class='btn btn-block' id='playButton' onclick='playPressed()'>&#9658;</button>";
   loadAnswers();
   // set the play button to the next color
-  document.getElementById("playButton").style.color = ["red","orange","yellow","green","blue","purple"][currentQuestion % 6];
-  
-  
+  document.getElementById("playButton").style.color = ["red", "orange", "yellow", "green", "blue", "purple"][currentQuestion % 6];
+
+
 }
 
-function playPressed(){
+function playPressed() {
   questionAudio.play();
   document.getElementById("playButton").classList.add('animation-pulse');
   document.getElementById("playButton").style.animationPlayState = "running";
   // detect when audio stops
   questionAudio.addEventListener('ended', function() {
-  this.currentTime = 0;
-  document.getElementById("playButton").style.animationPlayState = "paused";
+    this.currentTime = 0;
+    document.getElementById("playButton").style.animationPlayState = "paused";
   }, false);
 }
 
@@ -209,7 +211,7 @@ function loadAnswers() {
   Math.seedrandom(randomSeed);
   var answers = [questions[currentQuestion % questions.length]["CommonName"]];
   // check in case we filtered
-  if(questions.length < numberOfOptions){
+  if (questions.length < numberOfOptions) {
     numberOfOptions = questions.length;
   }
   while (answers.length < numberOfOptions) {
@@ -264,9 +266,9 @@ function checkAnswer(value) {
     currentQuestion++;
     localStorage.setItem("currentquestion", currentQuestion);
     setTimeout(() => {
-      loadQuestion(randomSeed+currentQuestion);
-      
-  }, 300);
+      loadQuestion(randomSeed + currentQuestion);
+
+    }, 300);
   } else {
     document.body.style.backgroundColor = "#ff0000";
     setTimeout(() => {
@@ -288,7 +290,7 @@ function shuffle(array, myseed) {
   var temporaryValue,
     randomIndex;
   Math.seedrandom(myseed);
-  for(var i=0;i<array.length;i++){
+  for (var i = 0; i < array.length; i++) {
     // pick a remaining element
     randomIndex = Math.floor(Math.random() * array.length);
     // and swap it with the current element
@@ -300,7 +302,7 @@ function shuffle(array, myseed) {
 }
 
 // get random element from array
-function choice(array,myseed){
+function choice(array, myseed) {
   Math.seedrandom(myseed);
   var choice = array[Math.floor(Math.random() * array.length)];
   return choice;
@@ -313,87 +315,102 @@ function compareArrays(a, b) {
 }
 
 // returns a new, disconnected array
-function copyArray(arr){
+function copyArray(arr) {
   return JSON.parse(JSON.stringify(arr));
 }
 
-function getIndexOfKey(searchName,mylist){
-  for(let i = 0; i < mylist.length; i++){
-    if(mylist[i].name == searchName){
+function getIndexOfKey(searchName, mylist) {
+  for (let i = 0; i < mylist.length; i++) {
+    if (mylist[i].name == searchName) {
       return i;
     }
   }
   return -1;
 }
 
-function getListOfKeys(){
+function getListOfKeys() {
   let keylist = [];
+  //tiny wingspan
+  let smallList = filterWingspan(0, 18);
+  keylist.push({
+    name: "Tiny Wingspan",
+    count: smallList.length,
+    questions: smallList
+  });
+  let hugeList = filterWingspan(145, 999);
+  keylist.push({
+    name: "Huge Wingspan",
+    count: hugeList.length,
+    questions: hugeList
+  });
   //add tags
-  for(each of unfilteredQuestions){
-    for(eachTag of each["Tags"]){
-      let index = getIndexOfKey(eachTag,keylist);
-      if(index == -1){
-        keylist.push(
-          {
-            name:eachTag,
-            count:1,
-            questions:[each]
-          }
-        );
-      }
-      else{
+  for (each of unfilteredQuestions) {
+    for (eachTag of each["Tags"]) {
+      let index = getIndexOfKey(eachTag, keylist);
+      if (index == -1) {
+        keylist.push({
+          name: eachTag,
+          count: 1,
+          questions: [each]
+        });
+      } else {
         keylist[index].count++;
         keylist[index].questions.push(each);
       }
     }
   }
   //add order
-  for(each of unfilteredQuestions){
-    let index = getIndexOfKey("Order "+each.Order,keylist);
-    if(index == -1){
-      keylist.push(
-        {
-          name:"Order "+each.Order,
-          count:1,
-          questions:[each]
-        }
-      );
-    }
-    else{
+  for (each of unfilteredQuestions) {
+    let index = getIndexOfKey("Order " + each.Order, keylist);
+    if (index == -1) {
+      keylist.push({
+        name: "Order " + each.Order,
+        count: 1,
+        questions: [each]
+      });
+    } else {
       keylist[index].count++;
       keylist[index].questions.push(each);
     }
   }
   //add families
-  for(each of unfilteredQuestions){
-    let index = getIndexOfKey("Family "+each.Family,keylist);
-    if(index == -1){
-      keylist.push(
-        {
-          name:"Family "+each.Family,
-          count:1,
-          questions:[each]
-        }
-      );
-    }
-    else{
+  for (each of unfilteredQuestions) {
+    let index = getIndexOfKey("Family " + each.Family, keylist);
+    if (index == -1) {
+      keylist.push({
+        name: "Family " + each.Family,
+        count: 1,
+        questions: [each]
+      });
+    } else {
       keylist[index].count++;
       keylist[index].questions.push(each);
     }
   }
   //add genus
-  for(each of unfilteredQuestions){
-    let index = getIndexOfKey("Genus "+each.Genus,keylist);
-    if(index == -1){
-      keylist.push(
-        {
-          name:"Genus "+each.Genus,
-          count:1,
-          questions:[each]
-        }
-      );
+  for (each of unfilteredQuestions) {
+    let index = getIndexOfKey("Genus " + each.Genus, keylist);
+    if (index == -1) {
+      keylist.push({
+        name: "Genus " + each.Genus,
+        count: 1,
+        questions: [each]
+      });
+    } else {
+      keylist[index].count++;
+      keylist[index].questions.push(each);
     }
-    else{
+  }
+  //add starts with
+  for (each of unfilteredQuestions) {
+    let index = getIndexOfKey("Starts With " + each.CommonName[0], keylist);
+    if (index == -1) {
+      keylist.push({
+        name: "Starts With " + each.CommonName[0],
+        count: 1,
+        questions: [each]
+      });
+    } else {
       keylist[index].count++;
       keylist[index].questions.push(each);
     }
@@ -403,20 +420,20 @@ function getListOfKeys(){
 
 
 
-function getFourQuestionsFromKey(key,sixteenQuestions){
+function getFourQuestionsFromKey(key, sixteenQuestions) {
   // get four random questions from the key
   let fourQuestions = [];
   let keyQuestions = copyArray(key.questions);
-  keyQuestions = shuffle(key.questions,daysSinceEpoch);
-  for(let i = 0; i < key.questions.length; i++){
+  keyQuestions = shuffle(key.questions, daysSinceEpoch);
+  for (let i = 0; i < key.questions.length; i++) {
     let tempQuestion = keyQuestions[i];
-    
+
     //if question is not already in the list, add it
-    if(!sixteenQuestions.includes(tempQuestion)){
+    if (!sixteenQuestions.includes(tempQuestion)) {
       fourQuestions.push(tempQuestion);
-      if(fourQuestions.length>=4){
+      if (fourQuestions.length >= 4) {
         //add all four to sixteenQuesions
-        for(let i = 0; i < fourQuestions.length; i++){
+        for (let i = 0; i < fourQuestions.length; i++) {
           sixteenQuestions.push(fourQuestions[i]);
         }
         return fourQuestions;
@@ -426,21 +443,21 @@ function getFourQuestionsFromKey(key,sixteenQuestions){
   return [];
 }
 
-function generateKeys(sixteenQuestions){
+function generateKeys(sixteenQuestions) {
   let keylist = getListOfKeys();
-  keylist = keylist.filter((key) => key.count >= 4 );
-  keylist = shuffle(keylist,daysSinceEpoch);
+  keylist = keylist.filter((key) => key.count >= 4);
+  keylist = shuffle(keylist, daysSinceEpoch);
   //return keylist
   // select four keys
   let keys = [];
-  let keycolors = ["#999900","#009900","#994400","#990099"]
-  for(let i = 0; i < keylist.length; i++){
-    let fourQuestions = getFourQuestionsFromKey(keylist[i],sixteenQuestions);
-    if(fourQuestions.length==4){
+  let keycolors = ["#999900", "#009900", "#994400", "#990099"]
+  for (let i = 0; i < keylist.length; i++) {
+    let fourQuestions = getFourQuestionsFromKey(keylist[i], sixteenQuestions);
+    if (fourQuestions.length == 4) {
       keys.push(keylist[i]);
-      keys[keys.length-1].questions = fourQuestions;
-      keys[keys.length-1].color = keycolors[keys.length-1];
-      if(keys.length>=4){
+      keys[keys.length - 1].questions = fourQuestions;
+      keys[keys.length - 1].color = keycolors[keys.length - 1];
+      if (keys.length >= 4) {
         return keys;
       }
     }
@@ -451,59 +468,60 @@ function generateKeys(sixteenQuestions){
 // place all filters at the bottom
 
 // only show questions with sounds
-function filterSounds(){
-  questions = questions.filter(function(each){
-          return each["Audio"].length > 0;
+function filterSounds() {
+  questions = questions.filter(function(each) {
+    return each["Audio"].length > 0;
   });
-  loadQuestion(randomSeed+currentQuestion);
+  loadQuestion(randomSeed + currentQuestion);
 }
 
-function filterTop(num){
+function filterTop(num) {
   $('#mymodal').modal('hide');
-  questions = unfilteredQuestions.filter(function(each){
-          return each["OhioRank"] <= num;
+  questions = unfilteredQuestions.filter(function(each) {
+    return each["OhioRank"] <= num;
   });
   filterSounds()
-  loadQuestion(randomSeed+currentQuestion);
+  loadQuestion(randomSeed + currentQuestion);
 }
 
-function filterSpecies(species){
+function filterSpecies(species) {
   $('#mymodal').modal('hide');
-  questions = unfilteredQuestions.filter(function(each){
-          return each["Tags"].includes(species);
+  questions = unfilteredQuestions.filter(function(each) {
+    return each["Tags"].includes(species);
   });
   filterSounds()
-  loadQuestion(randomSeed+currentQuestion);
+  loadQuestion(randomSeed + currentQuestion);
 }
 
-function filterWoodpecker(){
-  questions = unfilteredQuestions.filter(function(each){
-          return each["Tags"].includes("woodpecker");
+function filterWoodpecker() {
+  questions = unfilteredQuestions.filter(function(each) {
+    return each["Tags"].includes("woodpecker");
   });
   filterSounds()
-  loadQuestion(randomSeed+currentQuestion);
+  loadQuestion(randomSeed + currentQuestion);
 }
 
-function filterRaptor(){
-  questions = unfilteredQuestions.filter(function(each){
-          return each["Tags"].includes("raptor");
+function filterRaptor() {
+  questions = unfilteredQuestions.filter(function(each) {
+    return each["Tags"].includes("raptor");
   });
   filterSounds()
-  loadQuestion(randomSeed+currentQuestion);
+  loadQuestion(randomSeed + currentQuestion);
 }
 
-function filterWingspan(lowernum, highernum){
-  questions = unfilteredQuestions.filter(function(each){
-          return each["WingspanCentimeters"] < highernum && each["WingspanCentimeters"] >= lowernum;
+function filterWingspan(lowernum, highernum) {
+  questions = unfilteredQuestions.filter(function(each) {
+    return each["WingspanCentimeters"] < highernum && each["WingspanCentimeters"] >= lowernum;
   });
-  filterSounds()
-  loadQuestion(randomSeed+currentQuestion);
+  //filterSounds()
+  //loadQuestion(randomSeed+currentQuestion);
+  return questions;
 }
 
-function debugImages(){
+function debugImages() {
   filterImages()
-  for(let each of questions){
-    for(let pic of each["Images"]){
+  for (let each of questions) {
+    for (let pic of each["Images"]) {
       document.body.innerHTML += `<img src="${pic}" width="200px" height="200px" onerror="alert('OOF! broken image ${pic}')">`;
     }
   }
