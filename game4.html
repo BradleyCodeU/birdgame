@@ -35,9 +35,10 @@
     <body class="">
     <div class="container text-white">
       <h1 id="windowLocation" class="display3">Study Game</h1>
-      <button id="nextButton" class="btn btn-xs bg-dark" onclick="document.location='index.html'">Menu</button>
+      <button id="menuButton" class="btn btn-xs bg-dark" onclick="document.location='index.html'">Menu</button>
       <div class="float-right">
-
+         <!-- <button id="prevButton" class="btn btn-xs bg-dark" >  </button> -->
+        <a onclick="previousDay()" class="text-body">&lt;&lt;&lt;</a>
          <label for="datepicker" class="text-body">Date:</label>
         <input type="date" id="datepicker" name="datepicker" class="bg-dark text-body" onchange="setPuzzleDate()" onkeydown="setPuzzleDate()"> 
       </div>
@@ -62,16 +63,18 @@
 
     
       <div class="modal fade" id="mymodal">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content bg-dark text-light">
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">Filter</h4>
+            <div class="modal-header border border-0">
+              <!-- <h4 class="modal-title">Filter</h4> -->
               <button type="button" class="close" data-dismiss="modal">×</button>
             </div>
             <!-- Modal Body -->
-            <div class="modal-body">
-              <select id="selectDropNum" class="form-control" onchange="filterTop(this.value)">
+            <div class="modal-body" >
+              <h2 class="text-center mx-auto" id="modal-h2"></h2>
+              <p class="text-center mx-auto" id="modal-p"></p>
+              <!-- <select id="selectDropNum" class="form-control" onchange="filterTop(this.value)">
                 <option id="pick">Top #:</option>
                 <option value=25 data-dismiss="modal">25</option>
                 <option value=50 data-dismiss="modal">50</option>
@@ -86,7 +89,11 @@
               <button type="button" class="btn btn-info btn-block btn-lg" data-dismiss="modal"
                 onclick="filterWingspan(0,25)">small wings</button>
               <button type="button" class="btn btn-info btn-block btn-lg" data-dismiss="modal"
-                onclick="filterWingspan(50,99999)">big wings</button>
+                onclick="filterWingspan(50,99999)">big wings</button> -->
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer border border-0">
+              <!-- <button type="button" class="btn btn-dark text-body" data-dismiss="modal">Close</button> -->
             </div>
           </div>
         </div>

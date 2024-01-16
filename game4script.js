@@ -1,4 +1,4 @@
-// version 2020.09.05
+// version 2024.01.15
 
 let questions;
 let unfilteredQuestions;
@@ -8,25 +8,22 @@ let numberOfOptions = 6;
 let questionAudio = new Audio();
 let daysSinceEpoch = 0;
 let sixteenQuestions = [];
-let fourKeys = [];
+let fourLocks = [];
 let fourByContainer = document.getElementById("four-by-four-grid-container");
+fourByContainer.classList.add("animated");
+
 document.getElementById('datepicker').max = new Date(new Date().getTime() - new Date().getTimezoneOffset() * 60000).toISOString().split("T")[0];
 
 Date.prototype.toDateInputValue = (function() {
-  var local = new Date(this);
-  local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
-  return local.toJSON().slice(0, 10);
+    var local = new Date(this);
+    local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
+    return local.toJSON().slice(0,10);
 });
 
 document.getElementById('datepicker').value = new Date().toDateInputValue();
 
 document.getElementById("windowLocation").innerHTML = window.location.toString();
 // document.getElementById("questionText").style.maxHeight = Math.round(window.innerHeight*0.8)+"px";
-
-//open modal
-//$("#mymodal").modal()
-
-
 
 // generate or load random seed from localStorage
 if (localStorage.getItem("randomseed") === null) {
@@ -39,27 +36,93 @@ if (localStorage.getItem("randomseed") === null) {
 
 // jquery load the json into questions array
 $.getJSON("gbif.json", function(json) {
-    questions = shuffle(json, daysSinceEpoch);;
-    unfilteredQuestions = copyArray(questions);
-    //filterSounds();
-    loadGame();
-    //if (document.location.href == "https://birdgame1--justinriley1.repl.co/") {
-    //loadQuestion(randomSeed+currentQuestion);
-    //console.log(document.location);
-    // }
-    // else {
-    // this code is now in game2script.js
-    //   loadQuestion2(randomSeed+currentQuestion);
-    // }
-
-  })
-  .fail(function() {
-    console.log("json error");
-  })
+  questions = shuffle(json, daysSinceEpoch);;
+  unfilteredQuestions = copyArray(questions);
+  loadGame();  
+})
+.fail(function() { console.log("json error"); })
 
 
-function setPuzzleDate() {
-  if (Math.floor((new Date() - new Date().getTimezoneOffset()) / (60 * 60 * 24 * 1000)) <= Math.ceil((datepicker.valueAsDate) / (60 * 60 * 24 * 1000))) {
+// when a modal is dimissed check if game is complete
+$(document).ready(function(){
+  $("#mymodal").on('hidden.bs.modal', function(){
+    if(isGameComplete()){
+      setTimeout(
+        function(){
+          showCompleteScreen();
+          //let finishedText = "COMPLETE!";
+          // $('#mymodal').modal('show');
+          // $("#modal-h2").text(finishedText);
+          // $("#modal-p").text(finishedNameList.join(", "));
+
+        },100
+      );
+    }
+  });
+});
+
+function getDatePickerAsString(){
+  //get date from datepicker
+  let curr_year = document.getElementById('datepicker').value.split("-")[0];
+  let curr_month = document.getElementById('datepicker').value.split("-")[1];
+  let curr_date = document.getElementById('datepicker').value.split("-")[2];
+  return curr_month + "/" + curr_date + "/" + curr_year;
+}
+
+function showCompleteScreen(){
+  localStorage.setItem(getDatePickerAsString(),true);
+  let finishedNameList = [];
+  for(let i = 0; i < fourLocks.length; i++){
+    finishedNameList.push(fourLocks[i].name);
+  }
+  fourByContainer.innerHTML = "";
+  fourByContainer.style.gridTemplateColumns="auto";
+  const h2node = document.createElement("h2");
+  //get date from datepicker
+  // var d = new Date(document.getElementById('datepicker').valueAsDate);
+  // var curr_date = d.getDate()+1;
+  // var curr_month = d.getMonth() + 1; //Months are zero based
+  // var curr_year = d.getFullYear();
+  const h2textnode = document.createTextNode(getDatePickerAsString()+" COMPLETE!");
+  h2node.appendChild(h2textnode);
+  h2node.classList.add("text-center");
+  fourByContainer.appendChild(h2node);
+  pnode = document.createElement("p");
+  const ptextnode = document.createTextNode(finishedNameList.join(", "));
+  pnode.appendChild(ptextnode);
+  pnode.classList.add("text-center");
+  fourByContainer.appendChild(pnode);
+  // previous day button
+  const previousbtn = document.createElement("button");
+  previousbtn.innerHTML = "Previous Puzzle";
+  previousbtn.classList.add("btn");
+  previousbtn.classList.add("btn-primary");
+  previousbtn.classList.add("btn-lg");
+    previousbtn.classList.add("gameButton");
+  fourByContainer.appendChild(previousbtn);
+  previousbtn.addEventListener("click", previousDay);
+  // random day button
+  const randbtn = document.createElement("button");
+  randbtn.innerHTML = "&#10538; Random Puzzle";
+  randbtn.classList.add("btn");
+  randbtn.classList.add("btn-primary");
+  randbtn.classList.add("btn-lg");
+  randbtn.classList.add("gameButton");
+  fourByContainer.appendChild(randbtn);
+  randbtn.addEventListener("click", setPuzzleDateRandom);
+}
+
+function isGameComplete(){
+  for(let i = 0; i < fourLocks.length; i++){
+    if(fourLocks[i].isLocked){
+      return false;
+    }
+  }
+  return true;
+}
+
+function setPuzzleDate(){
+  if(Math.floor((new Date() - new Date().getTimezoneOffset() ) / (60*60*24*1000)) <= Math.ceil((datepicker.valueAsDate) / (60*60*24*1000)) ){
     document.getElementById('datepicker').value = new Date().toDateInputValue();
     return;
   }
@@ -67,17 +130,23 @@ function setPuzzleDate() {
   loadGame();
 }
 
-function loadGame() {
+function setPuzzleDateRandom(){
+    document.getElementById('datepicker').value = new Date(Math.random() * (new Date().getTime() - new Date().getTimezoneOffset() * 60000)).toDateInputValue();
+    loadGame();
+}
+
+function loadGame(){
   let datepicker = document.getElementById("datepicker");
-  daysSinceEpoch = Math.floor((datepicker.valueAsDate - new Date().getTimezoneOffset()) / (60 * 60 * 24 * 1000));
+  daysSinceEpoch = Math.floor((datepicker.valueAsDate - new Date().getTimezoneOffset() ) / (60*60*24*1000));
   sixteenQuestions = [];
   sixteenQuestions.length = 0;
-  fourKeys = [];
-  fourKeys = generateKeys(sixteenQuestions);
+  fourLocks = [];
+  fourLocks = generateLocks(sixteenQuestions);
   sixteenQuestions = shuffle(sixteenQuestions, daysSinceEpoch);
 
   fourByContainer.innerHTML = '';
-  for (let i = 0; i < sixteenQuestions.length; i++) {
+  fourByContainer.style.gridTemplateColumns="auto auto auto auto";
+  for(let i=0; i<sixteenQuestions.length;i++){
     const btn = document.createElement("button");
     btn.innerHTML = sixteenQuestions[i].CommonName;
     btn.value = sixteenQuestions[i].CommonName;
@@ -89,37 +158,71 @@ function loadGame() {
     fourByContainer.appendChild(btn);
     btn.addEventListener("click", toggleButton);
   }
+  if(localStorage.getItem(getDatePickerAsString())){
+    showCompleteScreen();
+  }
 }
 
 function toggleButton() {
   let selectedButtons = document.getElementsByClassName("btn-danger");
-  if (selectedButtons.length == 4) {
+  if(selectedButtons.length == 4){
     return;
   }
-  if (this.classList.contains("btn-primary")) {
+  if(this.classList.contains("btn-primary")){
     this.classList.remove("btn-primary");
     this.classList.add("btn-danger");
-  } else if (this.classList.contains("btn-danger")) {
+  }else if(this.classList.contains("btn-danger")){
     this.classList.remove("btn-danger");
     this.classList.add("btn-primary");
   }
   // check if there are 4 selected buttons
 
-  if (selectedButtons.length == 4) {
-    // check if the selected buttons matches the keys
-    setTimeout(function() {
-      let myKey = doesSelectedMatchAKey(selectedButtons)
-      if (myKey) {
-        //correct
-        alert(toTitleCase(myKey.name));
-        disableSelectedButtons(myKey.color);
-      } else {
+  if(selectedButtons.length == 4){
+    // check if the selected buttons matches the locks
+
+      let myLock = doesSelectedMatchALock(selectedButtons)
+      if(myLock <= 3){
         //incorrect
-        deselectAllButtons();
+        fourByContainer.classList.add('xshake');
+        fourByContainer.style.animationPlayState = "running";
+        setTimeout(function(){
+          //alert(myLock+" out of 4");
+          $('#mymodal').modal('show');
+          $("#modal-h2").text(myLock+" out of 4");
+          $("#modal-p").text("");
+          deselectAllButtons();
+          fourByContainer.style.animationPlayState = "paused";
+          fourByContainer.classList.remove("xshake");
+        },1000)
+      }else{
+        //correct
+        fourByContainer.classList.add('bounce');
+        fourByContainer.style.animationPlayState = "running";
+        setTimeout(function(){
+          //alert(toTitleCase(myLock.name));
+          $('#mymodal').modal('show');
+          $("#modal-h2").text(myLock.name);
+          $("#modal-p").text("");
+          disableSelectedButtons(myLock.color);
+          fourByContainer.style.animationPlayState = "paused";
+          fourByContainer.classList.remove("bounce");
+          myLock.isLocked = false;
+        },1000)
       }
-    }, 1000)
+
 
   }
+}
+
+function previousDay(){
+  //get the date from the datepicker
+  var d = datepicker.valueAsDate;
+
+  //subtract 1 day from the date object
+  d.setDate(d.getDate());
+  console.log(d);
+  document.getElementById('datepicker').value = d.toDateInputValue();
+  loadGame()
 }
 
 function toTitleCase(str) {
@@ -131,10 +234,10 @@ function toTitleCase(str) {
   );
 }
 
-function disableSelectedButtons(color) {
+function disableSelectedButtons(color){
   let mylist = document.getElementsByClassName("gameButton");
-  for (let i = 0; i < mylist.length; i++) {
-    if (mylist[i].classList.contains("btn-danger")) {
+  for(let i=0;i<mylist.length;i++){
+    if(mylist[i].classList.contains("btn-danger")){
       mylist[i].classList.remove("btn-danger");
       //mylist[i].classList.add("btn-success");
       mylist[i].style.background = color;
@@ -143,138 +246,36 @@ function disableSelectedButtons(color) {
   }
 }
 
-function deselectAllButtons() {
+function deselectAllButtons(){
   let mylist = document.getElementsByClassName("gameButton");
-  for (let i = 0; i < mylist.length; i++) {
-    if (mylist[i].classList.contains("btn-danger")) {
+  for(let i=0;i<mylist.length;i++){
+    if(mylist[i].classList.contains("btn-danger")){
       mylist[i].classList.remove("btn-danger");
       mylist[i].classList.add("btn-primary");
     }
   }
 }
 
-function doesSelectedMatchAKey(selectedButtons) {
-  for (let i = 0; i < fourKeys.length; i++) {
+function doesSelectedMatchALock(selectedButtons){
+  let highestCount = 0;
+  for(let i=0; i<fourLocks.length; i++){
     let count = 0;
-    let currentKey = fourKeys[i];
-    for (let j = 0; j < currentKey.questions.length; j++) {
-      for (let k = 0; k < selectedButtons.length; k++) {
-        if (currentKey.questions[j].CommonName == selectedButtons[k].value) {
+    let currentLock = fourLocks[i];
+    for(let j=0; j<currentLock.questions.length; j++){
+      for(let k=0; k<selectedButtons.length; k++){
+        if(currentLock.questions[j].CommonName == selectedButtons[k].value){
           count++;
-          if (count == 4) {
-            return currentKey;
+          if(count == 4){
+            return currentLock;
           }
         }
       }
-    }
-  }
-  return false;
-}
-
-// display 1 question on screen
-function loadQuestion(myseed) {
-  questionAudio.pause();
-  questionAudio = new Audio(choice(questions[currentQuestion % questions.length]["Audio"], myseed));
-  document.getElementById("questionText").innerHTML = "<button class='btn btn-block' id='playButton' onclick='playPressed()'>&#9658;</button>";
-  loadAnswers();
-  // set the play button to the next color
-  document.getElementById("playButton").style.color = ["red", "orange", "yellow", "green", "blue", "purple"][currentQuestion % 6];
-
-
-}
-
-function playPressed() {
-  questionAudio.play();
-  document.getElementById("playButton").classList.add('animation-pulse');
-  document.getElementById("playButton").style.animationPlayState = "running";
-  // detect when audio stops
-  questionAudio.addEventListener('ended', function() {
-    this.currentTime = 0;
-    document.getElementById("playButton").style.animationPlayState = "paused";
-  }, false);
-}
-
-// this code is now in game2script.js
-// function loadQuestion2(myseed) {
-//   //document.getElementById("questionText1").innerHTML = "<img src='"+
-//     choice(questions[currentQuestion % questions.length]["Images"],myseed) +
-//     "'>";
-//   //document.getElementById("questionText2").innerHTML = "<img src='"+
-//   choice(questions[currentQuestion % questions.length]["Images"],myseed) +
-//   "'>";
-//   loadAnswers();
-// }
-
-
-// get correct and random answers
-function loadAnswers() {
-  Math.seedrandom(randomSeed);
-  var answers = [questions[currentQuestion % questions.length]["CommonName"]];
-  // check in case we filtered
-  if (questions.length < numberOfOptions) {
-    numberOfOptions = questions.length;
-  }
-  while (answers.length < numberOfOptions) {
-    var flag = false;
-    Math.seedrandom("" + new Date().getMilliseconds());
-    var newAnswer =
-      questions[Math.floor(Math.random() * questions.length)]["CommonName"];
-    for (var i = 0; i < answers.length; i++) {
-      // keep searching if the new answer is same as any of the previous answers
-      if (answers[i].toLowerCase() == newAnswer.toLowerCase()) {
-        flag = true;
-        break;
+      if(count > highestCount){
+        highestCount = count;
       }
     }
-    // if not a previous answer, add to answers array
-    if (!flag) {
-      answers.push(newAnswer);
-    }
   }
-  var answers2 = answers.slice(0);
-  answers2 = shuffle(answers2, "" + new Date().getMilliseconds());
-  updateOptions(answers2);
-}
-
-
-// take the answers array and fill dropdown
-function updateOptions(answers) {
-  var optArray = document.getElementsByClassName("opt");
-  // clear old options
-  for (var i = 0; i < optArray.length; i++) {
-    optArray[i].value = "";
-    optArray[i].innerHTML = "";
-  }
-  for (var i = 0; i < answers.length; i++) {
-    optArray[i].value = answers[i];
-    optArray[i].innerHTML = answers[i];
-  }
-  document.getElementById("pick").selected = true;
-}
-
-// compare selected with actual answer
-function checkAnswer(value) {
-  if (
-    value.toLowerCase() ==
-    questions[currentQuestion % questions.length]["CommonName"].toLowerCase()
-  ) {
-    document.activeElement.blur();
-    document.body.style.backgroundColor = "#00ff00";
-    setTimeout(() => {
-      document.body.style.backgroundColor = "#343a40";
-    }, 200);
-    currentQuestion++;
-    localStorage.setItem("currentquestion", currentQuestion);
-    setTimeout(() => {
-      loadQuestion(randomSeed + currentQuestion);
-
-    }, 300);
-  } else {
-    document.body.style.backgroundColor = "#ff0000";
-    setTimeout(() => {
-      document.body.style.backgroundColor = "#343a40";
-    }, 200);
-  }
+  return highestCount;
 }
 
 // generate a long random seed number
@@ -290,7 +291,7 @@ function shuffle(array, myseed) {
   var temporaryValue,
     randomIndex;
   Math.seedrandom(myseed);
-  for (var i = 0; i < array.length; i++) {
+  for(var i=0;i<array.length;i++){
     // pick a remaining element
     randomIndex = Math.floor(Math.random() * array.length);
     // and swap it with the current element
@@ -302,7 +303,7 @@ function shuffle(array, myseed) {
 }
 
 // get random element from array
-function choice(array, myseed) {
+function choice(array,myseed){
   Math.seedrandom(myseed);
   var choice = array[Math.floor(Math.random() * array.length)];
   return choice;
@@ -315,125 +316,145 @@ function compareArrays(a, b) {
 }
 
 // returns a new, disconnected array
-function copyArray(arr) {
+function copyArray(arr){
   return JSON.parse(JSON.stringify(arr));
 }
 
-function getIndexOfKey(searchName, mylist) {
-  for (let i = 0; i < mylist.length; i++) {
-    if (mylist[i].name == searchName) {
+function getIndexOfLock(searchName,mylist){
+  for(let i = 0; i < mylist.length; i++){
+    if(mylist[i].name == searchName){
       return i;
     }
   }
   return -1;
 }
 
-function getListOfKeys() {
-  let keylist = [];
+function getListOfLocks(){
+  let locklist = [];
   //tiny wingspan
-  let smallList = filterWingspan(0, 18);
-  keylist.push({
-    name: "Tiny Wingspan",
-    count: smallList.length,
-    questions: smallList
-  });
-  let hugeList = filterWingspan(145, 999);
-  keylist.push({
-    name: "Huge Wingspan",
-    count: hugeList.length,
-    questions: hugeList
-  });
+  let smallList = filterWingspan(0,18);
+  locklist.push(
+    {
+      name:"Tiny Wingspan",
+      count:smallList.length,
+      questions:smallList
+    }
+  );
+  let hugeList = filterWingspan(145,999);
+  locklist.push(
+    {
+      name:"Huge Wingspan",
+      count:hugeList.length,
+      questions:hugeList
+    }
+  );
   //add tags
-  for (each of unfilteredQuestions) {
-    for (eachTag of each["Tags"]) {
-      let index = getIndexOfKey(eachTag, keylist);
-      if (index == -1) {
-        keylist.push({
-          name: eachTag,
-          count: 1,
-          questions: [each]
-        });
-      } else {
-        keylist[index].count++;
-        keylist[index].questions.push(each);
+  for(each of unfilteredQuestions){
+    for(eachTag of each["Tags"]){
+      eachTag = toTitleCase(eachTag);
+      let index = getIndexOfLock(eachTag,locklist);
+      if(index == -1){
+        locklist.push(
+          {
+            name:eachTag,
+            count:1,
+            questions:[each]
+          }
+        );
+      }
+      else{
+        locklist[index].count++;
+        locklist[index].questions.push(each);
       }
     }
   }
   //add order
-  for (each of unfilteredQuestions) {
-    let index = getIndexOfKey("Order " + each.Order, keylist);
-    if (index == -1) {
-      keylist.push({
-        name: "Order " + each.Order,
-        count: 1,
-        questions: [each]
-      });
-    } else {
-      keylist[index].count++;
-      keylist[index].questions.push(each);
+  for(each of unfilteredQuestions){
+    let index = getIndexOfLock("Order "+each.Order,locklist);
+    if(index == -1){
+      locklist.push(
+        {
+          name:"Order "+each.Order,
+          count:1,
+          questions:[each]
+        }
+      );
+    }
+    else{
+      locklist[index].count++;
+      locklist[index].questions.push(each);
     }
   }
   //add families
-  for (each of unfilteredQuestions) {
-    let index = getIndexOfKey("Family " + each.Family, keylist);
-    if (index == -1) {
-      keylist.push({
-        name: "Family " + each.Family,
-        count: 1,
-        questions: [each]
-      });
-    } else {
-      keylist[index].count++;
-      keylist[index].questions.push(each);
+  for(each of unfilteredQuestions){
+    let index = getIndexOfLock("Family "+each.Family,locklist);
+    if(index == -1){
+      locklist.push(
+        {
+          name:"Family "+each.Family,
+          count:1,
+          questions:[each]
+        }
+      );
+    }
+    else{
+      locklist[index].count++;
+      locklist[index].questions.push(each);
     }
   }
   //add genus
-  for (each of unfilteredQuestions) {
-    let index = getIndexOfKey("Genus " + each.Genus, keylist);
-    if (index == -1) {
-      keylist.push({
-        name: "Genus " + each.Genus,
-        count: 1,
-        questions: [each]
-      });
-    } else {
-      keylist[index].count++;
-      keylist[index].questions.push(each);
+  for(each of unfilteredQuestions){
+    let index = getIndexOfLock("Genus "+each.Genus,locklist);
+    if(index == -1){
+      locklist.push(
+        {
+          name:"Genus "+each.Genus,
+          count:1,
+          questions:[each]
+        }
+      );
+    }
+    else{
+      locklist[index].count++;
+      locklist[index].questions.push(each);
     }
   }
   //add starts with
-  for (each of unfilteredQuestions) {
-    let index = getIndexOfKey("Starts With " + each.CommonName[0], keylist);
-    if (index == -1) {
-      keylist.push({
-        name: "Starts With " + each.CommonName[0],
-        count: 1,
-        questions: [each]
-      });
-    } else {
-      keylist[index].count++;
-      keylist[index].questions.push(each);
+  for(each of unfilteredQuestions){
+    let index = getIndexOfLock("Starts With "+each.CommonName[0],locklist);
+    if(index == -1){
+      locklist.push(
+        {
+          name:"Starts With "+each.CommonName[0],
+          count:1,
+          questions:[each]
+        }
+      );
+    }
+    else{
+      locklist[index].count++;
+      locklist[index].questions.push(each);
     }
   }
-  return keylist;
+  return locklist;
 }
 
 
 
-function getFourQuestionsFromKey(key, sixteenQuestions) {
-  // get four random questions from the key
+function getFourQuestionsFromLock(lock,sixteenQuestions){
+  // get four random questions from the lock
   let fourQuestions = [];
-  let keyQuestions = copyArray(key.questions);
-  keyQuestions = shuffle(key.questions, daysSinceEpoch);
-  for (let i = 0; i < key.questions.length; i++) {
-    let tempQuestion = keyQuestions[i];
+  let lockQuestions = copyArray(lock.questions);
+  lockQuestions = shuffle(lock.questions,daysSinceEpoch);
+  for(let i = 0; i < lock.questions.length; i++){
+    let tempQuestion = lockQuestions[i];
 
     //if question is not already in the list, add it
-    if (!sixteenQuestions.includes(tempQuestion)) {
+    if(!sixteenQuestions.includes(tempQuestion)){
       fourQuestions.push(tempQuestion);
-      if (fourQuestions.length >= 4) {
+      if(fourQuestions.length>=4){
         //add all four to sixteenQuesions
-        for (let i = 0; i < fourQuestions.length; i++) {
+        for(let i = 0; i < fourQuestions.length; i++){
           sixteenQuestions.push(fourQuestions[i]);
         }
         return fourQuestions;
@@ -443,22 +464,23 @@ function getFourQuestionsFromKey(key, sixteenQuestions) {
   return [];
 }
 
-function generateKeys(sixteenQuestions) {
-  let keylist = getListOfKeys();
-  keylist = keylist.filter((key) => key.count >= 4);
-  keylist = shuffle(keylist, daysSinceEpoch);
-  //return keylist
-  // select four keys
-  let keys = [];
-  let keycolors = ["#999900", "#009900", "#994400", "#990099"]
-  for (let i = 0; i < keylist.length; i++) {
-    let fourQuestions = getFourQuestionsFromKey(keylist[i], sixteenQuestions);
-    if (fourQuestions.length == 4) {
-      keys.push(keylist[i]);
-      keys[keys.length - 1].questions = fourQuestions;
-      keys[keys.length - 1].color = keycolors[keys.length - 1];
-      if (keys.length >= 4) {
-        return keys;
+function generateLocks(sixteenQuestions){
+  let locklist = getListOfLocks();
+  locklist = locklist.filter((lock) => lock.count >= 4 );
+  locklist = shuffle(locklist,daysSinceEpoch);
+  //return locklist
+  // select four locks
+  let locks = [];
+  let lockcolors = ["#999900","#009900","#994400","#990099"]
+  for(let i = 0; i < locklist.length; i++){
+    let fourQuestions = getFourQuestionsFromLock(locklist[i],sixteenQuestions);
+    if(fourQuestions.length==4){
+      locks.push(locklist[i]);
+      locks[locks.length-1].questions = fourQuestions;
+      locks[locks.length-1].color = lockcolors[locks.length-1];
+      locks[locks.length-1].isLocked = true;
+      if(locks.length>=4){
+        return locks;
       }
     }
   }
@@ -468,60 +490,60 @@ function generateKeys(sixteenQuestions) {
 // place all filters at the bottom
 
 // only show questions with sounds
-function filterSounds() {
-  questions = questions.filter(function(each) {
-    return each["Audio"].length > 0;
+function filterSounds(){
+  questions = questions.filter(function(each){
+          return each["Audio"].length > 0;
   });
-  loadQuestion(randomSeed + currentQuestion);
+  loadQuestion(randomSeed+currentQuestion);
 }
 
-function filterTop(num) {
+function filterTop(num){
   $('#mymodal').modal('hide');
-  questions = unfilteredQuestions.filter(function(each) {
-    return each["OhioRank"] <= num;
+  questions = unfilteredQuestions.filter(function(each){
+          return each["OhioRank"] <= num;
   });
   filterSounds()
-  loadQuestion(randomSeed + currentQuestion);
+  loadQuestion(randomSeed+currentQuestion);
 }
 
-function filterSpecies(species) {
+function filterSpecies(species){
   $('#mymodal').modal('hide');
-  questions = unfilteredQuestions.filter(function(each) {
-    return each["Tags"].includes(species);
+  questions = unfilteredQuestions.filter(function(each){
+          return each["Tags"].includes(species);
   });
   filterSounds()
-  loadQuestion(randomSeed + currentQuestion);
+  loadQuestion(randomSeed+currentQuestion);
 }
 
-function filterWoodpecker() {
-  questions = unfilteredQuestions.filter(function(each) {
-    return each["Tags"].includes("woodpecker");
+function filterWoodpecker(){
+  questions = unfilteredQuestions.filter(function(each){
+          return each["Tags"].includes("woodpecker");
   });
   filterSounds()
-  loadQuestion(randomSeed + currentQuestion);
+  loadQuestion(randomSeed+currentQuestion);
 }
 
-function filterRaptor() {
-  questions = unfilteredQuestions.filter(function(each) {
-    return each["Tags"].includes("raptor");
+function filterRaptor(){
+  questions = unfilteredQuestions.filter(function(each){
+          return each["Tags"].includes("raptor");
   });
   filterSounds()
-  loadQuestion(randomSeed + currentQuestion);
+  loadQuestion(randomSeed+currentQuestion);
 }
 
-function filterWingspan(lowernum, highernum) {
-  questions = unfilteredQuestions.filter(function(each) {
-    return each["WingspanCentimeters"] < highernum && each["WingspanCentimeters"] >= lowernum;
+function filterWingspan(lowernum, highernum){
+  questions = unfilteredQuestions.filter(function(each){
+          return each["WingspanCentimeters"] < highernum && each["WingspanCentimeters"] >= lowernum;
   });
   //filterSounds()
   //loadQuestion(randomSeed+currentQuestion);
   return questions;
 }
 
-function debugImages() {
+function debugImages(){
   filterImages()
-  for (let each of questions) {
-    for (let pic of each["Images"]) {
+  for(let each of questions){
+    for(let pic of each["Images"]){
       document.body.innerHTML += `<img src="${pic}" width="200px" height="200px" onerror="alert('OOF! broken image ${pic}')">`;
     }
   }
