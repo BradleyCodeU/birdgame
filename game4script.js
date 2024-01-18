@@ -93,33 +93,40 @@ function showCompleteScreen() {
   const ptextnode = document.createTextNode(finishedNameList.join(", "));
   pnode.appendChild(ptextnode);
   pnode.classList.add("text-center");
+  pnode.classList.add("text-body");
   pnode.classList.add("tiny");
   fourByContainer.appendChild(pnode);
   // replay this day button
   const replaybtn = document.createElement("button");
   replaybtn.innerHTML = "&olarr; Replay Puzzle";
   replaybtn.classList.add("btn");
-  replaybtn.classList.add("btn-warning");
+  replaybtn.classList.add("btn-secondary");
   replaybtn.classList.add("btn-lg");
   replaybtn.classList.add("gameButton");
+  replaybtn.classList.add("w-50");
+  replaybtn.classList.add("mx-auto");
   fourByContainer.appendChild(replaybtn);
   replaybtn.addEventListener("click", replayPuzzle);
   // random day button
   const randbtn = document.createElement("button");
   randbtn.innerHTML = "&#10538; Random Puzzle";
   randbtn.classList.add("btn");
-  randbtn.classList.add("btn-info");
+  randbtn.classList.add("btn-success");
   randbtn.classList.add("btn-lg");
   randbtn.classList.add("gameButton");
+  randbtn.classList.add("w-50");
+  randbtn.classList.add("mx-auto");
   fourByContainer.appendChild(randbtn);
   randbtn.addEventListener("click", setPuzzleDateRandom);
   // previous day button
   const previousbtn = document.createElement("button");
   previousbtn.innerHTML = "&Ll; Previous Puzzle";
   previousbtn.classList.add("btn");
-  previousbtn.classList.add("btn-success");
+  previousbtn.classList.add("btn-warning");
   previousbtn.classList.add("btn-lg");
   previousbtn.classList.add("gameButton");
+  previousbtn.classList.add("w-50");
+  previousbtn.classList.add("mx-auto");
   fourByContainer.appendChild(previousbtn);
   previousbtn.addEventListener("click", previousDay);
 
