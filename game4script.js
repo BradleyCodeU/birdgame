@@ -15,9 +15,9 @@ fourByContainer.classList.add("animated");
 document.getElementById('datepicker').max = new Date(new Date().getTime() - new Date().getTimezoneOffset() * 60000).toISOString().split("T")[0];
 
 Date.prototype.toDateInputValue = (function() {
-    var local = new Date(this);
-    local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
-    return local.toJSON().slice(0,10);
+  var local = new Date(this);
+  local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
+  return local.toJSON().slice(0, 10);
 });
 
 document.getElementById('datepicker').value = new Date().toDateInputValue();
@@ -36,32 +36,34 @@ if (localStorage.getItem("randomseed") === null) {
 
 // jquery load the json into questions array
 $.getJSON("gbif.json", function(json) {
-  questions = shuffle(json, daysSinceEpoch);;
-  unfilteredQuestions = copyArray(questions);
-  loadGame();  
-})
-.fail(function() { console.log("json error"); })
+    questions = shuffle(json, daysSinceEpoch);;
+    unfilteredQuestions = copyArray(questions);
+    loadGame();
+  })
+  .fail(function() {
+    console.log("json error");
+  })
 
 
 // when a modal is dimissed check if game is complete
-$(document).ready(function(){
-  $("#mymodal").on('hidden.bs.modal', function(){
-    if(isGameComplete()){
+$(document).ready(function() {
+  $("#mymodal").on('hidden.bs.modal', function() {
+    if (isGameComplete()) {
       setTimeout(
-        function(){
+        function() {
           showCompleteScreen();
           //let finishedText = "COMPLETE!";
           // $('#mymodal').modal('show');
           // $("#modal-h2").text(finishedText);
           // $("#modal-p").text(finishedNameList.join(", "));
 
-        },100
+        }, 100
       );
     }
   });
 });
 
-function getDatePickerAsString(){
+function getDatePickerAsString() {
   //get date from datepicker
   let curr_year = document.getElementById('datepicker').value.split("-")[0];
   let curr_month = document.getElementById('datepicker').value.split("-")[1];
@@ -69,60 +71,79 @@ function getDatePickerAsString(){
   return curr_month + "/" + curr_date + "/" + curr_year;
 }
 
-function showCompleteScreen(){
-  localStorage.setItem(getDatePickerAsString(),true);
+function showCompleteScreen() {
+  localStorage.setItem(getDatePickerAsString(), true);
   let finishedNameList = [];
-  for(let i = 0; i < fourLocks.length; i++){
+  for (let i = 0; i < fourLocks.length; i++) {
     finishedNameList.push(fourLocks[i].name);
   }
   fourByContainer.innerHTML = "";
-  fourByContainer.style.gridTemplateColumns="auto";
+  fourByContainer.style.gridTemplateColumns = "auto";
   const h2node = document.createElement("h2");
   //get date from datepicker
   // var d = new Date(document.getElementById('datepicker').valueAsDate);
   // var curr_date = d.getDate()+1;
   // var curr_month = d.getMonth() + 1; //Months are zero based
   // var curr_year = d.getFullYear();
-  const h2textnode = document.createTextNode(getDatePickerAsString()+" COMPLETE!");
+  const h2textnode = document.createTextNode(getDatePickerAsString() + " COMPLETE!");
   h2node.appendChild(h2textnode);
   h2node.classList.add("text-center");
   fourByContainer.appendChild(h2node);
-  pnode = document.createElement("p");
+  pnode = document.createElement("small");
   const ptextnode = document.createTextNode(finishedNameList.join(", "));
   pnode.appendChild(ptextnode);
   pnode.classList.add("text-center");
+  pnode.classList.add("tiny");
   fourByContainer.appendChild(pnode);
-  // previous day button
-  const previousbtn = document.createElement("button");
-  previousbtn.innerHTML = "Previous Puzzle";
-  previousbtn.classList.add("btn");
-  previousbtn.classList.add("btn-primary");
-  previousbtn.classList.add("btn-lg");
-    previousbtn.classList.add("gameButton");
-  fourByContainer.appendChild(previousbtn);
-  previousbtn.addEventListener("click", previousDay);
+  // replay this day button
+  const replaybtn = document.createElement("button");
+  replaybtn.innerHTML = "&olarr; Replay Puzzle";
+  replaybtn.classList.add("btn");
+  replaybtn.classList.add("btn-warning");
+  replaybtn.classList.add("btn-lg");
+  replaybtn.classList.add("gameButton");
+  fourByContainer.appendChild(replaybtn);
+  replaybtn.addEventListener("click", replayPuzzle);
   // random day button
   const randbtn = document.createElement("button");
   randbtn.innerHTML = "&#10538; Random Puzzle";
   randbtn.classList.add("btn");
-  randbtn.classList.add("btn-primary");
+  randbtn.classList.add("btn-info");
   randbtn.classList.add("btn-lg");
   randbtn.classList.add("gameButton");
   fourByContainer.appendChild(randbtn);
   randbtn.addEventListener("click", setPuzzleDateRandom);
+  // previous day button
+  const previousbtn = document.createElement("button");
+  previousbtn.innerHTML = "&Ll; Previous Puzzle";
+  previousbtn.classList.add("btn");
+  previousbtn.classList.add("btn-success");
+  previousbtn.classList.add("btn-lg");
+  previousbtn.classList.add("gameButton");
+  fourByContainer.appendChild(previousbtn);
+  previousbtn.addEventListener("click", previousDay);
+
 }
 
-function isGameComplete(){
-  for(let i = 0; i < fourLocks.length; i++){
-    if(fourLocks[i].isLocked){
+function isGameComplete() {
+  for (let i = 0; i < fourLocks.length; i++) {
+    if (fourLocks[i].isLocked) {
       return false;
     }
   }
   return true;
 }
 
-function setPuzzleDate(){
-  if(Math.floor((new Date() - new Date().getTimezoneOffset() ) / (60*60*24*1000)) <= Math.ceil((datepicker.valueAsDate) / (60*60*24*1000)) ){
+function replayPuzzle() {
+  localStorage.setItem(getDatePickerAsString(), false);
+  // console.log(getDatePickerAsString());
+  // console.log(localStorage.getItem(getDatePickerAsString()));
+  // console.log(localStorage);
+  setTimeout(loadGame, 100);
+}
+
+function setPuzzleDate() {
+  if (Math.floor((new Date() - new Date().getTimezoneOffset()) / (60 * 60 * 24 * 1000)) <= Math.ceil((datepicker.valueAsDate) / (60 * 60 * 24 * 1000))) {
     document.getElementById('datepicker').value = new Date().toDateInputValue();
     return;
   }
@@ -130,14 +151,14 @@ function setPuzzleDate(){
   loadGame();
 }
 
-function setPuzzleDateRandom(){
-    document.getElementById('datepicker').value = new Date(Math.random() * (new Date().getTime() - new Date().getTimezoneOffset() * 60000)).toDateInputValue();
-    loadGame();
+function setPuzzleDateRandom() {
+  document.getElementById('datepicker').value = new Date(Math.random() * (new Date().getTime() - new Date().getTimezoneOffset() * 60000)).toDateInputValue();
+  loadGame();
 }
 
-function loadGame(){
+function loadGame() {
   let datepicker = document.getElementById("datepicker");
-  daysSinceEpoch = Math.floor((datepicker.valueAsDate - new Date().getTimezoneOffset() ) / (60*60*24*1000));
+  daysSinceEpoch = Math.floor((datepicker.valueAsDate - new Date().getTimezoneOffset()) / (60 * 60 * 24 * 1000));
   sixteenQuestions = [];
   sixteenQuestions.length = 0;
   fourLocks = [];
@@ -145,8 +166,8 @@ function loadGame(){
   sixteenQuestions = shuffle(sixteenQuestions, daysSinceEpoch);
 
   fourByContainer.innerHTML = '';
-  fourByContainer.style.gridTemplateColumns="auto auto auto auto";
-  for(let i=0; i<sixteenQuestions.length;i++){
+  fourByContainer.style.gridTemplateColumns = "auto auto auto auto";
+  for (let i = 0; i < sixteenQuestions.length; i++) {
     const btn = document.createElement("button");
     btn.innerHTML = sixteenQuestions[i].CommonName;
     btn.value = sixteenQuestions[i].CommonName;
@@ -158,69 +179,69 @@ function loadGame(){
     fourByContainer.appendChild(btn);
     btn.addEventListener("click", toggleButton);
   }
-  if(localStorage.getItem(getDatePickerAsString())){
+  if (localStorage.getItem(getDatePickerAsString()) === "true") {
     showCompleteScreen();
   }
 }
 
 function toggleButton() {
   let selectedButtons = document.getElementsByClassName("btn-danger");
-  if(selectedButtons.length == 4){
+  if (selectedButtons.length == 4) {
     return;
   }
-  if(this.classList.contains("btn-primary")){
+  if (this.classList.contains("btn-primary")) {
     this.classList.remove("btn-primary");
     this.classList.add("btn-danger");
-  }else if(this.classList.contains("btn-danger")){
+  } else if (this.classList.contains("btn-danger")) {
     this.classList.remove("btn-danger");
     this.classList.add("btn-primary");
   }
   // check if there are 4 selected buttons
 
-  if(selectedButtons.length == 4){
+  if (selectedButtons.length == 4) {
     // check if the selected buttons matches the locks
 
-      let myLock = doesSelectedMatchALock(selectedButtons)
-      if(myLock <= 3){
-        //incorrect
-        fourByContainer.classList.add('xshake');
-        fourByContainer.style.animationPlayState = "running";
-        setTimeout(function(){
-          //alert(myLock+" out of 4");
-          $('#mymodal').modal('show');
-          $("#modal-h2").text(myLock+" out of 4");
-          $("#modal-p").text("");
-          deselectAllButtons();
-          fourByContainer.style.animationPlayState = "paused";
-          fourByContainer.classList.remove("xshake");
-        },1000)
-      }else{
-        //correct
-        fourByContainer.classList.add('bounce');
-        fourByContainer.style.animationPlayState = "running";
-        setTimeout(function(){
-          //alert(toTitleCase(myLock.name));
-          $('#mymodal').modal('show');
-          $("#modal-h2").text(myLock.name);
-          $("#modal-p").text("");
-          disableSelectedButtons(myLock.color);
-          fourByContainer.style.animationPlayState = "paused";
-          fourByContainer.classList.remove("bounce");
-          myLock.isLocked = false;
-        },1000)
-      }
+    let myLock = doesSelectedMatchALock(selectedButtons)
+    if (myLock <= 3) {
+      //incorrect
+      fourByContainer.classList.add('xshake');
+      fourByContainer.style.animationPlayState = "running";
+      setTimeout(function() {
+        //alert(myLock+" out of 4");
+        $('#mymodal').modal('show');
+        $("#modal-h2").text(myLock + " out of 4");
+        $("#modal-p").text("");
+        deselectAllButtons();
+        fourByContainer.style.animationPlayState = "paused";
+        fourByContainer.classList.remove("xshake");
+      }, 1000)
+    } else {
+      //correct
+      fourByContainer.classList.add('bounce');
+      fourByContainer.style.animationPlayState = "running";
+      setTimeout(function() {
+        //alert(toTitleCase(myLock.name));
+        $('#mymodal').modal('show');
+        $("#modal-h2").text(myLock.name);
+        $("#modal-p").text("");
+        disableSelectedButtons(myLock.color);
+        fourByContainer.style.animationPlayState = "paused";
+        fourByContainer.classList.remove("bounce");
+        myLock.isLocked = false;
+      }, 1000)
+    }
 
 
   }
 }
 
-function previousDay(){
+function previousDay() {
   //get the date from the datepicker
   var d = datepicker.valueAsDate;
 
   //subtract 1 day from the date object
   d.setDate(d.getDate());
-  console.log(d);
+  //console.log(d);
   document.getElementById('datepicker').value = d.toDateInputValue();
   loadGame()
 }
@@ -234,10 +255,10 @@ function toTitleCase(str) {
   );
 }
 
-function disableSelectedButtons(color){
+function disableSelectedButtons(color) {
   let mylist = document.getElementsByClassName("gameButton");
-  for(let i=0;i<mylist.length;i++){
-    if(mylist[i].classList.contains("btn-danger")){
+  for (let i = 0; i < mylist.length; i++) {
+    if (mylist[i].classList.contains("btn-danger")) {
       mylist[i].classList.remove("btn-danger");
       //mylist[i].classList.add("btn-success");
       mylist[i].style.background = color;
@@ -246,31 +267,31 @@ function disableSelectedButtons(color){
   }
 }
 
-function deselectAllButtons(){
+function deselectAllButtons() {
   let mylist = document.getElementsByClassName("gameButton");
-  for(let i=0;i<mylist.length;i++){
-    if(mylist[i].classList.contains("btn-danger")){
+  for (let i = 0; i < mylist.length; i++) {
+    if (mylist[i].classList.contains("btn-danger")) {
       mylist[i].classList.remove("btn-danger");
       mylist[i].classList.add("btn-primary");
     }
   }
 }
 
-function doesSelectedMatchALock(selectedButtons){
+function doesSelectedMatchALock(selectedButtons) {
   let highestCount = 0;
-  for(let i=0; i<fourLocks.length; i++){
+  for (let i = 0; i < fourLocks.length; i++) {
     let count = 0;
     let currentLock = fourLocks[i];
-    for(let j=0; j<currentLock.questions.length; j++){
-      for(let k=0; k<selectedButtons.length; k++){
-        if(currentLock.questions[j].CommonName == selectedButtons[k].value){
+    for (let j = 0; j < currentLock.questions.length; j++) {
+      for (let k = 0; k < selectedButtons.length; k++) {
+        if (currentLock.questions[j].CommonName == selectedButtons[k].value) {
           count++;
-          if(count == 4){
+          if (count == 4) {
             return currentLock;
           }
         }
       }
-      if(count > highestCount){
+      if (count > highestCount) {
         highestCount = count;
       }
     }
@@ -291,7 +312,7 @@ function shuffle(array, myseed) {
   var temporaryValue,
     randomIndex;
   Math.seedrandom(myseed);
-  for(var i=0;i<array.length;i++){
+  for (var i = 0; i < array.length; i++) {
     // pick a remaining element
     randomIndex = Math.floor(Math.random() * array.length);
     // and swap it with the current element
@@ -303,7 +324,7 @@ function shuffle(array, myseed) {
 }
 
 // get random element from array
-function choice(array,myseed){
+function choice(array, myseed) {
   Math.seedrandom(myseed);
   var choice = array[Math.floor(Math.random() * array.length)];
   return choice;
@@ -316,122 +337,103 @@ function compareArrays(a, b) {
 }
 
 // returns a new, disconnected array
-function copyArray(arr){
+function copyArray(arr) {
   return JSON.parse(JSON.stringify(arr));
 }
 
-function getIndexOfLock(searchName,mylist){
-  for(let i = 0; i < mylist.length; i++){
-    if(mylist[i].name == searchName){
+function getIndexOfLock(searchName, mylist) {
+  for (let i = 0; i < mylist.length; i++) {
+    if (mylist[i].name == searchName) {
       return i;
     }
   }
   return -1;
 }
 
-function getListOfLocks(){
+function getListOfLocks() {
   let locklist = [];
   //tiny wingspan
-  let smallList = filterWingspan(0,18);
-  locklist.push(
-    {
-      name:"Tiny Wingspan",
-      count:smallList.length,
-      questions:smallList
-    }
-  );
-  let hugeList = filterWingspan(145,999);
-  locklist.push(
-    {
-      name:"Huge Wingspan",
-      count:hugeList.length,
-      questions:hugeList
-    }
-  );
+  let smallList = filterWingspan(0, 18);
+  locklist.push({
+    name: "Tiny Wingspan",
+    count: smallList.length,
+    questions: smallList
+  });
+  let hugeList = filterWingspan(145, 999);
+  locklist.push({
+    name: "Huge Wingspan",
+    count: hugeList.length,
+    questions: hugeList
+  });
   //add tags
-  for(each of unfilteredQuestions){
-    for(eachTag of each["Tags"]){
+  for (each of unfilteredQuestions) {
+    for (eachTag of each["Tags"]) {
       eachTag = toTitleCase(eachTag);
-      let index = getIndexOfLock(eachTag,locklist);
-      if(index == -1){
-        locklist.push(
-          {
-            name:eachTag,
-            count:1,
-            questions:[each]
-          }
-        );
-      }
-      else{
+      let index = getIndexOfLock(eachTag, locklist);
+      if (index == -1) {
+        locklist.push({
+          name: eachTag,
+          count: 1,
+          questions: [each]
+        });
+      } else {
         locklist[index].count++;
         locklist[index].questions.push(each);
       }
     }
   }
   //add order
-  for(each of unfilteredQuestions){
-    let index = getIndexOfLock("Order "+each.Order,locklist);
-    if(index == -1){
-      locklist.push(
-        {
-          name:"Order "+each.Order,
-          count:1,
-          questions:[each]
-        }
-      );
-    }
-    else{
+  for (each of unfilteredQuestions) {
+    let index = getIndexOfLock("Order " + each.Order, locklist);
+    if (index == -1) {
+      locklist.push({
+        name: "Order " + each.Order,
+        count: 1,
+        questions: [each]
+      });
+    } else {
       locklist[index].count++;
       locklist[index].questions.push(each);
     }
   }
   //add families
-  for(each of unfilteredQuestions){
-    let index = getIndexOfLock("Family "+each.Family,locklist);
-    if(index == -1){
-      locklist.push(
-        {
-          name:"Family "+each.Family,
-          count:1,
-          questions:[each]
-        }
-      );
-    }
-    else{
+  for (each of unfilteredQuestions) {
+    let index = getIndexOfLock("Family " + each.Family, locklist);
+    if (index == -1) {
+      locklist.push({
+        name: "Family " + each.Family,
+        count: 1,
+        questions: [each]
+      });
+    } else {
       locklist[index].count++;
       locklist[index].questions.push(each);
     }
   }
   //add genus
-  for(each of unfilteredQuestions){
-    let index = getIndexOfLock("Genus "+each.Genus,locklist);
-    if(index == -1){
-      locklist.push(
-        {
-          name:"Genus "+each.Genus,
-          count:1,
-          questions:[each]
-        }
-      );
-    }
-    else{
+  for (each of unfilteredQuestions) {
+    let index = getIndexOfLock("Genus " + each.Genus, locklist);
+    if (index == -1) {
+      locklist.push({
+        name: "Genus " + each.Genus,
+        count: 1,
+        questions: [each]
+      });
+    } else {
       locklist[index].count++;
       locklist[index].questions.push(each);
     }
   }
   //add starts with
-  for(each of unfilteredQuestions){
-    let index = getIndexOfLock("Starts With "+each.CommonName[0],locklist);
-    if(index == -1){
-      locklist.push(
-        {
-          name:"Starts With "+each.CommonName[0],
-          count:1,
-          questions:[each]
-        }
-      );
-    }
-    else{
+  for (each of unfilteredQuestions) {
+    let index = getIndexOfLock("Starts With " + each.CommonName[0], locklist);
+    if (index == -1) {
+      locklist.push({
+        name: "Starts With " + each.CommonName[0],
+        count: 1,
+        questions: [each]
+      });
+    } else {
       locklist[index].count++;
       locklist[index].questions.push(each);
     }
@@ -441,20 +443,20 @@ function getListOfLocks(){
 
 
 
-function getFourQuestionsFromLock(lock,sixteenQuestions){
+function getFourQuestionsFromLock(lock, sixteenQuestions) {
   // get four random questions from the lock
   let fourQuestions = [];
   let lockQuestions = copyArray(lock.questions);
-  lockQuestions = shuffle(lock.questions,daysSinceEpoch);
-  for(let i = 0; i < lock.questions.length; i++){
+  lockQuestions = shuffle(lock.questions, daysSinceEpoch);
+  for (let i = 0; i < lock.questions.length; i++) {
     let tempQuestion = lockQuestions[i];
 
     //if question is not already in the list, add it
-    if(!sixteenQuestions.includes(tempQuestion)){
+    if (!sixteenQuestions.includes(tempQuestion)) {
       fourQuestions.push(tempQuestion);
-      if(fourQuestions.length>=4){
+      if (fourQuestions.length >= 4) {
         //add all four to sixteenQuesions
-        for(let i = 0; i < fourQuestions.length; i++){
+        for (let i = 0; i < fourQuestions.length; i++) {
           sixteenQuestions.push(fourQuestions[i]);
         }
         return fourQuestions;
@@ -464,22 +466,22 @@ function getFourQuestionsFromLock(lock,sixteenQuestions){
   return [];
 }
 
-function generateLocks(sixteenQuestions){
+function generateLocks(sixteenQuestions) {
   let locklist = getListOfLocks();
-  locklist = locklist.filter((lock) => lock.count >= 4 );
-  locklist = shuffle(locklist,daysSinceEpoch);
+  locklist = locklist.filter((lock) => lock.count >= 4);
+  locklist = shuffle(locklist, daysSinceEpoch);
   //return locklist
   // select four locks
   let locks = [];
-  let lockcolors = ["#999900","#009900","#994400","#990099"]
-  for(let i = 0; i < locklist.length; i++){
-    let fourQuestions = getFourQuestionsFromLock(locklist[i],sixteenQuestions);
-    if(fourQuestions.length==4){
+  let lockcolors = ["#999900", "#009900", "#994400", "#990099"]
+  for (let i = 0; i < locklist.length; i++) {
+    let fourQuestions = getFourQuestionsFromLock(locklist[i], sixteenQuestions);
+    if (fourQuestions.length == 4) {
       locks.push(locklist[i]);
-      locks[locks.length-1].questions = fourQuestions;
-      locks[locks.length-1].color = lockcolors[locks.length-1];
-      locks[locks.length-1].isLocked = true;
-      if(locks.length>=4){
+      locks[locks.length - 1].questions = fourQuestions;
+      locks[locks.length - 1].color = lockcolors[locks.length - 1];
+      locks[locks.length - 1].isLocked = true;
+      if (locks.length >= 4) {
         return locks;
       }
     }
@@ -490,60 +492,60 @@ function generateLocks(sixteenQuestions){
 // place all filters at the bottom
 
 // only show questions with sounds
-function filterSounds(){
-  questions = questions.filter(function(each){
-          return each["Audio"].length > 0;
+function filterSounds() {
+  questions = questions.filter(function(each) {
+    return each["Audio"].length > 0;
   });
-  loadQuestion(randomSeed+currentQuestion);
+  loadQuestion(randomSeed + currentQuestion);
 }
 
-function filterTop(num){
+function filterTop(num) {
   $('#mymodal').modal('hide');
-  questions = unfilteredQuestions.filter(function(each){
-          return each["OhioRank"] <= num;
+  questions = unfilteredQuestions.filter(function(each) {
+    return each["OhioRank"] <= num;
   });
   filterSounds()
-  loadQuestion(randomSeed+currentQuestion);
+  loadQuestion(randomSeed + currentQuestion);
 }
 
-function filterSpecies(species){
+function filterSpecies(species) {
   $('#mymodal').modal('hide');
-  questions = unfilteredQuestions.filter(function(each){
-          return each["Tags"].includes(species);
+  questions = unfilteredQuestions.filter(function(each) {
+    return each["Tags"].includes(species);
   });
   filterSounds()
-  loadQuestion(randomSeed+currentQuestion);
+  loadQuestion(randomSeed + currentQuestion);
 }
 
-function filterWoodpecker(){
-  questions = unfilteredQuestions.filter(function(each){
-          return each["Tags"].includes("woodpecker");
+function filterWoodpecker() {
+  questions = unfilteredQuestions.filter(function(each) {
+    return each["Tags"].includes("woodpecker");
   });
   filterSounds()
-  loadQuestion(randomSeed+currentQuestion);
+  loadQuestion(randomSeed + currentQuestion);
 }
 
-function filterRaptor(){
-  questions = unfilteredQuestions.filter(function(each){
-          return each["Tags"].includes("raptor");
+function filterRaptor() {
+  questions = unfilteredQuestions.filter(function(each) {
+    return each["Tags"].includes("raptor");
   });
   filterSounds()
-  loadQuestion(randomSeed+currentQuestion);
+  loadQuestion(randomSeed + currentQuestion);
 }
 
-function filterWingspan(lowernum, highernum){
-  questions = unfilteredQuestions.filter(function(each){
-          return each["WingspanCentimeters"] < highernum && each["WingspanCentimeters"] >= lowernum;
+function filterWingspan(lowernum, highernum) {
+  questions = unfilteredQuestions.filter(function(each) {
+    return each["WingspanCentimeters"] < highernum && each["WingspanCentimeters"] >= lowernum;
   });
   //filterSounds()
   //loadQuestion(randomSeed+currentQuestion);
   return questions;
 }
 
-function debugImages(){
+function debugImages() {
   filterImages()
-  for(let each of questions){
-    for(let pic of each["Images"]){
+  for (let each of questions) {
+    for (let pic of each["Images"]) {
       document.body.innerHTML += `<img src="${pic}" width="200px" height="200px" onerror="alert('OOF! broken image ${pic}')">`;
     }
   }

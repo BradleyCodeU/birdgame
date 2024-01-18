@@ -196,7 +196,7 @@
       "wing names",
       "black names",
       "black",
-      "bird named birds"
+      "bird-named birds"
     ]
   },
   {
@@ -414,7 +414,7 @@
       "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Turkey_Vulture_%287172188840%29.jpg/800px-Turkey_Vulture_%287172188840%29.jpg"
     ],
     "Tags": [
-      "named after an animal"
+      "animal-named"
     ]
   },
   {
@@ -639,8 +639,8 @@
     "Tags": [
       "color names",
       "mimics",
-      "named after an animal",
-      "bird named birds"
+      "animal-named",
+      "bird-named birds"
     ]
   },
   {
@@ -713,10 +713,10 @@
       "color names",
       "head names",
       "parasitic birds",
-      "named after an animal",
+      "animal-named",
       "brown",
       "black",
-      "bird named birds"
+      "bird-named birds"
     ]
   },
   {
@@ -797,7 +797,7 @@
       "feeder",
       "blue",
       "place names",
-      "bird named birds"
+      "bird-named birds"
     ]
   },
   {
@@ -1153,7 +1153,7 @@
     ],
     "Tags": [
       "sea birds",
-      "named after an animal"
+      "animal-named"
     ]
   },
   {
@@ -1407,7 +1407,7 @@
       "king names",
       "royal names",
       "black",
-      "bird named birds"
+      "bird-named birds"
     ]
   },
   {
@@ -1431,7 +1431,7 @@
       "color names",
       "red",
       "neck names",
-      "bird named birds",
+      "bird-named birds",
       "sound names"
     ]
   },
@@ -1680,7 +1680,7 @@
     "Tags": [
       "direction names",
       "mimics",
-      "bird named birds"
+      "bird-named birds"
     ]
   },
   {
@@ -2572,7 +2572,7 @@
     "Tags": [
       "warbler",
       "single word names",
-      "bird named birds"
+      "bird-named birds"
     ]
   },
   {
@@ -2594,7 +2594,7 @@
   },
   {
     "OhioRank": 118,
-    "CommonName": "Black-throated blue warbler",
+    "CommonName": "Black-throated Blue Warbler",
     "OhioOccurrences": 52662,
     "ScientificName": "Setophaga caerulescens (J.F.Gmelin, 1789)",
     "Order": "Passeriformes",
@@ -3225,7 +3225,7 @@
     "Audio": [],
     "Images": [],
     "Tags": [
-      
+
     ]
   },
   {
@@ -3244,7 +3244,7 @@
       "black names",
       "color names",
       "black",
-      "bird named birds"
+      "bird-named birds"
     ]
   },
   {
@@ -3513,7 +3513,7 @@
     "Audio": [],
     "Images": [],
     "Tags": [
-      "named after an animal",
+      "animal-named",
       "brown"
     ]
   },
@@ -3946,7 +3946,7 @@
     "Images": [],
     "Tags": [
       "brown",
-      "named after an animal"
+      "animal-named"
     ]
   },
   {
