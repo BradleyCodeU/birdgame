@@ -1,5 +1,5 @@
-// version 2024.01.15
-
+// version v2024.01.19
+let version = "v2024.01.19";
 let questions;
 let unfilteredQuestions;
 let currentQuestion = 0;
@@ -26,13 +26,13 @@ document.getElementById("windowLocation").innerHTML = window.location.toString()
 // document.getElementById("questionText").style.maxHeight = Math.round(window.innerHeight*0.8)+"px";
 
 // generate or load random seed from localStorage
-if (localStorage.getItem("randomseed") === null) {
-  randomSeed = getRandomSeed();
-  localStorage.setItem("currentquestion", currentQuestion);
-} else {
-  randomSeed = localStorage.getItem("randomseed");
-  currentQuestion = JSON.parse(localStorage.getItem("currentquestion"));
-}
+// if (localStorage.getItem("randomseed") === null) {
+//   randomSeed = getRandomSeed();
+//   localStorage.setItem("currentquestion", currentQuestion);
+// } else {
+//   randomSeed = localStorage.getItem("randomseed");
+//   currentQuestion = JSON.parse(localStorage.getItem("currentquestion"));
+// }
 
 // jquery load the json into questions array
 $.getJSON("gbif.json", function(json) {
@@ -72,7 +72,7 @@ function getDatePickerAsString() {
 }
 
 function showCompleteScreen() {
-  localStorage.setItem(getDatePickerAsString(), true);
+  localStorage.setItem(version + getDatePickerAsString(), true);
   let finishedNameList = [];
   for (let i = 0; i < fourLocks.length; i++) {
     finishedNameList.push(fourLocks[i].name);
@@ -142,7 +142,7 @@ function isGameComplete() {
 }
 
 function replayPuzzle() {
-  localStorage.setItem(getDatePickerAsString(), false);
+  localStorage.setItem(version + getDatePickerAsString(), false);
   // console.log(getDatePickerAsString());
   // console.log(localStorage.getItem(getDatePickerAsString()));
   // console.log(localStorage);
@@ -186,7 +186,7 @@ function loadGame() {
     fourByContainer.appendChild(btn);
     btn.addEventListener("click", toggleButton);
   }
-  if (localStorage.getItem(getDatePickerAsString()) === "true") {
+  if (localStorage.getItem(version + getDatePickerAsString()) === "true") {
     showCompleteScreen();
   }
 }
