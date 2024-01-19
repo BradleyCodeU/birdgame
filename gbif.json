@@ -1612,7 +1612,8 @@
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Accipiter_cooperii_m_f_Sam_Smith_Toronto1.jpg/733px-Accipiter_cooperii_m_f_Sam_Smith_Toronto1.jpg"
     ],
     "Tags": [
-      "raptor"
+      "raptor",
+      "named after people"
     ]
   },
   {
@@ -2109,7 +2110,8 @@
       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Swainson%27s_thrush_in_Verizon_Plaza_%2806370%29.jpg/800px-Swainson%27s_thrush_in_Verizon_Plaza_%2806370%29.jpg"
     ],
     "Tags": [
-      "brown"
+      "brown",
+      "named after people"
     ]
   },
   {
@@ -2242,7 +2244,8 @@
       "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Bonaparte%27s_Gull_in_breeding_plumage_-_52016973462.jpg/800px-Bonaparte%27s_Gull_in_breeding_plumage_-_52016973462.jpg"
     ],
     "Tags": [
-      "sea birds"
+      "sea birds",
+      "named after people"
     ]
   },
   {
@@ -3380,7 +3383,8 @@
     "Images": [],
     "Tags": [
       "warbler",
-      "yellow"
+      "yellow",
+      "named after people"
     ]
   },
   {
@@ -3412,7 +3416,8 @@
     "Audio": [],
     "Images": [],
     "Tags": [
-      "brown"
+      "brown",
+      "named after people"
     ]
   },
   {
@@ -3498,7 +3503,9 @@
     "WingspanCentimeters": 44,
     "Audio": [],
     "Images": [],
-    "Tags": []
+    "Tags": [
+      "named after people"
+    ]
   },
   {
     "OhioRank": 170,
@@ -3707,7 +3714,9 @@
     "WingspanCentimeters": 81,
     "Audio": [],
     "Images": [],
-    "Tags": []
+    "Tags": [
+      "named after people"
+    ]
   },
   {
     "OhioRank": 182,
