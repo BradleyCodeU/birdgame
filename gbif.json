@@ -2569,7 +2569,7 @@
     },
     {
         "OhioRank": 117,
-        "CommonName": "Willet",
+        "CommonName": "Greater Yellowlegs",
         "OhioOccurrences": 53040,
         "ScientificName": "Tringa melanoleuca (J.F.Gmelin, 1789)",
         "Order": "Charadriiformes",
@@ -3190,7 +3190,7 @@
     },
     {
         "OhioRank": 152,
-        "CommonName": "Willet",
+        "CommonName": "Semipalmated plover",
         "OhioOccurrences": 33087,
         "ScientificName": "Charadrius semipalmatus Bonaparte, 1825",
         "Order": "Charadriiformes",
@@ -4375,7 +4375,7 @@
     },
     {
         "OhioRank": 225,
-        "CommonName": "Common Goldeneye",
+        "CommonName": "Long-tailed Duck",
         "OhioOccurrences": "6442",
         "ScientificName": "Clangula hyemalis (Linnaeus, 1758)",
         "Order": "Anseriformes",
