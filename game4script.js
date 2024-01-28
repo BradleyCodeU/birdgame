@@ -49,6 +49,7 @@ $.getJSON("gbif.json", function(json) {
 $(document).ready(function() {
   $("#mymodal").on('hidden.bs.modal', function() {
     if (isGameComplete()) {
+      addCharToFinalString("bit.ly/birdconnections");
       setTimeout(
         function() {
           showCompleteScreen();
@@ -132,14 +133,40 @@ function showCompleteScreen() {
   // final string display
   const card = document.createElement("div");
   card.classList.add("card");
+  card.classList.add("bg-secondary");
+  card.classList.add("w-50");
+  card.classList.add("mx-auto");
+  card.classList.add("small");
   const cardbody = document.createElement("div");
   cardbody.classList.add("card-body");
   const cardpre = document.createElement("pre");
   cardpre.innerHTML = localStorage.getItem(version + getDatePickerAsString()+"String");
+  cardpre.setAttribute("id", "cardpre");
   cardbody.appendChild(cardpre);
   card.appendChild(cardbody);
+  card.addEventListener("click",copyText);
   fourByContainer.appendChild(card);
 
+}
+
+function copyText(){
+  
+    // get the container
+    const element = document.querySelector('#cardpre');
+    // Create a fake `textarea` and set the contents to the text
+    // you want to copy
+    const storage = document.createElement('textarea');
+    storage.value = element.innerHTML;
+    element.appendChild(storage);
+  
+    // Copy the text in the fake `textarea` and remove the `textarea`
+    storage.select();
+    storage.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(storage.value);
+    element.removeChild(storage);
+    $('#mymodal').modal('show');
+    $("#modal-h2").text("Copied to clipboard");
+    $("#modal-p").text("");
 }
 
 function isGameComplete() {
