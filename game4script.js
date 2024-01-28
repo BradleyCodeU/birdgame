@@ -322,7 +322,8 @@ function doesSelectedMatchALock(selectedButtons) {
 
 function addCharToFinalString(char){
   const old = localStorage.getItem(version + getDatePickerAsString()+"String");
-  if(old === null){
+  const previouslyCompletedThisPuzzle = localStorage.getItem(version + getDatePickerAsString());
+  if(!previouslyCompletedThisPuzzle || old === null){
     localStorage.setItem(version + getDatePickerAsString()+"String", "#BirdConnections\nPuzzle "+getDatePickerAsString()+"\n"+char);
   } else {
     localStorage.setItem(version + getDatePickerAsString()+"String", old + char);
