@@ -129,6 +129,16 @@ function showCompleteScreen() {
   previousbtn.classList.add("mx-auto");
   fourByContainer.appendChild(previousbtn);
   previousbtn.addEventListener("click", previousDay);
+  // final string display
+  const card = document.createElement("div");
+  card.classList.add("card");
+  const cardbody = document.createElement("div");
+  cardbody.classList.add("card-body");
+  const cardpre = document.createElement("pre");
+  cardpre.innerHTML = localStorage.getItem(version + getDatePickerAsString()+"String");
+  cardbody.appendChild(cardpre);
+  card.appendChild(cardbody);
+  fourByContainer.appendChild(card);
 
 }
 
@@ -310,10 +320,14 @@ function doesSelectedMatchALock(selectedButtons) {
   return highestCount;
 }
 
-function addCharToFinalString(){
-  if(localStorage.getItem(version + getDatePickerAsString()+"String") === null){
-    localStorage.setItem(version + getDatePickerAsString()+"String", "#BirdConnections\nPuzzle "+getDatePickerAsString()+"\n");
+function addCharToFinalString(char){
+  const old = localStorage.getItem(version + getDatePickerAsString()+"String");
+  if(old === null){
+    localStorage.setItem(version + getDatePickerAsString()+"String", "#BirdConnections\nPuzzle "+getDatePickerAsString()+"\n"+char);
+  } else {
+    localStorage.setItem(version + getDatePickerAsString()+"String", old + char);
   }
+  
 
 }
 
