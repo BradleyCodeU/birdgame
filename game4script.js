@@ -143,6 +143,7 @@ function isGameComplete() {
 
 function replayPuzzle() {
   localStorage.setItem(version + getDatePickerAsString(), false);
+  localStorage.setItem(version + getDatePickerAsString()+"String", "#BirdConnections\nPuzzle "+getDatePickerAsString()+"\n");
   // console.log(getDatePickerAsString());
   // console.log(localStorage.getItem(getDatePickerAsString()));
   // console.log(localStorage);
@@ -293,7 +294,9 @@ function doesSelectedMatchALock(selectedButtons) {
       for (let k = 0; k < selectedButtons.length; k++) {
         if (currentLock.questions[j].CommonName == selectedButtons[k].value) {
           count++;
+          addCharToFinalString(currentLock.questions[j].emoji);
           if (count == 4) {
+            addCharToFinalString("\n");
             return currentLock;
           }
         }
@@ -303,7 +306,15 @@ function doesSelectedMatchALock(selectedButtons) {
       }
     }
   }
+  addCharToFinalString("\n");
   return highestCount;
+}
+
+function addCharToFinalString(){
+  if(localStorage.getItem(version + getDatePickerAsString()+"String") === null){
+    localStorage.setItem(version + getDatePickerAsString()+"String", "#BirdConnections\nPuzzle "+getDatePickerAsString()+"\n");
+  }
+
 }
 
 // generate a long random seed number
@@ -480,11 +491,16 @@ function generateLocks(sixteenQuestions) {
   //return locklist
   // select four locks
   let locks = [];
+  let lockEmojis = ["🐥","🦚","🦉","🐦"]
   let lockcolors = ["#999900", "#009900", "#994400", "#990099"]
   for (let i = 0; i < locklist.length; i++) {
     let fourQuestions = getFourQuestionsFromLock(locklist[i], sixteenQuestions);
     if (fourQuestions.length == 4) {
       locks.push(locklist[i]);
+      // add emojis to each question
+      for(let j=0;j<4;j++){
+        fourQuestions[j].emoji = lockEmojis[locks.length - 1];
+      }
       locks[locks.length - 1].questions = fourQuestions;
       locks[locks.length - 1].color = lockcolors[locks.length - 1];
       locks[locks.length - 1].isLocked = true;
