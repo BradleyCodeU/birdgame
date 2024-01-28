@@ -199,6 +199,8 @@ function loadGame() {
   }
   if (localStorage.getItem(version + getDatePickerAsString()) === "true") {
     showCompleteScreen();
+  } else {
+    localStorage.setItem(version + getDatePickerAsString()+"String", "#BirdConnections\nPuzzle "+getDatePickerAsString()+"\n");
   }
 }
 
@@ -322,8 +324,7 @@ function doesSelectedMatchALock(selectedButtons) {
 
 function addCharToFinalString(char){
   const old = localStorage.getItem(version + getDatePickerAsString()+"String");
-  const previouslyCompletedThisPuzzle = localStorage.getItem(version + getDatePickerAsString());
-  if(!previouslyCompletedThisPuzzle || old === null){
+  if(old === null){
     localStorage.setItem(version + getDatePickerAsString()+"String", "#BirdConnections\nPuzzle "+getDatePickerAsString()+"\n"+char);
   } else {
     localStorage.setItem(version + getDatePickerAsString()+"String", old + char);
