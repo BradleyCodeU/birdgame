@@ -49,7 +49,6 @@ $.getJSON("gbif.json", function(json) {
 $(document).ready(function() {
   $("#mymodal").on('hidden.bs.modal', function() {
     if (isGameComplete()) {
-      addCharToFinalString("bit.ly/birdconnections");
       setTimeout(
         function() {
           showCompleteScreen();
@@ -157,6 +156,7 @@ function copyText(){
     // you want to copy
     const storage = document.createElement('textarea');
     storage.value = element.innerHTML;
+    storage.value += "bit.ly/birdconnections";
     element.appendChild(storage);
   
     // Copy the text in the fake `textarea` and remove the `textarea`
