@@ -156,7 +156,7 @@ function copyText(){
     // you want to copy
     const storage = document.createElement('textarea');
     storage.value = element.innerHTML;
-    storage.value += "bit.ly/birdconnections";
+    storage.value += "https://bit.ly/birdconnections";
     element.appendChild(storage);
   
     // Copy the text in the fake `textarea` and remove the `textarea`
