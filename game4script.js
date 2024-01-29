@@ -144,14 +144,17 @@ function showCompleteScreen() {
   card.classList.add("bg-secondary");
   card.classList.add("w-50");
   card.classList.add("mx-auto");
+  card.classList.add("my-1");
   card.classList.add("fontsize1rem");
+  card.classList.add("text-dark");
   const cardbody = document.createElement("div");
   cardbody.classList.add("card-body");
-  const cardtextnode = document.createTextNode("Click here to copy/share on social media");
+  const cardtextnode = document.createTextNode("Click here to copy & share on social media");
   cardbody.appendChild(cardtextnode);
   const cardpre = document.createElement("pre");
   cardpre.innerHTML = localStorage.getItem(version + getDatePickerAsString() + "String");
   cardpre.setAttribute("id", "cardpre");
+  cardpre.classList.add("text-dark");
   cardbody.appendChild(cardpre);
   card.appendChild(cardbody);
   card.addEventListener("click", copyText);
