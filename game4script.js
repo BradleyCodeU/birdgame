@@ -106,6 +106,7 @@ function showCompleteScreen() {
   replaybtn.classList.add("gameButton");
   replaybtn.classList.add("w-50");
   replaybtn.classList.add("mx-auto");
+  replaybtn.classList.add("my-2");
   fourByContainer.appendChild(replaybtn);
   replaybtn.addEventListener("click", replayPuzzle);
   // random day button
@@ -117,6 +118,7 @@ function showCompleteScreen() {
   randbtn.classList.add("gameButton");
   randbtn.classList.add("w-50");
   randbtn.classList.add("mx-auto");
+  randbtn.classList.add("my-2");
   fourByContainer.appendChild(randbtn);
   randbtn.addEventListener("click", setPuzzleDateRandom);
   // previous day button
@@ -128,6 +130,7 @@ function showCompleteScreen() {
   previousbtn.classList.add("gameButton");
   previousbtn.classList.add("w-50");
   previousbtn.classList.add("mx-auto");
+  previousbtn.classList.add("my-2");
   fourByContainer.appendChild(previousbtn);
   previousbtn.addEventListener("click", previousDay);
   // final string display
@@ -144,7 +147,7 @@ function showCompleteScreen() {
   card.classList.add("btn-outline-primary");
   card.classList.add("w-50");
   card.classList.add("mx-auto");
-  card.classList.add("my-1");
+  card.classList.add("my-2");
   card.classList.add("fontsize1rem");
   card.classList.add("text-primary");
   card.innerHTML = "Copy/share on social media"
