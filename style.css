@@ -108,6 +108,9 @@ input#datepicker{
 .tiny{
   font-size: 0.75rem;
 }
+.fontsize1rem{
+  font-size: 1rem !important;
+}
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
