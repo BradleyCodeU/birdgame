@@ -124,6 +124,7 @@ function showCompleteScreen() {
   // previous day button
   const previousbtn = document.createElement("button");
   previousbtn.innerHTML = "&Ll; Previous Puzzle";
+  previousbtn.id = "previousDayBtn";
   previousbtn.classList.add("btn");
   previousbtn.classList.add("btn-outline-warning");
   previousbtn.classList.add("btn-lg");
@@ -310,6 +311,7 @@ function previousDay() {
   //console.log(d);
   document.getElementById('datepicker').value = d.toDateInputValue();
   loadGame()
+  document.getElementById("previousDayBtn").blur();
 }
 
 function toTitleCase(str) {
