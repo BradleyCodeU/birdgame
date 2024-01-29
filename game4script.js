@@ -131,13 +131,13 @@ function showCompleteScreen() {
   fourByContainer.appendChild(previousbtn);
   previousbtn.addEventListener("click", previousDay);
   // final string display
-  const pnode2 = document.createElement("small");
-  const ptextnode2 = document.createTextNode("Click below to copy/share on social media");
-  pnode2.appendChild(ptextnode2);
-  pnode2.classList.add("text-center");
-  pnode2.classList.add("text-body");
-  pnode2.classList.add("tiny");
-  fourByContainer.appendChild(pnode2);
+  // const pnode2 = document.createElement("small");
+  // const ptextnode2 = document.createTextNode("Click below to copy/share on social media");
+  // pnode2.appendChild(ptextnode2);
+  // pnode2.classList.add("text-center");
+  // pnode2.classList.add("text-body");
+  // pnode2.classList.add("tiny");
+  // fourByContainer.appendChild(pnode2);
 
   const card = document.createElement("div");
   card.classList.add("card");
@@ -147,6 +147,8 @@ function showCompleteScreen() {
   card.classList.add("fontsize1rem");
   const cardbody = document.createElement("div");
   cardbody.classList.add("card-body");
+  const cardtextnode = document.createTextNode("Click here to copy/share on social media");
+  cardbody.appendChild(cardtextnode);
   const cardpre = document.createElement("pre");
   cardpre.innerHTML = localStorage.getItem(version + getDatePickerAsString() + "String");
   cardpre.setAttribute("id", "cardpre");
