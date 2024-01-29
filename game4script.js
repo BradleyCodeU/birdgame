@@ -89,7 +89,8 @@ function showCompleteScreen() {
   h2node.appendChild(h2textnode);
   h2node.classList.add("text-center");
   fourByContainer.appendChild(h2node);
-  pnode = document.createElement("small");
+  // small text list of locks
+  const pnode = document.createElement("small");
   const ptextnode = document.createTextNode(finishedNameList.join(", "));
   pnode.appendChild(ptextnode);
   pnode.classList.add("text-center");
@@ -130,6 +131,14 @@ function showCompleteScreen() {
   fourByContainer.appendChild(previousbtn);
   previousbtn.addEventListener("click", previousDay);
   // final string display
+  const pnode2 = document.createElement("small");
+  const ptextnode2 = document.createTextNode("Click below to copy/share on social media");
+  pnode2.appendChild(ptextnode2);
+  pnode2.classList.add("text-center");
+  pnode2.classList.add("text-body");
+  pnode2.classList.add("tiny");
+  fourByContainer.appendChild(pnode2);
+
   const card = document.createElement("div");
   card.classList.add("card");
   card.classList.add("bg-secondary");
