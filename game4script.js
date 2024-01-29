@@ -100,7 +100,7 @@ function showCompleteScreen() {
   const replaybtn = document.createElement("button");
   replaybtn.innerHTML = "&olarr; Replay Puzzle";
   replaybtn.classList.add("btn");
-  replaybtn.classList.add("btn-secondary");
+  replaybtn.classList.add("btn-outline-danger");
   replaybtn.classList.add("btn-lg");
   replaybtn.classList.add("gameButton");
   replaybtn.classList.add("w-50");
@@ -111,7 +111,7 @@ function showCompleteScreen() {
   const randbtn = document.createElement("button");
   randbtn.innerHTML = "&#10538; Random Puzzle";
   randbtn.classList.add("btn");
-  randbtn.classList.add("btn-success");
+  randbtn.classList.add("btn-outline-success");
   randbtn.classList.add("btn-lg");
   randbtn.classList.add("gameButton");
   randbtn.classList.add("w-50");
@@ -122,7 +122,7 @@ function showCompleteScreen() {
   const previousbtn = document.createElement("button");
   previousbtn.innerHTML = "&Ll; Previous Puzzle";
   previousbtn.classList.add("btn");
-  previousbtn.classList.add("btn-warning");
+  previousbtn.classList.add("btn-outline-warning");
   previousbtn.classList.add("btn-lg");
   previousbtn.classList.add("gameButton");
   previousbtn.classList.add("w-50");
@@ -135,38 +135,38 @@ function showCompleteScreen() {
   card.classList.add("bg-secondary");
   card.classList.add("w-50");
   card.classList.add("mx-auto");
-  card.classList.add("small");
+  card.classList.add("fontsize1rem");
   const cardbody = document.createElement("div");
   cardbody.classList.add("card-body");
   const cardpre = document.createElement("pre");
-  cardpre.innerHTML = localStorage.getItem(version + getDatePickerAsString()+"String");
+  cardpre.innerHTML = localStorage.getItem(version + getDatePickerAsString() + "String");
   cardpre.setAttribute("id", "cardpre");
   cardbody.appendChild(cardpre);
   card.appendChild(cardbody);
-  card.addEventListener("click",copyText);
+  card.addEventListener("click", copyText);
   fourByContainer.appendChild(card);
 
 }
 
-function copyText(){
-  
-    // get the container
-    const element = document.querySelector('#cardpre');
-    // Create a fake `textarea` and set the contents to the text
-    // you want to copy
-    const storage = document.createElement('textarea');
-    storage.value = element.innerHTML;
-    storage.value += "https://bit.ly/birdconnections";
-    element.appendChild(storage);
-  
-    // Copy the text in the fake `textarea` and remove the `textarea`
-    storage.select();
-    storage.setSelectionRange(0, 99999);
-    navigator.clipboard.writeText(storage.value);
-    element.removeChild(storage);
-    $('#mymodal').modal('show');
-    $("#modal-h2").text("Copied to clipboard");
-    $("#modal-p").text("");
+function copyText() {
+
+  // get the container
+  const element = document.querySelector('#cardpre');
+  // Create a fake `textarea` and set the contents to the text
+  // you want to copy
+  const storage = document.createElement('textarea');
+  storage.value = element.innerHTML;
+  storage.value += "https://bit.ly/birdconnections";
+  element.appendChild(storage);
+
+  // Copy the text in the fake `textarea` and remove the `textarea`
+  storage.select();
+  storage.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(storage.value);
+  element.removeChild(storage);
+  $('#mymodal').modal('show');
+  $("#modal-h2").text("Copied to clipboard");
+  $("#modal-p").text("");
 }
 
 function isGameComplete() {
@@ -180,7 +180,7 @@ function isGameComplete() {
 
 function replayPuzzle() {
   localStorage.setItem(version + getDatePickerAsString(), false);
-  localStorage.setItem(version + getDatePickerAsString()+"String", "#BirdConnections\nPuzzle "+getDatePickerAsString()+"\n");
+  localStorage.setItem(version + getDatePickerAsString() + "String", "#BirdConnections\nPuzzle " + getDatePickerAsString() + "\n");
   // console.log(getDatePickerAsString());
   // console.log(localStorage.getItem(getDatePickerAsString()));
   // console.log(localStorage);
@@ -227,7 +227,7 @@ function loadGame() {
   if (localStorage.getItem(version + getDatePickerAsString()) === "true") {
     showCompleteScreen();
   } else {
-    localStorage.setItem(version + getDatePickerAsString()+"String", "#BirdConnections\nPuzzle "+getDatePickerAsString()+"\n");
+    localStorage.setItem(version + getDatePickerAsString() + "String", "#BirdConnections\nPuzzle " + getDatePickerAsString() + "\n");
   }
 }
 
@@ -349,14 +349,14 @@ function doesSelectedMatchALock(selectedButtons) {
   return highestCount;
 }
 
-function addCharToFinalString(char){
-  const old = localStorage.getItem(version + getDatePickerAsString()+"String");
-  if(old === null){
-    localStorage.setItem(version + getDatePickerAsString()+"String", "#BirdConnections\nPuzzle "+getDatePickerAsString()+"\n"+char);
+function addCharToFinalString(char) {
+  const old = localStorage.getItem(version + getDatePickerAsString() + "String");
+  if (old === null) {
+    localStorage.setItem(version + getDatePickerAsString() + "String", "#BirdConnections\nPuzzle " + getDatePickerAsString() + "\n" + char);
   } else {
-    localStorage.setItem(version + getDatePickerAsString()+"String", old + char);
+    localStorage.setItem(version + getDatePickerAsString() + "String", old + char);
   }
-  
+
 
 }
 
@@ -534,14 +534,14 @@ function generateLocks(sixteenQuestions) {
   //return locklist
   // select four locks
   let locks = [];
-  let lockEmojis = ["🐥","🦚","🦉","🐦"]
+  let lockEmojis = ["🐥", "🦚", "🦉", "🐦"]
   let lockcolors = ["#999900", "#009900", "#994400", "#990099"]
   for (let i = 0; i < locklist.length; i++) {
     let fourQuestions = getFourQuestionsFromLock(locklist[i], sixteenQuestions);
     if (fourQuestions.length == 4) {
       locks.push(locklist[i]);
       // add emojis to each question
-      for(let j=0;j<4;j++){
+      for (let j = 0; j < 4; j++) {
         fourQuestions[j].emoji = lockEmojis[locks.length - 1];
       }
       locks[locks.length - 1].questions = fourQuestions;
