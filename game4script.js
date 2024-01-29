@@ -312,7 +312,10 @@ function previousDay() {
   document.getElementById('datepicker').value = d.toDateInputValue();
   loadGame()
   document.getElementById("previousDayBtn").blur();
-  document.activeElement.blur();
+  setTimeout(function() {
+    document.activeElement.blur()
+  }, 100);
+
 }
 
 function toTitleCase(str) {
