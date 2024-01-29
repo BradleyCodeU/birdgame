@@ -96,6 +96,9 @@ function showCompleteScreen() {
   pnode.classList.add("text-center");
   pnode.classList.add("text-body");
   pnode.classList.add("tiny");
+  pnode.classList.add("w-50");
+  pnode.classList.add("mx-auto");
+  pnode.classList.add("my-2");
   fourByContainer.appendChild(pnode);
   // replay this day button
   const replaybtn = document.createElement("button");
