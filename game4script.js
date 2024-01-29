@@ -314,10 +314,10 @@ function previousDay() {
   //console.log(d);
   document.getElementById('datepicker').value = d.toDateInputValue();
   loadGame()
-  document.getElementById("previousDayBtn").blur();
-  setTimeout(function() {
-    document.activeElement.blur()
-  }, 100);
+  // document.getElementById("previousDayBtn").blur();
+  // setTimeout(function() {
+  //   document.activeElement.blur()
+  // }, 500);
 
 }
 
