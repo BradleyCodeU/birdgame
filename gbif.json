@@ -665,7 +665,7 @@
         "Genus": "Poecile",
         "Species": "atricapillus",
         "WingspanCentimeters": 17,
-        "Audio": [],
+        "Audio": ["audio/Black-capped Chickadee.mp3"],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black_Capped_Chickadee_%28194768869%29.jpeg/686px-Black_Capped_Chickadee_%28194768869%29.jpeg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/M%C3%A9sange_%C3%A0_t%C3%AAte_noire_Black-capped_Chickadee.jpg/800px-M%C3%A9sange_%C3%A0_t%C3%AAte_noire_Black-capped_Chickadee.jpg",
@@ -937,7 +937,7 @@
         "Genus": "Phalacrocorax",
         "Species": "auritus",
         "WingspanCentimeters": 132,
-        "Audio": [],
+        "Audio": ["audio/Double-crested Cormorant.mp3"],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Double-crested_Cormorant_juvenile_RWD.jpg/799px-Double-crested_Cormorant_juvenile_RWD.jpg"
         ],
@@ -959,7 +959,8 @@
         "WingspanCentimeters": 25,
         "Audio": [
             "audio/76 Eastern Towhee.mp3",
-            "audio/84a Eastern towhee.mp3"
+            "audio/84a Eastern towhee.mp3",
+            "audio/Eastern Towhee.mp3"
         ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Eastern_Towhee_%28male%29_%2837474990770%29.jpg/800px-Eastern_Towhee_%28male%29_%2837474990770%29.jpg"
@@ -1048,7 +1049,8 @@
         "Species": "coronata",
         "WingspanCentimeters": 20,
         "Audio": [
-            "audio/73c Yellow-rumped warbler.mp3"
+            "audio/73c Yellow-rumped warbler.mp3",
+            "audio/Yellow-rumped Warbler.mp3"
         ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Yellow-rumped_Warbler_%28Audubon%27s%29_%2830170234922%29.jpg/800px-Yellow-rumped_Warbler_%28Audubon%27s%29_%2830170234922%29.jpg",
@@ -1071,7 +1073,8 @@
         "Species": "pelagica",
         "WingspanCentimeters": 34,
         "Audio": [
-            "audio/33a Chimney swift.mp3"
+            "audio/33a Chimney swift.mp3",
+            "audio/Chimney Swift.mp3"
         ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Chimney_Swift%2C_Reed%27s_Lake%2C_MI%2C_13_May_2013_%288741663182%29.jpg/732px-Chimney_Swift%2C_Reed%27s_Lake%2C_MI%2C_13_May_2013_%288741663182%29.jpg"
@@ -1133,7 +1136,8 @@
         "Species": "argentatus",
         "WingspanCentimeters": 130,
         "Audio": [
-            "audio/25a Herring gull.mp3"
+            "audio/25a Herring gull.mp3",
+            "audio/Herring Gull.mp3"
         ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/American_Herring_Gull_2001_%28Larus_smithsonianus%29.jpg/775px-American_Herring_Gull_2001_%28Larus_smithsonianus%29.jpg"
@@ -1200,7 +1204,8 @@
         "Species": "alba",
         "WingspanCentimeters": 145,
         "Audio": [
-            "audio/03b Great egret.mp3"
+            "audio/03b Great egret.mp3",
+            "audio/Great Egret.mp3"
         ],
         "Images": [
             "images/DSC_1332.JPG",
@@ -1224,7 +1229,8 @@
         "Species": "alcyon",
         "WingspanCentimeters": 48,
         "Audio": [
-            "audio/34 Belted kingfisher.mp3"
+            "audio/34 Belted kingfisher.mp3",
+            "audio/Belted Kingfisher.mp3"
         ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Belted_kingfisher%2C_shell_creek_%2831924578986%29.jpg/800px-Belted_kingfisher%2C_shell_creek_%2831924578986%29.jpg"
@@ -1433,7 +1439,8 @@
         "Species": "podiceps",
         "WingspanCentimeters": 45,
         "Audio": [
-            "audio/01 Pied-billed grebe.mp3"
+            "audio/01 Pied-billed grebe.mp3",
+            "audio/Pied-billed Grebe.mp3"
         ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Pied-billed_Grebe_in_breeding_plumage.jpg/800px-Pied-billed_Grebe_in_breeding_plumage.jpg"
@@ -1455,7 +1462,8 @@
         "Species": "calendula",
         "WingspanCentimeters": 18,
         "Audio": [
-            "audio/59b Ruby-crowned kinglet.mp3"
+            "audio/59b Ruby-crowned kinglet.mp3",
+            "audio/Ruby-crowned Kinglet.mp3"
         ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Ruby-crowned_kinglet_in_BBG_%2881517%29.jpg/774px-Ruby-crowned_kinglet_in_BBG_%2881517%29.jpg",
@@ -1481,7 +1489,8 @@
         "Species": "americana",
         "WingspanCentimeters": 63,
         "Audio": [
-            "audio/18 American coot.mp3"
+            "audio/18 American coot.mp3",
+            "audio/American Coot.mp3"
         ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/American_Coot_%2837712325421%29.jpg/800px-American_Coot_%2837712325421%29.jpg"
@@ -1504,7 +1513,8 @@
         "Species": "serripennis",
         "WingspanCentimeters": 24,
         "Audio": [
-            "audio/52b Northern Rough-winged Swallow.mp3"
+            "audio/52b Northern Rough-winged Swallow.mp3",
+            "audio/Northern Rough-winged Swallow.mp3"
         ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Welcome_Swallow_Wings.jpg/800px-Welcome_Swallow_Wings.jpg",
@@ -1526,7 +1536,8 @@
         "Species": "livia",
         "WingspanCentimeters": 68,
         "Audio": [
-            "audio/27a Rock Pigeon.mp3"
+            "audio/27a Rock Pigeon.mp3",
+            "audio/Rock Pigeon.mp3"
         ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Feral_pigeon_2022_03_18_02.jpg/800px-Feral_pigeon_2022_03_18_02.jpg"
@@ -1591,7 +1602,8 @@
         "Species": "cooperii",
         "WingspanCentimeters": 76,
         "Audio": [
-            "audio/11 Cooper's hawk.mp3"
+            "audio/11 Cooper's hawk.mp3",
+            "audio/Cooper's Hawk.mp3"
         ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Cooper%27s_Hawk_on_Seedskadee_National_Wildlife_Refuge_%2826108620533%29.jpg/800px-Cooper%27s_Hawk_on_Seedskadee_National_Wildlife_Refuge_%2826108620533%29.jpg",
@@ -1616,7 +1628,8 @@
         "Species": "arborea",
         "WingspanCentimeters": 23,
         "Audio": [
-            "audio/84b American Tree Sparrow.mp3"
+            "audio/84b American Tree Sparrow.mp3",
+            "audio/American Tree Sparrow.mp3"
         ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/American_Tree_Sparrow_-_Flickr_-_Fyn_Kynd.jpg/800px-American_Tree_Sparrow_-_Flickr_-_Fyn_Kynd.jpg"
@@ -1684,7 +1697,8 @@
         "Species": "lineatus",
         "WingspanCentimeters": 105,
         "Audio": [
-            "audio/12a Red-shouldered Hawk.mp3"
+            "audio/12a Red-shouldered Hawk.mp3",
+            "audio/Red-shouldered Hawk.mp3"
         ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Red-shouldered_Hawk_male.jpg/800px-Red-shouldered_Hawk_male.jpg",
@@ -1806,7 +1820,9 @@
         "Genus": "Bucephala",
         "Species": "albeola",
         "WingspanCentimeters": 53,
-        "Audio": [],
+        "Audio": [
+            "audio/BuffleHead.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bufflehead_in_CP_%2841046%292.jpg/776px-Bufflehead_in_CP_%2841046%292.jpg"
         ],
@@ -1827,7 +1843,8 @@
         "Species": "satrapa",
         "WingspanCentimeters": 18,
         "Audio": [
-            "audio/59a Golden-crowned Kinglet.mp3"
+            "audio/59a Golden-crowned Kinglet.mp3",
+            "audio/Golden-crowned Kinglet.mp3"
         ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Golden-crowned_Kinglet_%2833525086602%29.jpg/800px-Golden-crowned_Kinglet_%2833525086602%29.jpg",
@@ -1851,7 +1868,9 @@
         "Genus": "Setophaga",
         "Species": "palmarum",
         "WingspanCentimeters": 22,
-        "Audio": [],
+        "Audio": [
+            "audio/Palm Warbler.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Palm_warbler_in_PP_%2830865%29.jpg/752px-Palm_warbler_in_PP_%2830865%29.jpg"
         ],
@@ -1870,7 +1889,9 @@
         "Genus": "Spatula",
         "Species": "discors",
         "WingspanCentimeters": 53,
-        "Audio": [],
+        "Audio": [
+            "audio/Blue-winged Teal.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Blue-winged_teal_%2894829%29.jpg/800px-Blue-winged_teal_%2894829%29.jpg"
         ],
@@ -1892,7 +1913,9 @@
         "Genus": "Zonotrichia",
         "Species": "leucophrys",
         "WingspanCentimeters": 25,
-        "Audio": [],
+        "Audio": [
+            "audio/White-crowned Sparrow.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/White-crowned_Sparrow_57.jpg/800px-White-crowned_Sparrow_57.jpg"
         ],
@@ -1913,7 +1936,9 @@
         "Genus": "Setophaga",
         "Species": "magnolia",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Magnolia Warbler.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Magnolia_Warbler_%2831015571558%29.jpg/800px-Magnolia_Warbler_%2831015571558%29.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Dendroica_magnolia_MN.jpg/800px-Dendroica_magnolia_MN.jpg"
@@ -1933,7 +1958,9 @@
         "Genus": "Setophaga",
         "Species": "virens",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Black-throated Green Warbler.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Black-throated_Green_Warbler_-_Point_Pelee_-_Ontario_11052017-FJ0A4839_%2838916667615%29.jpg/800px-Black-throated_Green_Warbler_-_Point_Pelee_-_Ontario_11052017-FJ0A4839_%2838916667615%29.jpg"
         ],
@@ -1955,7 +1982,9 @@
         "Genus": "Butorides",
         "Species": "virescens",
         "WingspanCentimeters": 66,
-        "Audio": [],
+        "Audio": [
+            "audio/Green Heron.mp3"
+        ],
         "Images": [
             "images/DSC_2389b.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Butorides_virescens_Sam_Smith_Park_Toronto.jpg/800px-Butorides_virescens_Sam_Smith_Park_Toronto.jpg",
@@ -1979,7 +2008,9 @@
         "Genus": "Sturnella",
         "Species": "magna",
         "WingspanCentimeters": 28,
-        "Audio": [],
+        "Audio": [
+            "audio/Eastern Meadowlark.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Eastern_meadowlark_%28Sturnella_magna_mexicana%29_Orange_Walk.jpg/800px-Eastern_meadowlark_%28Sturnella_magna_mexicana%29_Orange_Walk.jpg"
         ],
@@ -1999,7 +2030,9 @@
         "Genus": "Progne",
         "Species": "subis",
         "WingspanCentimeters": 46,
-        "Audio": [],
+        "Audio": [
+            "audio/Purple Martin.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Purple_martin_lilypons_6.17.21_DSC_5788.jpg/768px-Purple_martin_lilypons_6.17.21_DSC_5788.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Purple_martin_prime_hook_4.2.22_DSC_2526.jpg/750px-Purple_martin_prime_hook_4.2.22_DSC_2526.jpg"
@@ -2020,7 +2053,9 @@
         "Genus": "Falco",
         "Species": "sparverius",
         "WingspanCentimeters": 56,
-        "Audio": [],
+        "Audio": [
+            "audio/American Kestrel.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/American_kestrel_%2844273%29.jpg/800px-American_kestrel_%2844273%29.jpg?20210210061814",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/American_Kestrel_at_Indiana_Dunes.jpg/800px-American_Kestrel_at_Indiana_Dunes.jpg"
@@ -2040,7 +2075,9 @@
         "Genus": "Lophodytes",
         "Species": "cucullatus",
         "WingspanCentimeters": 61,
-        "Audio": [],
+        "Audio": [
+            "audio/Hooded Merganser.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Hooded_merganser_male_in_CP_%2840615%29.jpg/800px-Hooded_merganser_male_in_CP_%2840615%29.jpg"
         ],
