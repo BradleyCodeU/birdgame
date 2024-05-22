@@ -2096,7 +2096,9 @@
         "Genus": "Actitis",
         "Species": "macularius",
         "WingspanCentimeters": 38,
-        "Audio": [],
+        "Audio": [
+            "audio/Spotted Sandpiper.mp3"
+        ],
         "Images": [],
         "Tags": [
             "shorebirds"
@@ -2112,7 +2114,9 @@
         "Genus": "Piranga",
         "Species": "olivacea",
         "WingspanCentimeters": 23,
-        "Audio": [],
+        "Audio": [
+            "audio/Scarlet Tanager.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Scarlet_Tanager_%287467759484%29.jpg/800px-Scarlet_Tanager_%287467759484%29.jpg"
         ],
@@ -2131,7 +2135,9 @@
         "Genus": "Catharus",
         "Species": "ustulatus",
         "WingspanCentimeters": 30,
-        "Audio": [],
+        "Audio": [
+            "audio/Swainson's Thrush.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Swainson%27s_thrush_in_Verizon_Plaza_%2806370%29.jpg/800px-Swainson%27s_thrush_in_Verizon_Plaza_%2806370%29.jpg"
         ],
@@ -2150,7 +2156,9 @@
         "Genus": "Setophaga",
         "Species": "americana",
         "WingspanCentimeters": 17,
-        "Audio": [],
+        "Audio": [
+            "audio/Northern Parula.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Northern_Parula_%285270344077%29.jpg/767px-Northern_Parula_%285270344077%29.jpg"
         ],
@@ -2190,7 +2198,9 @@
         "Genus": "Cygnus",
         "Species": "buccinator",
         "WingspanCentimeters": 203,
-        "Audio": [],
+        "Audio": [
+            "audio/Trumpeter Swan.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Trumpeter_Swan_Sasata.jpg/737px-Trumpeter_Swan_Sasata.jpg"
         ],
@@ -2208,7 +2218,9 @@
         "Genus": "Pandion",
         "Species": "haliaetus",
         "WingspanCentimeters": 180,
-        "Audio": [],
+        "Audio": [
+            "audio/Osprey.mp3"
+        ],
         "Images": [],
         "Tags": [
             "raptor",
@@ -2225,7 +2237,9 @@
         "Genus": "Aythya",
         "Species": "affinis",
         "WingspanCentimeters": 73,
-        "Audio": [],
+        "Audio": [
+            "audio/Lesser Scaup.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Lesser_Scaup_%2811636209866%29.jpg/800px-Lesser_Scaup_%2811636209866%29.jpg"
         ],
@@ -2245,7 +2259,9 @@
         "Genus": "Mareca",
         "Species": "strepera",
         "WingspanCentimeters": 84,
-        "Audio": [],
+        "Audio": [
+            "audio/Gadwall.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Gadwall_%28Anas_strepera%29_RWD.jpg/799px-Gadwall_%28Anas_strepera%29_RWD.jpg"
         ],
@@ -2265,7 +2281,9 @@
         "Genus": "Chroicocephalus",
         "Species": "philadelphia",
         "WingspanCentimeters": 100,
-        "Audio": [],
+        "Audio": [
+            "audio/Bonaparte's Gull.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Bonaparte%27s_Gull_in_breeding_plumage_-_52016973462.jpg/800px-Bonaparte%27s_Gull_in_breeding_plumage_-_52016973462.jpg"
         ],
@@ -2284,7 +2302,9 @@
         "Genus": "Aythya",
         "Species": "collaris",
         "WingspanCentimeters": 63,
-        "Audio": [],
+        "Audio": [
+            "audio/Ring-necked Duck.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Ring-necked_Duck_%28m%29_%2826265137481%29.jpg/800px-Ring-necked_Duck_%28m%29_%2826265137481%29.jpg"
         ],
@@ -2305,7 +2325,9 @@
         "Genus": "Leiothlypis",
         "Species": "ruficapilla",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Nashville Warbler.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Nashville_Warbler_Ohio_%282598272869%29.jpg/800px-Nashville_Warbler_Ohio_%282598272869%29.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Nashville-warbler-107.jpg/800px-Nashville-warbler-107.jpg"
@@ -2317,7 +2339,7 @@
     },
     {
         "OhioRank": 101,
-        "CommonName": "Hooded Warbler",
+        "CommonName": "Black-and-white Warbler",
         "OhioOccurrences": 72992,
         "ScientificName": "Mniotilta varia (Linnaeus, 1766)",
         "Order": "Passeriformes",
@@ -2325,14 +2347,13 @@
         "Genus": "Mniotilta",
         "Species": "varia",
         "WingspanCentimeters": 20,
-        "Audio": [],
-        "Images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Hooded_Warbler.jpg/798px-Hooded_Warbler.jpg",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Hooded_warbler_in_CP_%2886093%29.jpg/800px-Hooded_warbler_in_CP_%2886093%29.jpg"
+        "Audio": [
+           "audio/Black-and-white Warbler.mp3"
         ],
+        "Images": [
+            ],
         "Tags": [
-            "warbler",
-            "yellow"
+            "warbler"
         ]
     },
     {
@@ -2345,7 +2366,9 @@
         "Genus": "Sitta",
         "Species": "canadensis",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Red-breasted Nuthatch.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Male_red_breasted_nuthatch.jpg/800px-Male_red_breasted_nuthatch.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Red-breasted_Nuthatch_%2831333055948%29.jpg/733px-Red-breasted_Nuthatch_%2831333055948%29.jpg"
@@ -2367,7 +2390,9 @@
         "Genus": "Spatula",
         "Species": "clypeata",
         "WingspanCentimeters": 74,
-        "Audio": [],
+        "Audio": [
+            "audio/Northern Shoveler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "direction names",
@@ -2385,7 +2410,9 @@
         "Genus": "Oxyura",
         "Species": "jamaicensis",
         "WingspanCentimeters": 51,
-        "Audio": [],
+        "Audio": [
+            "audio/Ruddy Duck.mp3"
+        ],
         "Images": [],
         "Tags": [
             "waterfowl",
@@ -2402,7 +2429,9 @@
         "Genus": "Tringa",
         "Species": "flavipes",
         "WingspanCentimeters": 30,
-        "Audio": [],
+        "Audio": [
+            "audio/Lesser Yellowlegs.mp3"
+        ],
         "Images": [],
         "Tags": [
             "small names",
@@ -2420,7 +2449,9 @@
         "Genus": "Setophaga",
         "Species": "pensylvanica",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Chestnut-sided Warbler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "color names",
@@ -2437,7 +2468,9 @@
         "Genus": "Eremophila",
         "Species": "alpestris",
         "WingspanCentimeters": 30,
-        "Audio": [],
+        "Audio": [
+            "audio/Horned Lark.mp3"
+        ],
         "Images": [],
         "Tags": [
             "yellow",
@@ -2454,7 +2487,9 @@
         "Genus": "Certhia",
         "Species": "americana",
         "WingspanCentimeters": 18,
-        "Audio": [],
+        "Audio": [
+            "audio/Brown Creeper.mp3"
+        ],
         "Images": [],
         "Tags": [
             "color names",
@@ -2471,7 +2506,9 @@
         "Genus": "Leiothlypis",
         "Species": "peregrina",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Tennessee Warbler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "warbler",
@@ -2488,7 +2525,9 @@
         "Genus": "Aythya",
         "Species": "americana",
         "WingspanCentimeters": 84,
-        "Audio": [],
+        "Audio": [
+            "audio/Redhead.mp3"
+        ],
         "Images": [],
         "Tags": [
             "waterfowl",
@@ -2507,7 +2546,9 @@
         "Genus": "Empidonax",
         "Species": "traillii",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Willow Flycatcher.mp3"
+        ],
         "Images": [],
         "Tags": [
             "flycatcher"
@@ -2523,7 +2564,9 @@
         "Genus": "Hydroprogne",
         "Species": "caspia",
         "WingspanCentimeters": 145,
-        "Audio": [],
+        "Audio": [
+            "audio/Caspian Tern.mp3"
+        ],
         "Images": [],
         "Tags": [
             "place names"
@@ -2539,7 +2582,9 @@
         "Genus": "Setophaga",
         "Species": "fusca",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Blackburnian Warbler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "warbler",
@@ -2558,7 +2603,9 @@
         "Genus": "Anas",
         "Species": "rubripes",
         "WingspanCentimeters": 80,
-        "Audio": [],
+        "Audio": [
+            "audio/American Black Duck.mp3"
+        ],
         "Images": [],
         "Tags": [
             "place names",
@@ -2578,7 +2625,9 @@
         "Genus": "Setophaga",
         "Species": "castanea",
         "WingspanCentimeters": 23,
-        "Audio": [],
+        "Audio": [
+            "audio/Bay-breasted Warbler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "warbler",
@@ -2596,7 +2645,9 @@
         "Genus": "Seiurus",
         "Species": "aurocapilla",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Ovenbird.mp3"
+        ],
         "Images": [],
         "Tags": [
             "warbler",
@@ -2614,10 +2665,11 @@
         "Genus": "Tringa",
         "Species": "melanoleuca",
         "WingspanCentimeters": 70,
-        "Audio": [],
+        "Audio": [
+            "audio/Greater Yellowlegs.mp3"
+        ],
         "Images": [],
         "Tags": [
-            "single word names",
             "shorebirds"
         ]
     },
@@ -2631,7 +2683,9 @@
         "Genus": "Setophaga",
         "Species": "caerulescens",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Black-throated Blue Warbler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "warbler",
@@ -2650,7 +2704,9 @@
         "Genus": "Grus",
         "Species": "canadensis",
         "WingspanCentimeters": 167,
-        "Audio": [],
+        "Audio": [
+            "audio/Sandhill Crane.mp3"
+        ],
         "Images": [],
         "Tags": [
             "wading birds",
@@ -2667,7 +2723,9 @@
         "Genus": "Empidonax",
         "Species": "virescens",
         "WingspanCentimeters": 24,
-        "Audio": [],
+        "Audio": [
+            "audio/Acadian Flycatcher.mp3"
+        ],
         "Images": [],
         "Tags": [
             "flycatcher",
@@ -2684,7 +2742,9 @@
         "Genus": "Vireo",
         "Species": "flavifrons",
         "WingspanCentimeters": 21,
-        "Audio": [],
+        "Audio": [
+            "audio/Yellow-throated Vireo.mp3"
+        ],
         "Images": [],
         "Tags": [
             "color names",
@@ -2702,7 +2762,9 @@
         "Genus": "Podiceps",
         "Species": "auritus",
         "WingspanCentimeters": 60,
-        "Audio": [],
+        "Audio": [
+            "audio/Horned Grebe.mp3"
+        ],
         "Images": [],
         "Tags": [
             "waterfowl",
@@ -2719,7 +2781,9 @@
         "Genus": "Setophaga",
         "Species": "striata",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Blackpoll Warbler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "warbler",
@@ -2737,7 +2801,9 @@
         "Genus": "Calidris",
         "Species": "minutilla",
         "WingspanCentimeters": 28,
-        "Audio": [],
+        "Audio": [
+            "audio/Least Sandpiper.mp3"
+        ],
         "Images": [],
         "Tags": [
             "small names",
@@ -2754,7 +2820,9 @@
         "Genus": "Circus",
         "Species": "cyaneus",
         "WingspanCentimeters": 120,
-        "Audio": [],
+        "Audio": [
+            "audio/Northern Harrier.mp3"
+        ],
         "Images": [],
         "Tags": [
             "raptor",
@@ -2771,7 +2839,9 @@
         "Genus": "Mareca",
         "Species": "americana",
         "WingspanCentimeters": 76,
-        "Audio": [],
+        "Audio": [
+            "audio/American Widgeon.mp3"
+        ],
         "Images": [],
         "Tags": [
             "place names",
@@ -2789,7 +2859,9 @@
         "Genus": "Anas",
         "Species": "crecca",
         "WingspanCentimeters": 53,
-        "Audio": [],
+        "Audio": [
+            "audio/Green-Winged Teal.mp3"
+        ],
         "Images": [],
         "Tags": [
             "wing names",
@@ -2807,7 +2879,9 @@
         "Genus": "Icterus",
         "Species": "spurius",
         "WingspanCentimeters": 23,
-        "Audio": [],
+        "Audio": [
+            "audio/Orchard Oriole.mp3"
+        ],
         "Images": [],
         "Tags": [
             "tree names",
@@ -2825,7 +2899,9 @@
         "Genus": "Catharus",
         "Species": "guttatus",
         "WingspanCentimeters": 30,
-        "Audio": [],
+        "Audio": [
+            "audio/Hermit Thrush.mp3"
+        ],
         "Images": [],
         "Tags": [
             "brown"
@@ -2841,7 +2917,9 @@
         "Genus": "Protonotaria",
         "Species": "citrea",
         "WingspanCentimeters": 23,
-        "Audio": [],
+        "Audio": [
+            "audio/Prothonotary Warbler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "warbler"
@@ -2857,7 +2935,9 @@
         "Genus": "Meleagris",
         "Species": "gallopavo",
         "WingspanCentimeters": 137,
-        "Audio": [],
+        "Audio": [
+            "audio/Wild Turkey.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Wild_Turkeys.jpg/800px-Wild_Turkeys.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Wild_Turkey-27527-1.jpg/800px-Wild_Turkey-27527-1.jpg"
@@ -2874,7 +2954,9 @@
         "Genus": "Tringa",
         "Species": "solitaria",
         "WingspanCentimeters": 42,
-        "Audio": [],
+        "Audio": [
+            "audio/Solitary Sandpiper.mp3"
+        ],
         "Images": [],
         "Tags": [
             "shorebirds"
@@ -2890,7 +2972,9 @@
         "Genus": "Mergus",
         "Species": "merganser",
         "WingspanCentimeters": 81,
-        "Audio": [],
+        "Audio": [
+            "audio/Common Merganser.mp3"
+        ],
         "Images": [
             "images/DSC_2214b.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Mergus_merganser_fem.jpg/800px-Mergus_merganser_fem.jpg",
@@ -2911,7 +2995,9 @@
         "Genus": "Setophaga",
         "Species": "tigrina",
         "WingspanCentimeters": 19,
-        "Audio": [],
+        "Audio": [
+            "audio/Cape May Warbler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "place names",
@@ -2929,7 +3015,9 @@
         "Genus": "Vireo",
         "Species": "griseus",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/White-eyed Vireo.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Vireo_griseus_-_White-eyed_Vireo.jpg/1280px-Vireo_griseus_-_White-eyed_Vireo.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Edit_white-eyed_vireo_blandair_4.20.20_DSC_0224.jpg/749px-Edit_white-eyed_vireo_blandair_4.20.20_DSC_0224.jpg"
@@ -2950,7 +3038,9 @@
         "Genus": "Setophaga",
         "Species": "dominica",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Yellow-throated Warbler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "color names",
@@ -3004,7 +3094,9 @@
         "Genus": "Coccyzus",
         "Species": "americanus",
         "WingspanCentimeters": 46,
-        "Audio": [],
+        "Audio": [
+            "audio/Yellow-billed Cuckoo.mp3"
+        ],
         "Images": [],
         "Tags": [
             "yellow",
@@ -3015,7 +3107,7 @@
     },
     {
         "OhioRank": 140,
-        "CommonName": "Black-capped Warbler",
+        "CommonName": "Hooded Warbler",
         "OhioOccurrences": 40953,
         "ScientificName": "Setophaga citrina (Boddaert, 1783)",
         "Order": "Passeriformes",
@@ -3023,12 +3115,16 @@
         "Genus": "Setophaga",
         "Species": "citrina",
         "WingspanCentimeters": 22,
-        "Audio": [],
-        "Images": [],
+        "Audio": [
+            "audio/Hooded Warbler.mp3"
+        ],
+        "Images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Hooded_Warbler.jpg/798px-Hooded_Warbler.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Hooded_warbler_in_CP_%2886093%29.jpg/800px-Hooded_warbler_in_CP_%2886093%29.jpg"
+        ],
         "Tags": [
-            "color names",
             "warbler",
-            "black names"
+            "yellow"
         ]
     },
     {
@@ -3041,7 +3137,9 @@
         "Genus": "Gavia",
         "Species": "immer",
         "WingspanCentimeters": 130,
-        "Audio": [],
+        "Audio": [
+            "audio/Common Loon.mp3"
+        ],
         "Images": [],
         "Tags": [
             "common names",
@@ -3058,7 +3156,9 @@
         "Genus": "Catharus",
         "Species": "fuscescens",
         "WingspanCentimeters": 29,
-        "Audio": [],
+        "Audio": [
+            "audio/Veery.mp3"
+        ],
         "Images": [],
         "Tags": [
             "single word names",
@@ -3075,7 +3175,9 @@
         "Genus": "Vireo",
         "Species": "solitarius",
         "WingspanCentimeters": 22,
-        "Audio": [],
+        "Audio": [
+            "audio/Blue-headed Vireo.mp3"
+        ],
         "Images": [],
         "Tags": [
             "head names",
@@ -3094,7 +3196,9 @@
         "Genus": "Sphyrapicus",
         "Species": "varius",
         "WingspanCentimeters": 38,
-        "Audio": [],
+        "Audio": [
+            "audio/Yellow-bellied Sapsucker.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Yellow-bellied_sapsucker_in_CP_%2840484%29.jpg/734px-Yellow-bellied_sapsucker_in_CP_%2840484%29.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Yellow-bellied_sapsucker_%28Sphyrapicus_varius%29_juvenile.JPG/600px-Yellow-bellied_sapsucker_%28Sphyrapicus_varius%29_juvenile.JPG"
@@ -3133,7 +3237,9 @@
         "Genus": "Empidonax",
         "Species": "minimus",
         "WingspanCentimeters": 19,
-        "Audio": [],
+        "Audio": [
+            "audio/Least Flycatcher.mp3"
+        ],
         "Images": [],
         "Tags": [
             "flycatcher",
@@ -3150,10 +3256,12 @@
         "Genus": "Passerculus",
         "Species": "sandwichensis",
         "WingspanCentimeters": 24,
-        "Audio": [],
+        "Audio": [
+            "audio/Savannah Sparrow.mp3"
+        ],
         "Images": [],
         "Tags": [
-            "place names"
+            "biome names"
         ]
     },
     {
@@ -3183,7 +3291,9 @@
         "Genus": "Cistothorus",
         "Species": "palustris",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Marsh Wren.mp3"
+        ],
         "Images": [],
         "Tags": [
             "brown",
@@ -3251,7 +3361,9 @@
         "Genus": "Riparia",
         "Species": "riparia",
         "WingspanCentimeters": 29,
-        "Audio": [],
+        "Audio": [
+            "audio/Bank Swallow.mp3"
+        ],
         "Images": [],
         "Tags": []
     },
@@ -3292,7 +3404,7 @@
     },
     {
         "OhioRank": 156,
-        "CommonName": "Blue-winged warbler",
+        "CommonName": "Blue-winged Warbler",
         "OhioOccurrences": 31820,
         "ScientificName": "Vermivora cyanoptera Olson & Reveal, 2009",
         "Order": "Passeriformes",
@@ -3300,7 +3412,9 @@
         "Genus": "Vermivora",
         "Species": "cyanoptera",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Blue-winged Warbler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "color names",
@@ -3318,7 +3432,9 @@
         "Genus": "Strix",
         "Species": "varia",
         "WingspanCentimeters": 107,
-        "Audio": [],
+        "Audio": [
+            "audio/Barred Owl.mp3"
+        ],
         "Images": [],
         "Tags": [
             "raptor"
@@ -3352,7 +3468,9 @@
         "Genus": "Porzana",
         "Species": "carolina",
         "WingspanCentimeters": 31,
-        "Audio": [],
+        "Audio": [
+            "audio/Sora.mp3"
+        ],
         "Images": [],
         "Tags": [
             "single word names",
@@ -3369,7 +3487,9 @@
         "Genus": "Petrochelidon",
         "Species": "pyrrhonota",
         "WingspanCentimeters": 36,
-        "Audio": [],
+        "Audio": [
+            "audio/Cliff Swallow.mp3"
+        ],
         "Images": [],
         "Tags": [
             "blue"
@@ -3403,7 +3523,9 @@
         "Genus": "Cardellina",
         "Species": "pusilla",
         "WingspanCentimeters": 16,
-        "Audio": [],
+        "Audio": [
+            "audio/Wilson's Warbler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "warbler",
@@ -3437,7 +3559,9 @@
         "Genus": "Melospiza",
         "Species": "lincolnii",
         "WingspanCentimeters": 19,
-        "Audio": [],
+        "Audio": [
+            "audio/Lincoln's Sparrow.mp3"
+        ],
         "Images": [],
         "Tags": [
             "brown",
@@ -3454,11 +3578,14 @@
         "Genus": "Parkesia",
         "Species": "noveboracensis",
         "WingspanCentimeters": 23,
-        "Audio": [],
+        "Audio": [
+            "audio/Northern Waterthrush.mp3"
+        ],
         "Images": [],
         "Tags": [
             "direction names",
-            "brown"
+            "brown",
+            "warbler"
         ]
     },
     {
@@ -3489,7 +3616,9 @@
         "Genus": "Bubo",
         "Species": "virginianus",
         "WingspanCentimeters": 91,
-        "Audio": [],
+        "Audio": [
+            "audio/Great Horned Owl.mp3"
+        ],
         "Images": [],
         "Tags": [
             "great names",
@@ -3507,7 +3636,9 @@
         "Genus": "Troglodytes",
         "Species": "hiemalis",
         "WingspanCentimeters": 17,
-        "Audio": [],
+        "Audio": [
+            "audio/Winter Wren.mp3"
+        ],
         "Images": [],
         "Tags": [
             "brown",
@@ -3525,7 +3656,9 @@
         "Genus": "Gallinago",
         "Species": "delicata",
         "WingspanCentimeters": 44,
-        "Audio": [],
+        "Audio": [
+            "audio/Wilson's Snipe.mp3"
+        ],
         "Images": [],
         "Tags": [
             "named after people"
@@ -3541,7 +3674,9 @@
         "Genus": "Passerella",
         "Species": "iliaca",
         "WingspanCentimeters": 28,
-        "Audio": [],
+        "Audio": [
+            "audio/Fox Sparrow.mp3"
+        ],
         "Images": [],
         "Tags": [
             "animal-named",
@@ -3558,7 +3693,9 @@
         "Genus": "Megascops",
         "Species": "asio",
         "WingspanCentimeters": 46,
-        "Audio": [],
+        "Audio": [
+            "audio/Eastern Screech-Owl.mp3"
+        ],
         "Images": [],
         "Tags": [
             "direction names",
@@ -3576,7 +3713,9 @@
         "Genus": "Scolopax",
         "Species": "minor",
         "WingspanCentimeters": 41,
-        "Audio": [],
+        "Audio": [
+            "audio/American Woodcock.mp3"
+        ],
         "Images": [],
         "Tags": [
             "place names",
@@ -3593,7 +3732,9 @@
         "Genus": "Spinus",
         "Species": "pinus",
         "WingspanCentimeters": 23,
-        "Audio": [],
+        "Audio": [
+            "audio/Pine Siskin.mp3"
+        ],
         "Images": [],
         "Tags": [
             "tree names",
@@ -3610,7 +3751,9 @@
         "Genus": "Cardellina",
         "Species": "canadensis",
         "WingspanCentimeters": 19,
-        "Audio": [],
+        "Audio": [
+            "audio/Canada Warbler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "place names",
@@ -3628,7 +3771,9 @@
         "Genus": "Accipiter",
         "Species": "striatus",
         "WingspanCentimeters": 57,
-        "Audio": [],
+        "Audio": [
+            "audio/Sharp-shinned Hawk.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Sharp-shinned_Hawk_%28Accipiter_striatus%29.jpg/800px-Sharp-shinned_Hawk_%28Accipiter_striatus%29.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Sharp-shinned_Hawk%2C_young_adult.jpg/800px-Sharp-shinned_Hawk%2C_young_adult.jpg",
@@ -3650,7 +3795,9 @@
         "Genus": "Chordeiles",
         "Species": "minor",
         "WingspanCentimeters": 57,
-        "Audio": [],
+        "Audio": [
+            "audio/Common Nighthawk.mp3"
+        ],
         "Images": [],
         "Tags": [
             "common names"
@@ -3682,7 +3829,9 @@
         "Genus": "Setophaga",
         "Species": "pinus",
         "WingspanCentimeters": 21,
-        "Audio": [],
+        "Audio": [
+            "audio/Pine Warbler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "warbler",
@@ -3699,7 +3848,9 @@
         "Genus": "Nycticorax",
         "Species": "nycticorax",
         "WingspanCentimeters": 95,
-        "Audio": [],
+        "Audio": [
+            "audio/Black-crowned Night-Heron.mp3"
+        ],
         "Images": [],
         "Tags": [
             "crowned names",
@@ -3752,7 +3903,9 @@
         "Genus": "Icteria",
         "Species": "virens",
         "WingspanCentimeters": 23,
-        "Audio": [],
+        "Audio": [
+            "audio/Yellow-breasted Chat.mp3"
+        ],
         "Images": [],
         "Tags": [
             "color names",
@@ -3770,7 +3923,9 @@
         "Genus": "Dolichonyx",
         "Species": "oryzivorus",
         "WingspanCentimeters": 28,
-        "Audio": [],
+        "Audio": [
+            "audio/Bobolink.mp3"
+        ],
         "Images": [],
         "Tags": [
             "single word names",
@@ -3787,7 +3942,9 @@
         "Genus": "Haemorhous",
         "Species": "purpureus",
         "WingspanCentimeters": 22,
-        "Audio": [],
+        "Audio": [
+            "audio/Purple Finch.mp3"
+        ],
         "Images": [],
         "Tags": [
             "color names",
@@ -3805,10 +3962,13 @@
         "Genus": "Parkesia",
         "Species": "motacilla",
         "WingspanCentimeters": 21,
-        "Audio": [],
+        "Audio": [
+            "audio/Louisiana Waterthrush.mp3"
+        ],
         "Images": [],
         "Tags": [
-            "place names"
+            "place names",
+            "warbler"
         ]
     },
     {
@@ -3821,7 +3981,9 @@
         "Genus": "Vireo",
         "Species": "philadelphicus",
         "WingspanCentimeters": 21,
-        "Audio": [],
+        "Audio": [
+            "audio/Philadelphia Vireo.mp3"
+        ],
         "Images": [],
         "Tags": [
             "place names"
@@ -3837,7 +3999,9 @@
         "Genus": "Limnodromus",
         "Species": "griseus",
         "WingspanCentimeters": 44,
-        "Audio": [],
+        "Audio": [
+            "audio/Short-billed Dowitcher.mp3"
+        ],
         "Images": [],
         "Tags": [
             "bill names",
@@ -3855,7 +4019,9 @@
         "Genus": "Falco",
         "Species": "peregrinus",
         "WingspanCentimeters": 89,
-        "Audio": [],
+        "Audio": [
+            "audio/Peregrine Falcon.mp3"
+        ],
         "Images": [],
         "Tags": [
             "raptor"
@@ -3871,7 +4037,9 @@
         "Genus": "Catharus",
         "Species": "minimus",
         "WingspanCentimeters": 25,
-        "Audio": [],
+        "Audio": [
+            "audio/Gray-cheeked Thrush.mp3"
+        ],
         "Images": [],
         "Tags": [
             "color names",
@@ -3922,7 +4090,9 @@
         "Genus": "Setophaga",
         "Species": "cerulea",
         "WingspanCentimeters": 18,
-        "Audio": [],
+        "Audio": [
+            "audio/Cerulean Warbler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "color names",
@@ -3958,7 +4128,9 @@
         "Genus": "Piranga",
         "Species": "rubra",
         "WingspanCentimeters": 25,
-        "Audio": [],
+        "Audio": [
+            "audio/Summer Tanager.mp3"
+        ],
         "Images": [],
         "Tags": [
             "red",
@@ -3975,7 +4147,9 @@
         "Genus": "Ammodramus",
         "Species": "savannarum",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Grasshopper Sparrow.mp3"
+        ],
         "Images": [],
         "Tags": [
             "brown",
@@ -3992,7 +4166,9 @@
         "Genus": "Falco",
         "Species": "columbarius",
         "WingspanCentimeters": 53,
-        "Audio": [],
+        "Audio": [
+            "audio/Merlin.mp3"
+        ],
         "Images": [
             "https://upload.wikimedia.org/wikipedia/commons/a/af/Merlin_%28Falco_columbarius_richardsonii%29_%282276417896%29.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Female_Merlin.jpg/800px-Female_Merlin.jpg"
@@ -4012,7 +4188,9 @@
         "Genus": "Setophaga",
         "Species": "discolor",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Prairie Warbler.mp3"
+        ],
         "Images": [],
         "Tags": [
             "warbler",
@@ -4050,7 +4228,9 @@
         "Genus": "Phasianus",
         "Species": "colchicus",
         "WingspanCentimeters": 60,
-        "Audio": [],
+        "Audio": [
+            "audio/Ring-necked Pheasant.mp3"
+        ],
         "Images": [],
         "Tags": [
             "ring names",
@@ -4067,7 +4247,9 @@
         "Genus": "Anthus",
         "Species": "rubescens",
         "WingspanCentimeters": 25,
-        "Audio": [],
+        "Audio": [
+            "audio/American Pipit.mp3"
+        ],
         "Images": [],
         "Tags": [
             "place names",
@@ -4084,9 +4266,14 @@
         "Family": "Rallidae",
         "Genus": "Rallus",
         "WingspanCentimeters": 35,
-        "Audio": [],
+        "Audio": [
+            "audio/Virginia Rail.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "place names",
+            "marsh birds"
+        ]
     },
     {
         "OhioRank": 202,
@@ -4112,9 +4299,13 @@
         "Family": "Parulidae",
         "Genus": "Geothlypis",
         "WingspanCentimeters": 18,
-        "Audio": [],
+        "Audio": [
+            "audio/Mourning Warbler.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "warbler"
+        ]
     },
     {
         "OhioRank": 204,
@@ -4126,9 +4317,14 @@
         "Family": "Cuculidae",
         "Genus": "Coccyzus",
         "WingspanCentimeters": 35,
-        "Audio": [],
+        "Audio": [
+            "audio/Black-billed Cuckoo.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "color names",
+            "bill names"
+        ]
     },
     {
         "OhioRank": 205,
@@ -4140,7 +4336,9 @@
         "Family": "Parulidae",
         "Genus": "Geothlypis",
         "WingspanCentimeters": 21,
-        "Audio": [],
+        "Audio": [
+            "audio/Kentucky Warbler.mp3"
+        ],
         "Images": [],
         "Tags": []
     },
@@ -4168,9 +4366,13 @@
         "Family": "Cardinalidae",
         "Genus": "Spiza",
         "WingspanCentimeters": 30,
-        "Audio": [],
+        "Audio": [
+            "audio/Dickcissel.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "single word names"
+        ]
     },
     {
         "OhioRank": 208,
@@ -4184,7 +4386,10 @@
         "WingspanCentimeters": 36,
         "Audio": [],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "single word names",
+            "shorebirds"
+        ]
     },
     {
         "OhioRank": 209,
@@ -4196,9 +4401,13 @@
         "Family": "Scolopacidae",
         "Genus": "Calidris",
         "WingspanCentimeters": 42,
-        "Audio": [],
+        "Audio": [
+            "audio/Stilt Sandpiper.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "shorebirds"
+        ]
     },
     {
         "OhioRank": 210,
@@ -4212,7 +4421,9 @@
         "WingspanCentimeters": 28,
         "Audio": [],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "weather names"
+        ]
     },
     {
         "OhioRank": 211,
@@ -4224,9 +4435,16 @@
         "Genus": "Leiothlypis",
         "Species": "celata",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Orange-crowned Warbler.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "warbler",
+            "color names",
+            "royal names",
+            "crowned names"
+        ]
     },
     {
         "OhioRank": 212,
@@ -4238,9 +4456,13 @@
         "Genus": "Centronyx",
         "Species": "henslowii",
         "WingspanCentimeters": 36,
-        "Audio": [],
+        "Audio": [
+            "audio/Henslow's Sparrow.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "named after people"
+        ]
     },
     {
         "OhioRank": 213,
@@ -4252,9 +4474,13 @@
         "Genus": "Empidonax",
         "Species": "flaviventris",
         "WingspanCentimeters": 30,
-        "Audio": [],
+        "Audio": [
+            "audio/Yellow-bellied Flycatcher.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "color names"
+        ]
     },
     {
         "OhioRank": 214,
@@ -4282,7 +4508,9 @@
         "WingspanCentimeters": 74,
         "Audio": [],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "shorebirds"
+        ]
     },
     {
         "OhioRank": 216,
@@ -4294,7 +4522,9 @@
         "Genus": "Pooecetes",
         "Species": "gramineus",
         "WingspanCentimeters": 26,
-        "Audio": [],
+        "Audio": [
+            "audio/Vesper Sparrow.mp3"
+        ],
         "Images": [],
         "Tags": []
     },
@@ -4336,9 +4566,13 @@
         "Genus": "Passerina",
         "Species": "caerulea",
         "WingspanCentimeters": 29,
-        "Audio": [],
+        "Audio": [
+            "audio/Blue Grosbeak.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "color names"
+        ]
     },
     {
         "OhioRank": 220,
@@ -4434,9 +4668,13 @@
         "Genus": "Antrostomus",
         "Species": "vociferus",
         "WingspanCentimeters": 56,
-        "Audio": [],
+        "Audio": [
+            "audio/Whip-poor-will.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "direction names"
+        ]
     },
     {
         "OhioRank": 227,
@@ -4448,9 +4686,14 @@
         "Genus": "Botaurus",
         "Species": "lentiginosus",
         "WingspanCentimeters": 107,
-        "Audio": [],
+        "Audio": [
+            "audio/American Bittern.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "place names",
+            "marsh birds"
+        ]
     },
     {
         "OhioRank": 228,
@@ -4462,7 +4705,9 @@
         "Genus": "Empidonax",
         "Species": "alnorum",
         "WingspanCentimeters": 23,
-        "Audio": [],
+        "Audio": [
+            "audio/Alder Flycatcher.mp3"
+        ],
         "Images": [],
         "Tags": []
     },
@@ -4476,9 +4721,14 @@
         "Genus": "Ixobrychus",
         "Species": "exilis",
         "WingspanCentimeters": 49,
-        "Audio": [],
+        "Audio": [
+            "audio/Least Bittern.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "small names",
+            "marsh birds"
+        ]
     },
     {
         "OhioRank": 230,
@@ -4520,7 +4770,9 @@
         "WingspanCentimeters": 38,
         "Audio": [],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "shorebirds"
+        ]
     },
     {
         "OhioRank": 233,
@@ -4546,9 +4798,13 @@
         "Genus": "Helmitheros",
         "Species": "vermivorum",
         "WingspanCentimeters": 20,
-        "Audio": [],
+        "Audio": [
+            "audio/Worm-eating Warbler.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "warbler"
+        ]
     },
     {
         "OhioRank": 235,
@@ -4562,7 +4818,9 @@
         "WingspanCentimeters": 37,
         "Audio": [],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "shorebirds"
+        ]
     },
     {
         "OhioRank": 236,
@@ -4588,9 +4846,15 @@
         "Genus": "Vermivora",
         "Species": "chrysoptera",
         "WingspanCentimeters": 19,
-        "Audio": [],
+        "Audio": [
+            "audio/Golden-winged Warbler.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "warbler",
+            "wing names",
+            "color names"
+        ]
     },
     {
         "OhioRank": 238,
@@ -4602,9 +4866,13 @@
         "Genus": "Contopus",
         "Species": "cooperi",
         "WingspanCentimeters": 38,
-        "Audio": [],
+        "Audio": [
+            "audio/Olive-sided Flycatcher.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "color names"
+        ]
     },
     {
         "OhioRank": 239,
@@ -4630,7 +4898,9 @@
         "Genus": "Cistothorus",
         "Species": "platensis",
         "WingspanCentimeters": 13,
-        "Audio": [],
+        "Audio": [
+            "audio/Sedge Wren.mp3"
+        ],
         "Images": [],
         "Tags": []
     },
@@ -4644,9 +4914,13 @@
         "Genus": "Colinus",
         "Species": "virginianus",
         "WingspanCentimeters": 33,
-        "Audio": [],
+        "Audio": [
+            "audio/Northern Bobwhite.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "direction names"
+        ]
     },
     {
         "OhioRank": 242,
@@ -4660,7 +4934,9 @@
         "WingspanCentimeters": 21,
         "Audio": [],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "common names"
+        ]
     },
     {
         "OhioRank": 243,
@@ -4702,7 +4978,11 @@
         "WingspanCentimeters": 76,
         "Audio": [],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "place names",
+            "shorebirds",
+            "pink"
+        ]
     },
     {
         "OhioRank": 246,
@@ -4798,9 +5078,13 @@
         "Genus": "Aegolius",
         "Species": "acadicus",
         "WingspanCentimeters": 60,
-        "Audio": [],
+        "Audio": [
+            "audio/Northern Saw-whet Owl.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "direction names"
+        ]
     },
     {
         "OhioRank": 253,
@@ -4842,7 +5126,9 @@
         "WingspanCentimeters": 94,
         "Audio": [],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "animal-named"
+        ]
     },
     {
         "OhioRank": 256,
@@ -4856,7 +5142,10 @@
         "WingspanCentimeters": 99,
         "Audio": [],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "small names",
+            "color names"
+        ]
     },
     {
         "OhioRank": 257,
@@ -4882,7 +5171,9 @@
         "Genus": "Hesperiphona",
         "Species": "vespertina",
         "WingspanCentimeters": 25,
-        "Audio": [],
+        "Audio": [
+            "audio/Evening Grosbeak.mp3"
+        ],
         "Images": [],
         "Tags": []
     },
@@ -4896,9 +5187,13 @@
         "Genus": "Oporornis",
         "Species": "agilis",
         "WingspanCentimeters": 23,
-        "Audio": [],
+        "Audio": [
+            "audio/Connecticut Warbler.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "warbler"
+        ]
     },
     {
         "OhioRank": 260,
@@ -4910,9 +5205,13 @@
         "Genus": "Setophaga",
         "Species": "kirtlandii",
         "WingspanCentimeters": 23,
-        "Audio": [],
+        "Audio": [
+            "audio/Kirtland's Warbler.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "warbler"
+        ]
     },
     {
         "OhioRank": 261,
@@ -5008,9 +5307,13 @@
         "Genus": "Corvus",
         "Species": "ossifragus",
         "WingspanCentimeters": 94,
-        "Audio": [],
+        "Audio": [
+            "audio/Fish Crow.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "animal-named"
+        ]
     },
     {
         "OhioRank": 268,
@@ -5036,9 +5339,13 @@
         "Genus": "Corvus",
         "Species": "corax",
         "WingspanCentimeters": 130,
-        "Audio": [],
+        "Audio": [
+            "audio/Common Raven.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "common names"
+        ]
     },
     {
         "OhioRank": 270,
@@ -5050,9 +5357,13 @@
         "Genus": "Vireo",
         "Species": "bellii",
         "WingspanCentimeters": 21,
-        "Audio": [],
+        "Audio": [
+            "audio/Bell's Vireo.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "named after people"
+        ]
     },
     {
         "OhioRank": 271,
@@ -5066,7 +5377,9 @@
         "WingspanCentimeters": 35,
         "Audio": [],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "small names"
+        ]
     },
     {
         "OhioRank": 272,
@@ -5092,9 +5405,14 @@
         "Genus": "Rallus",
         "Species": "elegans",
         "WingspanCentimeters": 45,
-        "Audio": [],
+        "Audio": [
+            "audio/King Rail.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "royal names",
+            "king names"
+        ]
     },
     {
         "OhioRank": 274,
@@ -5178,7 +5496,9 @@
         "WingspanCentimeters": 38,
         "Audio": [],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "direction names"
+        ]
     },
     {
         "OhioRank": 280,
@@ -5204,9 +5524,13 @@
         "Genus": "Tyto",
         "Species": "Alba",
         "WingspanCentimeters": 108,
-        "Audio": [],
+        "Audio": [
+            "audio/Barn Owl.mp3"
+        ],
         "Images": [],
-        "Tags": []
+        "Tags": [
+            "building names"
+        ]
     },
     {
         "OhioRank": 282,
